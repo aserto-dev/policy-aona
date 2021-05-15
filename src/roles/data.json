@@ -1,0 +1,9 @@
+{
+    "roles": {
+        "aserto-admin": "",
+        "aserto-account": "",
+        "tenant-admin":"",
+        "tenant-operator":"",
+        "tenant-viewer":""
+    }
+}
