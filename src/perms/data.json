@@ -1,31 +1,94 @@
 {
-    "permissions": [
-        "aserto.common.info.Info.Config",
-        "aserto.common.info.Info.Info",
-        "aserto.tenant.account.Account.GetAccount",
-        "aserto.tenant.account.Account.ListInvites",
-        "aserto.tenant.connection.Connection.CreateConnection",
-        "aserto.tenant.connection.Connection.DeleteConnection",
-        "aserto.tenant.connection.Connection.GetConnection",
-        "aserto.tenant.connection.Connection.ListConnections",
-        "aserto.tenant.connection.Connection.VerifyConnection",
-        "aserto.tenant.onboarding.Onboarding.ClaimTenant",
-        "aserto.tenant.onboarding.Onboarding.TenantAvailable",
-        "aserto.tenant.policy.Policy.CreatePolicyRef",
-        "aserto.tenant.policy.Policy.DeletePolicyRef",
-        "aserto.tenant.policy.Policy.ListPolicyRefs",
-        "aserto.tenant.profile.Profile.GetInvites",
-        "aserto.tenant.profile.Profile.GetProfile",
-        "aserto.tenant.profile.Profile.InviteUser",
-        "aserto.tenant.profile.Profile.RespondToInvite",
-        "aserto.tenant.provider.Provider.GetProvider",
-        "aserto.tenant.provider.Provider.ListProviderKinds",
-        "aserto.tenant.provider.Provider.ListProviders",
-        "aserto.tenant.scc.SourceCodeCtl.CreateRepo",
-        "aserto.tenant.scc.SourceCodeCtl.GetProfile",
-        "aserto.tenant.scc.SourceCodeCtl.ListOrg",
-        "aserto.tenant.scc.SourceCodeCtl.ListRepo",
-        "aserto.tenant.scc.SourceCodeCtl.ListTemplates",
-        "aserto.tenant.system.System.ListTenants"
-    ]
+    "perms": {
+        "aserto.common.info.Info.Config": {
+            "description": "aserto.common.info.Info.Config"
+        },
+        "aserto.common.info.Info.Info": {
+            "description": "aserto.common.info.Info.Info"
+        },
+        "aserto.tenant.account.Account.GetAccount": {
+            "description": "aserto.tenant.account.Account.GetAccount"
+        },
+        "aserto.tenant.account.Account.ListInvites": {
+            "description": "aserto.tenant.account.Account.ListInvites"
+        },
+        "aserto.tenant.account.Account.UpdateAccount": {
+            "description": "aserto.tenant.account.Account.UpdateAccount"
+        },
+        "aserto.tenant.connection.Connection.CreateConnection": {
+            "description": "aserto.tenant.connection.Connection.CreateConnection"
+        },
+        "aserto.tenant.connection.Connection.DeleteConnection": {
+            "description": "aserto.tenant.connection.Connection.DeleteConnection"
+        },
+        "aserto.tenant.connection.Connection.GetConnection": {
+            "description": "aserto.tenant.connection.Connection.GetConnection"
+        },
+        "aserto.tenant.connection.Connection.ListConnections": {
+            "description": "aserto.tenant.connection.Connection.ListConnections"
+        },
+        "aserto.tenant.connection.Connection.VerifyConnection": {
+            "description": "aserto.tenant.connection.Connection.VerifyConnection"
+        },
+        "aserto.tenant.onboarding.Onboarding.ClaimTenant": {
+            "description": "aserto.tenant.onboarding.Onboarding.ClaimTenant"
+        },
+        "aserto.tenant.onboarding.Onboarding.InviteUser":{
+            "description": "aserto.tenant.onboarding.Onboarding.InviteUser"
+        },
+        "aserto.tenant.onboarding.Onboarding.TenantAvailable": {
+            "description": "aserto.tenant.onboarding.Onboarding.TenantAvailable"
+        },
+        "aserto.tenant.policy.Policy.CreatePolicyRef": {
+            "description": "aserto.tenant.policy.Policy.CreatePolicyRef"
+        },
+        "aserto.tenant.policy.Policy.DeletePolicyRef": {
+            "description": "aserto.tenant.policy.Policy.DeletePolicyRef"
+        },
+        "aserto.tenant.policy.Policy.ListPolicyRefs": {
+            "description": "aserto.tenant.policy.Policy.ListPolicyRefs"
+        },
+        "aserto.tenant.profile.Profile.GetInvites": {
+            "description": "aserto.tenant.profile.Profile.GetInvites"
+        },
+        "aserto.tenant.profile.Profile.GetProfile": {
+            "description": "aserto.tenant.profile.Profile.GetProfile"
+        },
+        "aserto.tenant.profile.Profile.InviteUser": {
+            "description": "aserto.tenant.profile.Profile.InviteUser"
+        },
+        "aserto.tenant.profile.Profile.RespondToInvite": {
+            "description": "aserto.tenant.profile.Profile.RespondToInvite"
+        },
+        "aserto.tenant.provider.Provider.GetProvider": {
+            "description": "aserto.tenant.provider.Provider.GetProvider"
+        },
+        "aserto.tenant.provider.Provider.ListProviderKinds": {
+            "description": "aserto.tenant.provider.Provider.ListProviderKinds"
+        },
+        "aserto.tenant.provider.Provider.ListProviders": {
+            "description": "aserto.tenant.provider.Provider.ListProviders"
+        },
+        "aserto.tenant.scc.SourceCodeCtl.CreateRepo": {
+            "description": "aserto.tenant.scc.SourceCodeCtl.CreateRepo"
+        },
+        "aserto.tenant.scc.SourceCodeCtl.GetProfile": {
+            "description": "aserto.tenant.scc.SourceCodeCtl.GetProfile"
+        },
+        "aserto.tenant.scc.SourceCodeCtl.ListOrg": {
+            "description": "aserto.tenant.scc.SourceCodeCtl.ListOrg"
+        },
+        "aserto.tenant.scc.SourceCodeCtl.ListRepo": {
+            "description": "aserto.tenant.scc.SourceCodeCtl.ListRepo"
+        },
+        "aserto.tenant.scc.SourceCodeCtl.ListTemplates": {
+            "description": "aserto.tenant.scc.SourceCodeCtl.ListTemplates"
+        },
+        "aserto.tenant.system.System.ListAccounts": {
+            "description": "aserto.tenant.system.System.ListAccounts"
+        },
+        "aserto.tenant.system.System.ListTenants": {
+            "description": "aserto.tenant.system.System.ListTenants"
+        }
+    }
 }

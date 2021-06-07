@@ -1,9 +1,479 @@
 {
     "roles": {
-        "aserto-admin": "",
-        "aserto-account": "",
-        "tenant-admin":"",
-        "tenant-operator":"",
-        "tenant-viewer":""
+        "sysadmin": {
+            "description": "aserto system administrators",
+            "perms": {
+                "aserto.common.info.Info.Config": {
+                    "allowed": true
+                },
+                "aserto.common.info.Info.Info": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.GetAccount": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.ListInvites": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.UpdateAccount": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.CreateConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.DeleteConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.GetConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.ListConnections": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.VerifyConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.onboarding.Onboarding.ClaimTenant": {
+                    "allowed": true
+                },
+                "aserto.tenant.onboarding.Onboarding.InviteUser": {
+                    "allowed": true
+                },
+                "aserto.tenant.onboarding.Onboarding.TenantAvailable": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy.Policy.CreatePolicyRef": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy.Policy.DeletePolicyRef": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy.Policy.ListPolicyRefs": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.GetInvites": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.GetProfile": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.InviteUser": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.RespondToInvite": {
+                    "allowed": true
+                },
+                "aserto.tenant.provider.Provider.GetProvider": {
+                    "allowed": true
+                },
+                "aserto.tenant.provider.Provider.ListProviderKinds": {
+                    "allowed": true
+                },
+                "aserto.tenant.provider.Provider.ListProviders": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.CreateRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.GetProfile": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListOrg": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListTemplates": {
+                    "allowed": true
+                },
+                "aserto.tenant.system.System.ListAccounts": {
+                    "allowed": true
+                },
+                "aserto.tenant.system.System.ListTenants": {
+                    "allowed": true
+                }
+            }
+        },
+        "tenant_owner": {
+            "description": "tenant owner",
+            "perms": {
+                "aserto.common.info.Info.Config": {
+                    "allowed": false
+                },
+                "aserto.common.info.Info.Info": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.GetAccount": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.ListInvites": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.UpdateAccount": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.CreateConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.DeleteConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.GetConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.ListConnections": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.VerifyConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.onboarding.Onboarding.ClaimTenant": {
+                    "allowed": true
+                },
+                "aserto.tenant.onboarding.Onboarding.InviteUser": {
+                    "allowed": true
+                },
+                "aserto.tenant.onboarding.Onboarding.TenantAvailable": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy.Policy.CreatePolicyRef": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy.Policy.DeletePolicyRef": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy.Policy.ListPolicyRefs": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.GetInvites": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.GetProfile": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.InviteUser": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.RespondToInvite": {
+                    "allowed": true
+                },
+                "aserto.tenant.provider.Provider.GetProvider": {
+                    "allowed": true
+                },
+                "aserto.tenant.provider.Provider.ListProviderKinds": {
+                    "allowed": true
+                },
+                "aserto.tenant.provider.Provider.ListProviders": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.CreateRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.GetProfile": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListOrg": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListTemplates": {
+                    "allowed": true
+                },
+                "aserto.tenant.system.System.ListAccounts": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.System.ListTenants": {
+                    "allowed": false
+                }
+            }
+        },
+        "tenant_admin": {
+            "description": "tenant administrator",
+            "perms": {
+                "aserto.common.info.Info.Config": {
+                    "allowed": false
+                },
+                "aserto.common.info.Info.Info": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.GetAccount": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.ListInvites": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.UpdateAccount": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.CreateConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.DeleteConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.GetConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.ListConnections": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.VerifyConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.onboarding.Onboarding.ClaimTenant": {
+                    "allowed": true
+                },
+                "aserto.tenant.onboarding.Onboarding.InviteUser": {
+                    "allowed": true
+                },
+                "aserto.tenant.onboarding.Onboarding.TenantAvailable": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy.Policy.CreatePolicyRef": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy.Policy.DeletePolicyRef": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy.Policy.ListPolicyRefs": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.GetInvites": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.GetProfile": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.InviteUser": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.RespondToInvite": {
+                    "allowed": true
+                },
+                "aserto.tenant.provider.Provider.GetProvider": {
+                    "allowed": true
+                },
+                "aserto.tenant.provider.Provider.ListProviderKinds": {
+                    "allowed": true
+                },
+                "aserto.tenant.provider.Provider.ListProviders": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.CreateRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.GetProfile": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListOrg": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListTemplates": {
+                    "allowed": true
+                },
+                "aserto.tenant.system.System.ListAccounts": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.System.ListTenants": {
+                    "allowed": false
+                }
+            }
+        },
+        "tenant_member": {
+            "description": "tenant member",
+            "perms": {
+                "aserto.common.info.Info.Config": {
+                    "allowed": false
+                },
+                "aserto.common.info.Info.Info": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.GetAccount": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.ListInvites": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.UpdateAccount": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.CreateConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.DeleteConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.GetConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.ListConnections": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.VerifyConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.onboarding.Onboarding.ClaimTenant": {
+                    "allowed": true
+                },
+                "aserto.tenant.onboarding.Onboarding.InviteUser": {
+                    "allowed": true
+                },
+                "aserto.tenant.onboarding.Onboarding.TenantAvailable": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy.Policy.CreatePolicyRef": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy.Policy.DeletePolicyRef": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy.Policy.ListPolicyRefs": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.GetInvites": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.GetProfile": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.InviteUser": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.RespondToInvite": {
+                    "allowed": true
+                },
+                "aserto.tenant.provider.Provider.GetProvider": {
+                    "allowed": true
+                },
+                "aserto.tenant.provider.Provider.ListProviderKinds": {
+                    "allowed": true
+                },
+                "aserto.tenant.provider.Provider.ListProviders": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.CreateRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.GetProfile": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListOrg": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListTemplates": {
+                    "allowed": true
+                },
+                "aserto.tenant.system.System.ListAccounts": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.System.ListTenants": {
+                    "allowed": false
+                }
+            }
+        },
+        "tenant_viewer": {
+            "description": "tenant viewer",
+            "perms": {
+                "aserto.common.info.Info.Config": {
+                    "allowed": false
+                },
+                "aserto.common.info.Info.Info": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.GetAccount": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.ListInvites": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.Account.UpdateAccount": {
+                    "allowed": false
+                },
+                "aserto.tenant.connection.Connection.CreateConnection": {
+                    "allowed": false
+                },
+                "aserto.tenant.connection.Connection.DeleteConnection": {
+                    "allowed": false
+                },
+                "aserto.tenant.connection.Connection.GetConnection": {
+                    "allowed": false
+                },
+                "aserto.tenant.connection.Connection.ListConnections": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.VerifyConnection": {
+                    "allowed": false
+                },
+                "aserto.tenant.onboarding.Onboarding.ClaimTenant": {
+                    "allowed": false
+                },
+                "aserto.tenant.onboarding.Onboarding.InviteUser": {
+                    "allowed": false
+                },
+                "aserto.tenant.onboarding.Onboarding.TenantAvailable": {
+                    "allowed": false
+                },
+                "aserto.tenant.policy.Policy.CreatePolicyRef": {
+                    "allowed": false
+                },
+                "aserto.tenant.policy.Policy.DeletePolicyRef": {
+                    "allowed": false
+                },
+                "aserto.tenant.policy.Policy.ListPolicyRefs": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.GetInvites": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.GetProfile": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.InviteUser": {
+                    "allowed": false
+                },
+                "aserto.tenant.profile.Profile.RespondToInvite": {
+                    "allowed": false
+                },
+                "aserto.tenant.provider.Provider.GetProvider": {
+                    "allowed": true
+                },
+                "aserto.tenant.provider.Provider.ListProviderKinds": {
+                    "allowed": true
+                },
+                "aserto.tenant.provider.Provider.ListProviders": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.CreateRepo": {
+                    "allowed": false
+                },
+                "aserto.tenant.scc.SourceCodeCtl.GetProfile": {
+                    "allowed": false
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListOrg": {
+                    "allowed": false
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListRepo": {
+                    "allowed": false
+                },
+                "aserto.tenant.scc.SourceCodeCtl.ListTemplates": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.System.ListAccounts": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.System.ListTenants": {
+                    "allowed": false
+                }
+            }
+        }
     }
 }
