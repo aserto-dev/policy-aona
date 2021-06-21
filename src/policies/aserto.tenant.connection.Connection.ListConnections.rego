@@ -1,3 +1,3 @@
 package aserto.tenant.connection.Connection.ListConnections
 
-default allowed = false
+default allowed = true

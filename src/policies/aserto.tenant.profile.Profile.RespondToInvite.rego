@@ -1,3 +1,3 @@
 package aserto.tenant.profile.Profile.RespondToInvite
 
-default allowed = false
+default allowed = true

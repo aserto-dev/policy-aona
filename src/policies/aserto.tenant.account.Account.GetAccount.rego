@@ -1,3 +1,3 @@
 package aserto.tenant.account.Account.GetAccount
 
-default allowed = false
+default allowed = true

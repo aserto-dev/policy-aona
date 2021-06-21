@@ -1,3 +1,3 @@
 package aserto.common.info.Info.Config
 
-default allowed = false
+default allowed = true

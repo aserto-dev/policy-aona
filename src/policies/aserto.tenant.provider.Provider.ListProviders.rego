@@ -1,3 +1,3 @@
 package aserto.tenant.provider.Provider.ListProviders
 
-default allowed = false
+default allowed = true

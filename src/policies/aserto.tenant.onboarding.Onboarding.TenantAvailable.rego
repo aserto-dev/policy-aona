@@ -1,3 +1,3 @@
 package aserto.tenant.onboarding.Onboarding.TenantAvailable
 
-default allowed = false
+default allowed = true

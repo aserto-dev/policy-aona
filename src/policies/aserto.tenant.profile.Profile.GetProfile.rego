@@ -1,3 +1,3 @@
 package aserto.tenant.profile.Profile.GetProfile
 
-default allowed = false
+default allowed = true
