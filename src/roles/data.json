@@ -1,6 +1,6 @@
 {
     "roles": {
-        "sysadmin": {
+        "sys-admin": {
             "description": "aserto system administrators",
             "perms": {
                 "aserto.common.info.Info.Config": {
