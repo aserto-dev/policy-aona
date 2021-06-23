@@ -7,5 +7,5 @@ allowed {
   u = input.user
 
   some i
-  data.roles[u.attributes.roles[i]].perms["aserto.common.info.Info.Config"].allowed
+  data.roles.roles[u.attributes.roles[i]].perms["aserto.common.info.Info.Config"].allowed
 }
