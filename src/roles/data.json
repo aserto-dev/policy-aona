@@ -92,7 +92,14 @@
                 },
                 "aserto.tenant.system.System.ListTenants": {
                     "allowed": true
+                },
+                "aserto.tenant.system.System.DeleteAccount": {
+                    "allowed": true
+                },
+                "aserto.tenant.system.System.DeleteTenant": {
+                    "allowed": true
                 }
+
             }
         },
         "tenant_owner": {
@@ -186,6 +193,12 @@
                     "allowed": false
                 },
                 "aserto.tenant.system.System.ListTenants": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.System.DeleteAccount": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.System.DeleteTenant": {
                     "allowed": false
                 }
             }
@@ -282,6 +295,12 @@
                 },
                 "aserto.tenant.system.System.ListTenants": {
                     "allowed": false
+                },
+                "aserto.tenant.system.System.DeleteAccount": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.System.DeleteTenant": {
+                    "allowed": false
                 }
             }
         },
@@ -377,6 +396,12 @@
                 },
                 "aserto.tenant.system.System.ListTenants": {
                     "allowed": false
+                },
+                "aserto.tenant.system.System.DeleteAccount": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.System.DeleteTenant": {
+                    "allowed": false
                 }
             }
         },
@@ -471,6 +496,12 @@
                     "allowed": false
                 },
                 "aserto.tenant.system.System.ListTenants": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.System.DeleteAccount": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.System.DeleteTenant": {
                     "allowed": false
                 }
             }
