@@ -481,16 +481,16 @@
                     "allowed": false
                 },
                 "aserto.tenant.scc.SourceCodeCtl.GetProfile": {
-                    "allowed": false
+                    "allowed": true
                 },
                 "aserto.tenant.scc.SourceCodeCtl.ListOrg": {
-                    "allowed": false
+                    "allowed": true
                 },
                 "aserto.tenant.scc.SourceCodeCtl.ListRepo": {
-                    "allowed": false
+                    "allowed": true
                 },
                 "aserto.tenant.scc.SourceCodeCtl.ListTemplates": {
-                    "allowed": false
+                    "allowed": true
                 },
                 "aserto.tenant.system.System.ListAccounts": {
                     "allowed": false
