@@ -430,7 +430,7 @@
                     "allowed": false
                 },
                 "aserto.tenant.connection.Connection.GetConnection": {
-                    "allowed": false
+                    "allowed": true
                 },
                 "aserto.tenant.connection.Connection.ListConnections": {
                     "allowed": true
