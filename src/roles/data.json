@@ -453,7 +453,7 @@
                     "allowed": true
                 },
                 "aserto.authorizer.directory.Directory.SetApplRoles": {
-                    "allowed": false
+                    "allowed": true
                 },
                 "aserto.authorizer.directory.Directory.SetApplRole": {
                     "allowed": true
@@ -931,10 +931,10 @@
                     "allowed": true
                 },
                 "aserto.authorizer.directory.Directory.SetApplRoles": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.SetApplRole": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.DeleteApplRole": {
                     "allowed": true
@@ -1173,7 +1173,7 @@
                     "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.SetApplRole": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.DeleteApplRole": {
                     "allowed": true
