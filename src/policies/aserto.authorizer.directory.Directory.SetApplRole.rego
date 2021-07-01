@@ -13,10 +13,11 @@ allowed {
 # tenant context role
 allowed {
   u = input.user
+  t = input.resource["name"]
   a = u.applications[t]
 
   some i
   data.roles.roles[a.roles[i]].perms["aserto.authorizer.directory.Directory.SetApplRole"].allowed
 
-  u.id != input.resource["Aserto-Tenant-Id"]
+  u.id != input.resource["id"]
 }
