@@ -98,8 +98,145 @@
                 },
                 "aserto.tenant.system.System.DeleteTenant": {
                     "allowed": true
+                },
+                "aserto.authorizer.policy.Policy.ListPolicies": {
+                    "allowed": true
+                },
+                "aserto.authorizer.policy.Policy.GetPolicies": {
+                    "allowed": true
+                },
+                "aserto.authorizer.policy.Policy.GetModule": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.TenantConfig": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.GetRuntime": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.SetupRuntime": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListUsers": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetIdentity": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.CreateUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.UpdateUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListTenants": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.CreateTenant": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteTenant": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListResources": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListUserApplications": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserApplication": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetValue": {
+                    "allowed": true
                 }
-
             }
         },
         "tenant_owner": {
@@ -200,6 +337,144 @@
                 },
                 "aserto.tenant.system.System.DeleteTenant": {
                     "allowed": false
+                },
+                "aserto.authorizer.policy.Policy.ListPolicies": {
+                    "allowed": true
+                },
+                "aserto.authorizer.policy.Policy.GetPolicies": {
+                    "allowed": true
+                },
+                "aserto.authorizer.policy.Policy.GetModule": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.TenantConfig": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.GetRuntime": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.SetupRuntime": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListUsers": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetIdentity": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.CreateUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.UpdateUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListTenants": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.CreateTenant": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteTenant": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListResources": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListUserApplications": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserApplication": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplRoles": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.Directory.SetApplRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetValue": {
+                    "allowed": true
                 }
             }
         },
@@ -301,6 +576,144 @@
                 },
                 "aserto.tenant.system.System.DeleteTenant": {
                     "allowed": false
+                },
+                "aserto.authorizer.policy.Policy.ListPolicies": {
+                    "allowed": true
+                },
+                "aserto.authorizer.policy.Policy.GetPolicies": {
+                    "allowed": true
+                },
+                "aserto.authorizer.policy.Policy.GetModule": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.TenantConfig": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.GetRuntime": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.SetupRuntime": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListUsers": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetIdentity": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.CreateUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.UpdateUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListTenants": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.CreateTenant": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteTenant": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListResources": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListUserApplications": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserApplication": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetValue": {
+                    "allowed": true
                 }
             }
         },
@@ -402,6 +815,144 @@
                 },
                 "aserto.tenant.system.System.DeleteTenant": {
                     "allowed": false
+                },
+                "aserto.authorizer.policy.Policy.ListPolicies": {
+                    "allowed": true
+                },
+                "aserto.authorizer.policy.Policy.GetPolicies": {
+                    "allowed": true
+                },
+                "aserto.authorizer.policy.Policy.GetModule": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.TenantConfig": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.GetRuntime": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.SetupRuntime": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListUsers": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetIdentity": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.CreateUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.UpdateUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListTenants": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.CreateTenant": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteTenant": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListResources": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListUserApplications": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserApplication": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetValue": {
+                    "allowed": true
                 }
             }
         },
@@ -503,6 +1054,144 @@
                 },
                 "aserto.tenant.system.System.DeleteTenant": {
                     "allowed": false
+                },
+                "aserto.authorizer.policy.Policy.ListPolicies": {
+                    "allowed": true
+                },
+                "aserto.authorizer.policy.Policy.GetPolicies": {
+                    "allowed": true
+                },
+                "aserto.authorizer.policy.Policy.GetModule": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.TenantConfig": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.GetRuntime": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.System.SetupRuntime": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListUsers": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetIdentity": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.CreateUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.UpdateUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUser": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListTenants": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.CreateTenant": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteTenant": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListResources": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteResource": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetUserPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetUserPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.ListUserApplications": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteUserApplication": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplProperties": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplProperty": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplRoles": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplRoles": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.Directory.SetApplRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplRole": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetApplPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplPermissions": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.SetApplPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.DeleteApplPermission": {
+                    "allowed": true
+                },
+                "aserto.authorizer.directory.Directory.GetValue": {
+                    "allowed": true
                 }
             }
         }
