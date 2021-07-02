@@ -1,5 +1,7 @@
 package aserto.authorizer.system.System.GetRuntime
 
+default allowed = false
+
 # global role
 allowed {
   u = input.user

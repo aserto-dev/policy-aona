@@ -1,5 +1,7 @@
 package aserto.authorizer.directory.Directory.DeleteUser
 
+default allowed = false
+
 # global role
 allowed {
   u = input.user
