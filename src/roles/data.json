@@ -348,16 +348,16 @@
                     "allowed": true
                 },
                 "aserto.authorizer.system.System.TenantConfig": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.system.System.GetRuntime": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.system.System.SetupRuntime": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.ListUsers": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.GetUser": {
                     "allowed": true
@@ -366,22 +366,22 @@
                     "allowed": true
                 },
                 "aserto.authorizer.directory.Directory.CreateUser": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.UpdateUser": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.DeleteUser": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.ListTenants": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.CreateTenant": {
                     "allowed": true
                 },
                 "aserto.authorizer.directory.Directory.DeleteTenant": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.ListResources": {
                     "allowed": true
@@ -587,16 +587,16 @@
                     "allowed": true
                 },
                 "aserto.authorizer.system.System.TenantConfig": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.system.System.GetRuntime": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.system.System.SetupRuntime": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.ListUsers": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.GetUser": {
                     "allowed": true
@@ -605,22 +605,22 @@
                     "allowed": true
                 },
                 "aserto.authorizer.directory.Directory.CreateUser": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.UpdateUser": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.DeleteUser": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.ListTenants": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.CreateTenant": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.DeleteTenant": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.ListResources": {
                     "allowed": true
@@ -826,16 +826,16 @@
                     "allowed": true
                 },
                 "aserto.authorizer.system.System.TenantConfig": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.system.System.GetRuntime": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.system.System.SetupRuntime": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.ListUsers": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.GetUser": {
                     "allowed": true
@@ -844,22 +844,22 @@
                     "allowed": true
                 },
                 "aserto.authorizer.directory.Directory.CreateUser": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.UpdateUser": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.DeleteUser": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.ListTenants": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.CreateTenant": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.DeleteTenant": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.ListResources": {
                     "allowed": true
@@ -1065,16 +1065,16 @@
                     "allowed": true
                 },
                 "aserto.authorizer.system.System.TenantConfig": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.system.System.GetRuntime": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.system.System.SetupRuntime": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.ListUsers": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.GetUser": {
                     "allowed": true
@@ -1083,22 +1083,22 @@
                     "allowed": true
                 },
                 "aserto.authorizer.directory.Directory.CreateUser": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.UpdateUser": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.DeleteUser": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.ListTenants": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.CreateTenant": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.DeleteTenant": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.ListResources": {
                     "allowed": true
