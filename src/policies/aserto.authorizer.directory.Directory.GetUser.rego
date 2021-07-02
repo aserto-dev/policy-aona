@@ -1,3 +1,9 @@
 package aserto.authorizer.directory.Directory.GetUser
 
-default allowed = true
+default allowed = false
+
+allowed {
+  u = input.user
+
+  u.id == input.resource["id"]
+}
