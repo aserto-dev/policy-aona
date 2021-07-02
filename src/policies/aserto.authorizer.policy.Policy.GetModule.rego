@@ -1,3 +1,11 @@
 package aserto.authorizer.policy.Policy.GetModule
 
-default allowed = true
+default allowed = false
+
+# global role
+allowed {
+  u = input.user
+
+  some i
+  data.roles.roles[u.attributes.roles[i]].perms["aserto.authorizer.policy.Policy.GetModule"].allowed
+}

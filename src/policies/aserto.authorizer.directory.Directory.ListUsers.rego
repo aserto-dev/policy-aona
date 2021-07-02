@@ -1,5 +1,7 @@
 package aserto.authorizer.directory.Directory.ListUsers
 
+default allowed = false
+
 # global role
 allowed {
   u = input.user
