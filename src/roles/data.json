@@ -868,10 +868,10 @@
                     "allowed": true
                 },
                 "aserto.authorizer.directory.Directory.SetResource": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.DeleteResource": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.GetUserProperties": {
                     "allowed": true
@@ -1107,10 +1107,10 @@
                     "allowed": true
                 },
                 "aserto.authorizer.directory.Directory.SetResource": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.DeleteResource": {
-                    "allowed": true
+                    "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.GetUserProperties": {
                     "allowed": true
