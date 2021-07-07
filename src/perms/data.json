@@ -120,6 +120,9 @@
         "aserto.authorizer.directory.Directory.CreateUser": {
             "description": "aserto.authorizer.directory.Directory.CreateUser"
         },
+        "aserto.authorizer.directory.Directory.LoadUsers": {
+            "description": "aserto.authorizer.directory.Directory.LoadUsers"
+        },
         "aserto.authorizer.directory.Directory.UpdateUser": {
             "description": "aserto.authorizer.directory.Directory.UpdateUser"
         },
