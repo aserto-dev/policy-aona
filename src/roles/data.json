@@ -129,6 +129,9 @@
                 "aserto.authorizer.directory.Directory.CreateUser": {
                     "allowed": true
                 },
+                "aserto.authorizer.directory.Directory.LoadUsers": {
+                    "allowed": true
+                },
                 "aserto.authorizer.directory.Directory.UpdateUser": {
                     "allowed": true
                 },
@@ -366,6 +369,9 @@
                     "allowed": true
                 },
                 "aserto.authorizer.directory.Directory.CreateUser": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.Directory.LoadUsers": {
                     "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.UpdateUser": {
@@ -607,6 +613,9 @@
                 "aserto.authorizer.directory.Directory.CreateUser": {
                     "allowed": false
                 },
+                "aserto.authorizer.directory.Directory.LoadUsers": {
+                    "allowed": false
+                },
                 "aserto.authorizer.directory.Directory.UpdateUser": {
                     "allowed": false
                 },
@@ -846,6 +855,9 @@
                 "aserto.authorizer.directory.Directory.CreateUser": {
                     "allowed": false
                 },
+                "aserto.authorizer.directory.Directory.LoadUsers": {
+                    "allowed": false
+                },
                 "aserto.authorizer.directory.Directory.UpdateUser": {
                     "allowed": false
                 },
@@ -1083,6 +1095,9 @@
                     "allowed": true
                 },
                 "aserto.authorizer.directory.Directory.CreateUser": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.Directory.LoadUsers": {
                     "allowed": false
                 },
                 "aserto.authorizer.directory.Directory.UpdateUser": {
