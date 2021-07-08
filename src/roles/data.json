@@ -242,6 +242,9 @@
                 },
                 "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
                     "allowed": true
+                },
+                "aserto.tenant.profile.Profile.RemoveMember": {
+                    "allowed": true
                 }
             }
         },
@@ -486,6 +489,9 @@
                     "allowed": false
                 },
                 "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.Profile.RemoveMember": {
                     "allowed": true
                 }
             }
@@ -732,6 +738,9 @@
                 },
                 "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
                     "allowed": true
+                },
+                "aserto.tenant.profile.Profile.RemoveMember": {
+                    "allowed": true
                 }
             }
         },
@@ -977,6 +986,9 @@
                 },
                 "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
                     "allowed": true
+                },
+                "aserto.tenant.profile.Profile.RemoveMember": {
+                    "allowed": false
                 }
             }
         },
@@ -1222,6 +1234,9 @@
                 },
                 "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
                     "allowed": true
+                },
+                "aserto.tenant.profile.Profile.RemoveMember": {
+                    "allowed": false
                 }
             }
         }
