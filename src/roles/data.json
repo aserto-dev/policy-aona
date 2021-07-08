@@ -30,6 +30,9 @@
                 "aserto.tenant.connection.Connection.ListConnections": {
                     "allowed": true
                 },
+                "aserto.tenant.connection.Connection.UpdateConnection": {
+                    "allowed": true
+                },
                 "aserto.tenant.connection.Connection.VerifyConnection": {
                     "allowed": true
                 },
@@ -276,6 +279,9 @@
                     "allowed": true
                 },
                 "aserto.tenant.connection.Connection.ListConnections": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.Connection.UpdateConnection": {
                     "allowed": true
                 },
                 "aserto.tenant.connection.Connection.VerifyConnection": {
@@ -526,6 +532,9 @@
                 "aserto.tenant.connection.Connection.ListConnections": {
                     "allowed": true
                 },
+                "aserto.tenant.connection.Connection.UpdateConnection": {
+                    "allowed": true
+                },
                 "aserto.tenant.connection.Connection.VerifyConnection": {
                     "allowed": true
                 },
@@ -774,6 +783,9 @@
                 "aserto.tenant.connection.Connection.ListConnections": {
                     "allowed": true
                 },
+                "aserto.tenant.connection.Connection.UpdateConnection": {
+                    "allowed": false
+                },
                 "aserto.tenant.connection.Connection.VerifyConnection": {
                     "allowed": false
                 },
@@ -1021,6 +1033,9 @@
                 },
                 "aserto.tenant.connection.Connection.ListConnections": {
                     "allowed": true
+                },
+                "aserto.tenant.connection.Connection.UpdateConnection": {
+                    "allowed": false
                 },
                 "aserto.tenant.connection.Connection.VerifyConnection": {
                     "allowed": false

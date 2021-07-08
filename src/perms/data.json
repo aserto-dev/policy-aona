@@ -27,6 +27,9 @@
         "aserto.tenant.connection.Connection.ListConnections": {
             "description": "aserto.tenant.connection.Connection.ListConnections"
         },
+        "aserto.tenant.connection.Connection.UpdateConnection": {
+            "description": "aserto.tenant.connection.Connection.UpdateConnection"
+        },
         "aserto.tenant.connection.Connection.VerifyConnection": {
             "description": "aserto.tenant.connection.Connection.VerifyConnection"
         },
