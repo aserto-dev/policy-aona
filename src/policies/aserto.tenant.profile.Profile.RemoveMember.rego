@@ -25,5 +25,5 @@ allowed {
   u = input.user
   a = input.resource["account_id"]
 
-  a == i.id
+  a == u.id
 }
