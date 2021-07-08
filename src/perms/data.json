@@ -230,6 +230,9 @@
         },
         "aserto.authorizer.directory.Directory.GetValue": {
             "description": "aserto.authorizer.directory.Directory.GetValue"
+        },
+        "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo" {
+            "description": "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo"
         }
     }
 }
