@@ -19,3 +19,11 @@ allowed {
   some i
   data.roles.roles[a.roles[i]].perms["aserto.tenant.profile.Profile.RemoveMember"].allowed
 }
+
+# always allow a user to remove themselves
+allowed {
+  u = input.user
+  a = input.resource["account_id"]
+
+  a == i.id
+}
