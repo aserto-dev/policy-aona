@@ -239,6 +239,9 @@
                 },
                 "aserto.authorizer.directory.Directory.GetValue": {
                     "allowed": true
+                },
+                "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
+                    "allowed": true
                 }
             }
         },
@@ -481,6 +484,9 @@
                 },
                 "aserto.authorizer.directory.Directory.GetValue": {
                     "allowed": false
+                },
+                "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
+                    "allowed": true
                 }
             }
         },
@@ -723,6 +729,9 @@
                 },
                 "aserto.authorizer.directory.Directory.GetValue": {
                     "allowed": false
+                },
+                "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
+                    "allowed": true
                 }
             }
         },
@@ -965,6 +974,9 @@
                 },
                 "aserto.authorizer.directory.Directory.GetValue": {
                     "allowed": false
+                },
+                "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
+                    "allowed": true
                 }
             }
         },
@@ -1207,6 +1219,9 @@
                 },
                 "aserto.authorizer.directory.Directory.GetValue": {
                     "allowed": false
+                },
+                "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
+                    "allowed": true
                 }
             }
         }
