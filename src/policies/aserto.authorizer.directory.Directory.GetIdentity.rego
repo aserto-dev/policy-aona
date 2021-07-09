@@ -13,7 +13,7 @@ allowed {
 # allow reading co-members of tenants
 allowed {
   caller = input.user
-  targetID = input.resource["id"]
+  targetID = dir.identity(input.resource["identity"])
   targetUser = dir.user(targetID)
 
   some i, j
