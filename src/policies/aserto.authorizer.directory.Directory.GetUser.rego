@@ -15,7 +15,7 @@ allowed {
   caller = input.user
   targetID = input.resource["id"]
 
-  user.id == targetID
+  caller.id == targetID
 }
 
 # allow reading co-members of tenants
