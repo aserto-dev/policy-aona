@@ -10,6 +10,14 @@ allowed {
   data.roles.roles[u.attributes.roles[i]].perms["aserto.authorizer.directory.Directory.GetUser"].allowed
 }
 
+# allow reading your own user
+allowed {
+  caller = input.user
+  targetID = input.resource["id"]
+
+  user.id == targetID
+}
+
 # allow reading co-members of tenants
 allowed {
   caller = input.user
