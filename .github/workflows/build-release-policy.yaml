@@ -31,3 +31,14 @@ jobs:
         tags: true
         draft: false
         verbose: true
+
+    - name: Push Policy 
+      id: aserto-push
+      uses: aserto-dev/aserto-push-action@v2
+      env:
+        ASERTO_PUSH_KEY: ${{ secrets.ASERTO_PUSH_KEY }}
+      with:
+        policy_registry: ${{ secrets.ASERTO_POLICY_REGISTRY }}
+        bundle: build/bundle.tar.gz
+        release_id: ${{ steps.release.outputs.release_id }}
+        verbose: true
