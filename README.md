@@ -1,5 +1,3 @@
-# policy-template
+# Aserto Policies
 
-Repository template for Aserto policy repos.
-
-
+Repository hosting the policies used in Aserto services.
