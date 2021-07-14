@@ -1,4 +1,10 @@
 package aserto.tenant.account.Account.ListInvites
 
+default allowed = false
+
 # should always be able to read your own invites
-default allowed = true
+allowed {
+  u = input.user
+
+  u.id != ""
+}
