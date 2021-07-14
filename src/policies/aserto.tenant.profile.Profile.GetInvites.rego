@@ -10,12 +10,9 @@ allowed {
   data.roles.roles[u.attributes.roles[i]].perms["aserto.tenant.profile.Profile.GetInvites"].allowed
 }
 
-# tenant context role
+# should always be able to read your invites
 allowed {
   u = input.user
-  t = input.resource["Aserto-Tenant-Id"]
-  a = u.applications[t]
 
-  some i
-  data.roles.roles[a.roles[i]].perms["aserto.tenant.profile.Profile.GetInvites"].allowed
+  u.id != ""
 }
