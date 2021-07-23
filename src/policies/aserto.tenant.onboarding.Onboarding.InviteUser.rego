@@ -1,6 +1,8 @@
 package aserto.tenant.onboarding.Onboarding.InviteUser
 
 default allowed = false
+default visible = true
+default enabled = false
 
 # global role
 allowed {
@@ -8,4 +10,8 @@ allowed {
 
   some i
   data.roles.roles[u.attributes.roles[i]].perms["aserto.tenant.onboarding.Onboarding.InviteUser"].allowed
+}
+
+enabled {
+  allowed
 }
