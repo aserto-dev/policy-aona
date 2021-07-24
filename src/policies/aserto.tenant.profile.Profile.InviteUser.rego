@@ -1,6 +1,8 @@
 package aserto.tenant.profile.Profile.InviteUser
 
 default allowed = false
+default visible = true
+default enabled = false
 
 # global role
 allowed {
@@ -18,4 +20,8 @@ allowed {
 
   some i
   data.roles.roles[a.roles[i]].perms["aserto.tenant.profile.Profile.InviteUser"].allowed
+}
+
+enabled {
+  allowed
 }
