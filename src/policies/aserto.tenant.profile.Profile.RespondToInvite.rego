@@ -5,7 +5,7 @@ default allowed = false
 # should always be able to accept your invites
 allowed {
   u = input.user
-  not u.enabled == false
+  not u.enabled != true
 
   u.id != ""
 }

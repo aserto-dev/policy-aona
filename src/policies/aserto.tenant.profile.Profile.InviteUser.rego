@@ -7,7 +7,7 @@ default enabled = false
 # global role
 allowed {
   u = input.user
-  not u.enabled == false
+  not u.enabled != true
 
   some i
   data.roles.roles[u.attributes.roles[i]].perms["aserto.tenant.profile.Profile.InviteUser"].allowed
@@ -16,7 +16,7 @@ allowed {
 # tenant context role
 allowed {
   u = input.user
-  not u.enabled == false
+  not u.enabled != true
 
   t = input.resource["Aserto-Tenant-Id"]
   a = u.applications[t]
