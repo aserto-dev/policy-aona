@@ -5,7 +5,7 @@ default allowed = false
 # global role
 allowed {
   u = input.user
-  not u.enabled == false
+  not u.enabled != true
 
   some i
   data.roles.roles[u.attributes.roles[i]].perms["aserto.authorizer.directory.Directory.GetUser"].allowed
@@ -14,7 +14,7 @@ allowed {
 # allow reading your own user
 allowed {
   caller = input.user
-  not caller.enabled == false
+  not caller.enabled != true
 
   targetID = input.resource["id"]
 
@@ -24,7 +24,7 @@ allowed {
 # allow reading co-members of tenants
 allowed {
   caller = input.user
-  not caller.enabled == false
+  not caller.enabled != true
 
   targetID = input.resource["id"]
   targetUser = dir.user(targetID)
