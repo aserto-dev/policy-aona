@@ -5,6 +5,7 @@ default allowed = false
 # global role
 allowed {
   u = input.user
+  not u.enabled != true
 
   some i
   data.roles.roles[u.attributes.roles[i]].perms["aserto.authorizer.directory.Directory.GetIdentity"].allowed
@@ -13,6 +14,8 @@ allowed {
 # allow reading your own user
 allowed {
   caller = input.user
+  not caller.enabled != true
+  
   targetID = dir.identity(input.resource["identity"])
 
   caller.id == targetID

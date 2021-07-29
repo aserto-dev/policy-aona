@@ -5,6 +5,7 @@ default allowed = false
 # global role
 allowed {
   u = input.user
+  not u.enabled != true
 
   some i
   data.roles.roles[u.attributes.roles[i]].perms["aserto.authorizer.directory.Directory.SetApplPermission"].allowed
@@ -13,6 +14,8 @@ allowed {
 # tenant context role
 allowed {
   u = input.user
+  not u.enabled != true
+
   t = input.resource["name"]
   a = u.applications[t]
 
