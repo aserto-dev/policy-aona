@@ -1,4 +1,4 @@
-package aserto.tenant.connection.Connection.CreateConnection
+package aserto.tenant.scc.SourceCodeCtl.IsRepoConnected
 
 default allowed = false
 

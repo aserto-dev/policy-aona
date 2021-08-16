@@ -81,6 +81,9 @@
                 "aserto.tenant.scc.SourceCodeCtl.GetProfile": {
                     "allowed": true
                 },
+                "aserto.tenant.scc.SourceCodeCtl.IsRepoConnected": {
+                    "allowed": true
+                },
                 "aserto.tenant.scc.SourceCodeCtl.ListOrg": {
                     "allowed": true
                 },
@@ -330,6 +333,9 @@
                     "allowed": true
                 },
                 "aserto.tenant.scc.SourceCodeCtl.GetProfile": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.IsRepoConnected": {
                     "allowed": true
                 },
                 "aserto.tenant.scc.SourceCodeCtl.ListOrg": {
@@ -583,6 +589,9 @@
                 "aserto.tenant.scc.SourceCodeCtl.GetProfile": {
                     "allowed": true
                 },
+                "aserto.tenant.scc.SourceCodeCtl.IsRepoConnected": {
+                    "allowed": true
+                },
                 "aserto.tenant.scc.SourceCodeCtl.ListOrg": {
                     "allowed": true
                 },
@@ -834,6 +843,9 @@
                 "aserto.tenant.scc.SourceCodeCtl.GetProfile": {
                     "allowed": true
                 },
+                "aserto.tenant.scc.SourceCodeCtl.IsRepoConnected": {
+                    "allowed": true
+                },
                 "aserto.tenant.scc.SourceCodeCtl.ListOrg": {
                     "allowed": true
                 },
@@ -1083,6 +1095,9 @@
                     "allowed": false
                 },
                 "aserto.tenant.scc.SourceCodeCtl.GetProfile": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.SourceCodeCtl.IsRepoConnected": {
                     "allowed": true
                 },
                 "aserto.tenant.scc.SourceCodeCtl.ListOrg": {

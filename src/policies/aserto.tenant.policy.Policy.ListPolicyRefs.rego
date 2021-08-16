@@ -2,12 +2,14 @@ package aserto.tenant.policy.Policy.ListPolicyRefs
 
 default allowed = false
 
+p = input.policy.path
+
 # global role
 allowed {
   u = input.user
 
   some i
-  data.roles.roles[u.attributes.roles[i]].perms["aserto.tenant.policy.Policy.ListPolicyRefs"].allowed
+  data.roles.roles[u.attributes.roles[i]].perms[p].allowed
 }
 
 # tenant context role

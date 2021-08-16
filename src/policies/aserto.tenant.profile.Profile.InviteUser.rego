@@ -4,13 +4,15 @@ default allowed = false
 default visible = true
 default enabled = false
 
+p = input.policy.path
+
 # global role
 allowed {
   u = input.user
   not u.enabled != true
 
   some i
-  data.roles.roles[u.attributes.roles[i]].perms["aserto.tenant.profile.Profile.InviteUser"].allowed
+  data.roles.roles[u.attributes.roles[i]].perms[p].allowed
 }
 
 # tenant context role
@@ -22,7 +24,7 @@ allowed {
   a = u.applications[t]
 
   some i
-  data.roles.roles[a.roles[i]].perms["aserto.tenant.profile.Profile.InviteUser"].allowed
+  data.roles.roles[a.roles[i]].perms[p].allowed
 }
 
 enabled {
