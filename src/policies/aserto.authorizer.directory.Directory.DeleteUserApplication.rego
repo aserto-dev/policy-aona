@@ -1,14 +1,14 @@
 package aserto.authorizer.directory.Directory.DeleteUserApplication
 
-default allowed = false
+import input.user
+import input.policy.path
 
-p = input.policy.path
+default allowed = false
 
 # global role
 allowed {
-  u = input.user
-  not u.enabled != true
+  not user.enabled != true
 
   some i
-  data.roles.roles[u.attributes.roles[i]].perms[p].allowed
+  data.roles.roles[user.attributes.roles[i]].perms[path].allowed
 }

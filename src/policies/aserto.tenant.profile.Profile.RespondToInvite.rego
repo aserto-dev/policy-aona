@@ -1,11 +1,12 @@
 package aserto.tenant.profile.Profile.RespondToInvite
 
+import input.user
+
 default allowed = false
 
 # should always be able to accept your invites
 allowed {
-  u = input.user
-  not u.enabled != true
+  not user.enabled != true
 
-  u.id != ""
+  user.id != ""
 }
