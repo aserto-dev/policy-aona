@@ -60,6 +60,9 @@
         "aserto.tenant.profile.Profile.InviteUser": {
             "description": "aserto.tenant.profile.Profile.InviteUser"
         },
+        "aserto.tenant.profile.Profile.RemoveMember": {
+            "description": "aserto.tenant.profile.Profile.RemoveMember"
+        },
         "aserto.tenant.profile.Profile.RespondToInvite": {
             "description": "aserto.tenant.profile.Profile.RespondToInvite"
         },
@@ -78,6 +81,9 @@
         "aserto.tenant.scc.SourceCodeCtl.GetProfile": {
             "description": "aserto.tenant.scc.SourceCodeCtl.GetProfile"
         },
+        "aserto.tenant.scc.SourceCodeCtl.IsRepoConnected": {
+            "description": "aserto.tenant.scc.SourceCodeCtl.IsRepoConnected"
+        },
         "aserto.tenant.scc.SourceCodeCtl.ListOrg": {
             "description": "aserto.tenant.scc.SourceCodeCtl.ListOrg"
         },
@@ -86,6 +92,12 @@
         },
         "aserto.tenant.scc.SourceCodeCtl.ListTemplates": {
             "description": "aserto.tenant.scc.SourceCodeCtl.ListTemplates"
+        },
+        "aserto.tenant.system.System.DeleteAccount": {
+            "description": "aserto.tenant.system.System.DeleteAccount"
+        },
+        "aserto.tenant.system.System.DeleteTenant": {
+            "description": "aserto.tenant.system.System.DeleteTenant"
         },
         "aserto.tenant.system.System.ListAccounts": {
             "description": "aserto.tenant.system.System.ListAccounts"

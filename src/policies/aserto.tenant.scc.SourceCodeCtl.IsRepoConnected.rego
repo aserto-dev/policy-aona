@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.ListResources
+package aserto.tenant.scc.SourceCodeCtl.IsRepoConnected
 
 import input.user
 import input.policy.path
@@ -17,11 +17,9 @@ allowed {
 allowed {
   not user.enabled != true
 
-  t = input.resource["key"]
+  t = input.resource["Aserto-Tenant-Id"]
   a = user.applications[t]
 
   some i
   data.roles.roles[a.roles[i]].perms[path].allowed
-
-  user.id != input.resource["id"]
 }

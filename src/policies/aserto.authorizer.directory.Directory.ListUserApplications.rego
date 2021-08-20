@@ -1,19 +1,20 @@
 package aserto.authorizer.directory.Directory.ListUserApplications
 
+import input.user
+import input.policy.path
+
 default allowed = false
 
 # global role
 allowed {
-  u = input.user
-  not u.enabled != true
+  not user.enabled != true
 
   some i
-  data.roles.roles[u.attributes.roles[i]].perms["aserto.authorizer.directory.Directory.ListUserApplications"].allowed
+  data.roles.roles[user.attributes.roles[i]].perms[path].allowed
 }
 
 allowed {
-  u = input.user
-  not u.enabled != true
+  not user.enabled != true
 
-  u.id == input.resource["id"]
+  user.id == input.resource["id"]
 }
