@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.DeleteApplPermission
+package aserto.authorizer.directory.v1.Directory.DeleteApplPermission
 
 import input.user
 import input.policy.path

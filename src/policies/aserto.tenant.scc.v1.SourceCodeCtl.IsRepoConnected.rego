@@ -1,4 +1,4 @@
-package aserto.tenant.scc.SourceCodeCtl.IsRepoConnected
+package aserto.tenant.scc.v1.SourceCodeCtl.IsRepoConnected
 
 import input.user
 import input.policy.path

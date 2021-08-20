@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.DeleteResource
+package aserto.authorizer.directory.v1.Directory.DeleteResource
 
 import input.user
 import input.policy.path

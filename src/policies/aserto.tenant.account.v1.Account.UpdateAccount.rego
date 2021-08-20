@@ -1,3 +1,3 @@
-package aserto.tenant.account.Account.UpdateAccount
+package aserto.tenant.account.v1.Account.UpdateAccount
 
 default allowed = true

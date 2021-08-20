@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.ListResources
+package aserto.authorizer.directory.v1.Directory.ListResources
 
 import input.user
 import input.policy.path

@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.ListUserApplications
+package aserto.authorizer.directory.v1.Directory.ListUserApplications
 
 import input.user
 import input.policy.path

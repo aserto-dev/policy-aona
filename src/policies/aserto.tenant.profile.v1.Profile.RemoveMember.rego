@@ -1,4 +1,4 @@
-package aserto.tenant.profile.Profile.RemoveMember
+package aserto.tenant.profile.v1.Profile.RemoveMember
 
 import input.user
 import input.policy.path

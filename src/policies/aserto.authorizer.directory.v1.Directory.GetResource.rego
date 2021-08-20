@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.GetResource
+package aserto.authorizer.directory.v1.Directory.GetResource
 
 import input.user
 import input.policy.path

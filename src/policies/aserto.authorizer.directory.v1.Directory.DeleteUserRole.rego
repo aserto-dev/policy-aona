@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.DeleteUserRole
+package aserto.authorizer.directory.v1.Directory.DeleteUserRole
 
 import input.user
 import input.policy.path

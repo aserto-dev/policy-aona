@@ -1,4 +1,4 @@
-package aserto.tenant.scc.SourceCodeCtl.GetProfile
+package aserto.tenant.scc.v1.SourceCodeCtl.GetProfile
 
 import input.user
 import input.policy.path

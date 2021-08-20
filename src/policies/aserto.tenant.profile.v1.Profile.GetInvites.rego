@@ -1,4 +1,4 @@
-package aserto.tenant.profile.Profile.GetInvites
+package aserto.tenant.profile.v1.Profile.GetInvites
 
 import input.user
 import input.policy.path

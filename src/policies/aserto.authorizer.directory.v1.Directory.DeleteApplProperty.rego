@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.DeleteApplProperty
+package aserto.authorizer.directory.v1.Directory.DeleteApplProperty
 
 import input.user
 import input.policy.path

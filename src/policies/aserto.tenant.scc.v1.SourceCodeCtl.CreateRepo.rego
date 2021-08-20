@@ -1,4 +1,4 @@
-package aserto.tenant.scc.SourceCodeCtl.CreateRepo
+package aserto.tenant.scc.v1.SourceCodeCtl.CreateRepo
 
 import input.user
 import input.policy.path

@@ -1,4 +1,4 @@
-package aserto.tenant.profile.Profile.GetProfile
+package aserto.tenant.profile.v1.Profile.GetProfile
 
 import input.user
 import input.policy.path

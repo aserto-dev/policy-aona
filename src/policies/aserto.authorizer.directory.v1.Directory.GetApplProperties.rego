@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.GetApplProperties
+package aserto.authorizer.directory.v1.Directory.GetApplProperties
 
 import input.user
 import input.policy.path

@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.CreateTenant
+package aserto.authorizer.directory.v1.Directory.CreateTenant
 
 import input.user
 import input.policy.path

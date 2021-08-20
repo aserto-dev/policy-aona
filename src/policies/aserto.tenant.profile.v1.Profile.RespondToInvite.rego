@@ -1,4 +1,4 @@
-package aserto.tenant.profile.Profile.RespondToInvite
+package aserto.tenant.profile.v1.Profile.RespondToInvite
 
 import input.user
 

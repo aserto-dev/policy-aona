@@ -1,4 +1,4 @@
-package aserto.tenant.system.System.DeleteAccount
+package aserto.tenant.system.v1.System.DeleteAccount
 
 import input.user
 import input.policy.path

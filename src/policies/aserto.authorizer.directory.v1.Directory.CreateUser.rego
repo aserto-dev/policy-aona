@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.CreateUser
+package aserto.authorizer.directory.v1.Directory.CreateUser
 
 import input.user
 import input.policy.path

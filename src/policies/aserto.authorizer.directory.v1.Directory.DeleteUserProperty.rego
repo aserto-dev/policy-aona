@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.DeleteUserProperty
+package aserto.authorizer.directory.v1.Directory.DeleteUserProperty
 
 import input.user
 import input.policy.path

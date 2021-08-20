@@ -1,4 +1,4 @@
-package aserto.tenant.connection.Connection.DeleteConnection
+package aserto.tenant.connection.v1.Connection.DeleteConnection
 
 import input.user
 import input.policy.path

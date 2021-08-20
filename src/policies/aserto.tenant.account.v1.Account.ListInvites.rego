@@ -1,4 +1,4 @@
-package aserto.tenant.account.Account.ListInvites
+package aserto.tenant.account.v1.Account.ListInvites
 
 import input.user
 

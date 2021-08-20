@@ -1,4 +1,4 @@
-package aserto.tenant.connection.Connection.UpdateConnection
+package aserto.tenant.connection.v1.Connection.UpdateConnection
 
 import input.user
 import input.policy.path

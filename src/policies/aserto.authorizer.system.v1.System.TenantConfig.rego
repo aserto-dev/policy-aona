@@ -1,4 +1,4 @@
-package aserto.authorizer.system.System.TenantConfig
+package aserto.authorizer.system.v1.System.TenantConfig
 
 import input.user
 import input.policy.path

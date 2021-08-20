@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.GetIdentity
+package aserto.authorizer.directory.v1.Directory.GetIdentity
 
 import input.user
 import input.policy.path

@@ -1,4 +1,4 @@
-package aserto.tenant.policy.Policy.DeletePolicyRef
+package aserto.tenant.policy.v1.Policy.DeletePolicyRef
 
 import input.user
 import input.policy.path

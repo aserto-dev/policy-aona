@@ -1,3 +1,3 @@
-package aserto.authorizer.directory.Directory.GetUserPermissions
+package aserto.authorizer.directory.v1.Directory.GetUserPermissions
 
 default allowed = true

@@ -1,4 +1,4 @@
-package aserto.authorizer.system.System.GetRuntime
+package aserto.authorizer.system.v1.System.GetRuntime
 
 import input.user
 import input.policy.path

@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.UpdateUser
+package aserto.authorizer.directory.v1.Directory.UpdateUser
 
 import input.user
 import input.policy.path

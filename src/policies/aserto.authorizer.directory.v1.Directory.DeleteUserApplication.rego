@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.DeleteUserApplication
+package aserto.authorizer.directory.v1.Directory.DeleteUserApplication
 
 import input.user
 import input.policy.path

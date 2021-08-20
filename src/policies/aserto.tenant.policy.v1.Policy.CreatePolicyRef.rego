@@ -1,4 +1,4 @@
-package aserto.tenant.policy.Policy.CreatePolicyRef
+package aserto.tenant.policy.v1.Policy.CreatePolicyRef
 
 import input.user
 import input.policy.path

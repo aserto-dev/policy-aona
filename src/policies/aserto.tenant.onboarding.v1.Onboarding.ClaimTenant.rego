@@ -1,3 +1,3 @@
-package aserto.tenant.onboarding.Onboarding.ClaimTenant
+package aserto.tenant.onboarding.v1.Onboarding.ClaimTenant
 
 default allowed = true

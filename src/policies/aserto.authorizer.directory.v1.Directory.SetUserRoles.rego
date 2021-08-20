@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.SetUserRoles
+package aserto.authorizer.directory.v1.Directory.SetUserRoles
 
 import input.user
 import input.policy.path

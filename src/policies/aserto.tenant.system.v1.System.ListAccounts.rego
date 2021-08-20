@@ -1,4 +1,4 @@
-package aserto.tenant.system.System.ListAccounts
+package aserto.tenant.system.v1.System.ListAccounts
 
 import input.user
 import input.policy.path

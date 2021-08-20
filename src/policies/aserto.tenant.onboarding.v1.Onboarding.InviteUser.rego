@@ -1,4 +1,4 @@
-package aserto.tenant.onboarding.Onboarding.InviteUser
+package aserto.tenant.onboarding.v1.Onboarding.InviteUser
 
 import input.user
 import input.policy.path

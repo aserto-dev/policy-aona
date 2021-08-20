@@ -1,4 +1,4 @@
-package aserto.tenant.connection.Connection.VerifyConnection
+package aserto.tenant.connection.v1.Connection.VerifyConnection
 
 import input.user
 import input.policy.path

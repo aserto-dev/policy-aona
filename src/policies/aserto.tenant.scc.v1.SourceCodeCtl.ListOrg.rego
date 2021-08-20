@@ -1,4 +1,4 @@
-package aserto.tenant.scc.SourceCodeCtl.ListOrg
+package aserto.tenant.scc.v1.SourceCodeCtl.ListOrg
 
 import input.user
 import input.policy.path

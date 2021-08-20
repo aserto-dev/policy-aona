@@ -1,4 +1,4 @@
-package aserto.authorizer.directory.Directory.GetValue
+package aserto.authorizer.directory.v1.Directory.GetValue
 
 import input.user
 import input.policy.path

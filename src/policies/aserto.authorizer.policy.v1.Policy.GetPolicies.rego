@@ -1,4 +1,4 @@
-package aserto.authorizer.policy.Policy.GetPolicies
+package aserto.authorizer.policy.v1.Policy.GetPolicies
 
 import input.user
 import input.policy.path

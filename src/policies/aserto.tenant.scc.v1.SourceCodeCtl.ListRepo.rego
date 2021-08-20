@@ -1,4 +1,4 @@
-package aserto.tenant.scc.SourceCodeCtl.ListRepo
+package aserto.tenant.scc.v1.SourceCodeCtl.ListRepo
 
 import input.user
 import input.policy.path

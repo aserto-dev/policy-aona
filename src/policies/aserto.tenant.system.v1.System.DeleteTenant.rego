@@ -1,4 +1,4 @@
-package aserto.tenant.system.System.DeleteTenant
+package aserto.tenant.system.v1.System.DeleteTenant
 
 import input.user
 import input.policy.path
