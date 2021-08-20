@@ -1,250 +1,250 @@
 {
     "perms": {
-        "aserto.common.info.Info.Config": {
-            "description": "aserto.common.info.Info.Config"
+        "aserto.common.info.v1.Info.Config": {
+            "description": "aserto.common.info.v1.Info.Config"
         },
-        "aserto.common.info.Info.Info": {
-            "description": "aserto.common.info.Info.Info"
+        "aserto.common.info.v1.Info.Info": {
+            "description": "aserto.common.info.v1.Info.Info"
         },
-        "aserto.tenant.account.Account.GetAccount": {
-            "description": "aserto.tenant.account.Account.GetAccount"
+        "aserto.tenant.account.v1.Account.GetAccount": {
+            "description": "aserto.tenant.account.v1.Account.GetAccount"
         },
-        "aserto.tenant.account.Account.ListInvites": {
-            "description": "aserto.tenant.account.Account.ListInvites"
+        "aserto.tenant.account.v1.Account.ListInvites": {
+            "description": "aserto.tenant.account.v1.Account.ListInvites"
         },
-        "aserto.tenant.account.Account.UpdateAccount": {
-            "description": "aserto.tenant.account.Account.UpdateAccount"
+        "aserto.tenant.account.v1.Account.UpdateAccount": {
+            "description": "aserto.tenant.account.v1.Account.UpdateAccount"
         },
-        "aserto.tenant.connection.Connection.CreateConnection": {
-            "description": "aserto.tenant.connection.Connection.CreateConnection"
+        "aserto.tenant.connection.v1.Connection.CreateConnection": {
+            "description": "aserto.tenant.connection.v1.Connection.CreateConnection"
         },
-        "aserto.tenant.connection.Connection.DeleteConnection": {
-            "description": "aserto.tenant.connection.Connection.DeleteConnection"
+        "aserto.tenant.connection.v1.Connection.DeleteConnection": {
+            "description": "aserto.tenant.connection.v1.Connection.DeleteConnection"
         },
-        "aserto.tenant.connection.Connection.GetConnection": {
-            "description": "aserto.tenant.connection.Connection.GetConnection"
+        "aserto.tenant.connection.v1.Connection.GetConnection": {
+            "description": "aserto.tenant.connection.v1.Connection.GetConnection"
         },
-        "aserto.tenant.connection.Connection.ListConnections": {
-            "description": "aserto.tenant.connection.Connection.ListConnections"
+        "aserto.tenant.connection.v1.Connection.ListConnections": {
+            "description": "aserto.tenant.connection.v1.Connection.ListConnections"
         },
-        "aserto.tenant.connection.Connection.UpdateConnection": {
-            "description": "aserto.tenant.connection.Connection.UpdateConnection"
+        "aserto.tenant.connection.v1.Connection.UpdateConnection": {
+            "description": "aserto.tenant.connection.v1.Connection.UpdateConnection"
         },
-        "aserto.tenant.connection.Connection.VerifyConnection": {
-            "description": "aserto.tenant.connection.Connection.VerifyConnection"
+        "aserto.tenant.connection.v1.Connection.VerifyConnection": {
+            "description": "aserto.tenant.connection.v1.Connection.VerifyConnection"
         },
-        "aserto.tenant.onboarding.Onboarding.ClaimTenant": {
-            "description": "aserto.tenant.onboarding.Onboarding.ClaimTenant"
+        "aserto.tenant.onboarding.v1.Onboarding.ClaimTenant": {
+            "description": "aserto.tenant.onboarding.v1.Onboarding.ClaimTenant"
         },
-        "aserto.tenant.onboarding.Onboarding.InviteUser": {
-            "description": "aserto.tenant.onboarding.Onboarding.InviteUser"
+        "aserto.tenant.onboarding.v1.Onboarding.InviteUser": {
+            "description": "aserto.tenant.onboarding.v1.Onboarding.InviteUser"
         },
-        "aserto.tenant.onboarding.Onboarding.TenantAvailable": {
-            "description": "aserto.tenant.onboarding.Onboarding.TenantAvailable"
+        "aserto.tenant.onboarding.v1.Onboarding.TenantAvailable": {
+            "description": "aserto.tenant.onboarding.v1.Onboarding.TenantAvailable"
         },
-        "aserto.tenant.policy.Policy.CreatePolicyRef": {
-            "description": "aserto.tenant.policy.Policy.CreatePolicyRef"
+        "aserto.tenant.policy.v1.Policy.CreatePolicyRef": {
+            "description": "aserto.tenant.policy.v1.Policy.CreatePolicyRef"
         },
-        "aserto.tenant.policy.Policy.DeletePolicyRef": {
-            "description": "aserto.tenant.policy.Policy.DeletePolicyRef"
+        "aserto.tenant.policy.v1.Policy.DeletePolicyRef": {
+            "description": "aserto.tenant.policy.v1.Policy.DeletePolicyRef"
         },
-        "aserto.tenant.policy.Policy.ListPolicyRefs": {
-            "description": "aserto.tenant.policy.Policy.ListPolicyRefs"
+        "aserto.tenant.policy.v1.Policy.ListPolicyRefs": {
+            "description": "aserto.tenant.policy.v1.Policy.ListPolicyRefs"
         },
-        "aserto.tenant.profile.Profile.GetInvites": {
-            "description": "aserto.tenant.profile.Profile.GetInvites"
+        "aserto.tenant.profile.v1.Profile.GetInvites": {
+            "description": "aserto.tenant.profile.v1.Profile.GetInvites"
         },
-        "aserto.tenant.profile.Profile.GetProfile": {
-            "description": "aserto.tenant.profile.Profile.GetProfile"
+        "aserto.tenant.profile.v1.Profile.GetProfile": {
+            "description": "aserto.tenant.profile.v1.Profile.GetProfile"
         },
-        "aserto.tenant.profile.Profile.InviteUser": {
-            "description": "aserto.tenant.profile.Profile.InviteUser"
+        "aserto.tenant.profile.v1.Profile.InviteUser": {
+            "description": "aserto.tenant.profile.v1.Profile.InviteUser"
         },
-        "aserto.tenant.profile.Profile.RemoveMember": {
-            "description": "aserto.tenant.profile.Profile.RemoveMember"
+        "aserto.tenant.profile.v1.Profile.RemoveMember": {
+            "description": "aserto.tenant.profile.v1.Profile.RemoveMember"
         },
-        "aserto.tenant.profile.Profile.RespondToInvite": {
-            "description": "aserto.tenant.profile.Profile.RespondToInvite"
+        "aserto.tenant.profile.v1.Profile.RespondToInvite": {
+            "description": "aserto.tenant.profile.v1.Profile.RespondToInvite"
         },
-        "aserto.tenant.provider.Provider.GetProvider": {
-            "description": "aserto.tenant.provider.Provider.GetProvider"
+        "aserto.tenant.provider.v1.Provider.GetProvider": {
+            "description": "aserto.tenant.provider.v1.Provider.GetProvider"
         },
-        "aserto.tenant.provider.Provider.ListProviderKinds": {
-            "description": "aserto.tenant.provider.Provider.ListProviderKinds"
+        "aserto.tenant.provider.v1.Provider.ListProviderKinds": {
+            "description": "aserto.tenant.provider.v1.Provider.ListProviderKinds"
         },
-        "aserto.tenant.provider.Provider.ListProviders": {
-            "description": "aserto.tenant.provider.Provider.ListProviders"
+        "aserto.tenant.provider.v1.Provider.ListProviders": {
+            "description": "aserto.tenant.provider.v1.Provider.ListProviders"
         },
-        "aserto.tenant.scc.SourceCodeCtl.CreateRepo": {
-            "description": "aserto.tenant.scc.SourceCodeCtl.CreateRepo"
+        "aserto.tenant.scc.v1.SourceCodeCtl.CreateRepo": {
+            "description": "aserto.tenant.scc.v1.SourceCodeCtl.CreateRepo"
         },
-        "aserto.tenant.scc.SourceCodeCtl.GetProfile": {
-            "description": "aserto.tenant.scc.SourceCodeCtl.GetProfile"
+        "aserto.tenant.scc.v1.SourceCodeCtl.GetProfile": {
+            "description": "aserto.tenant.scc.v1.SourceCodeCtl.GetProfile"
         },
-        "aserto.tenant.scc.SourceCodeCtl.IsRepoConnected": {
-            "description": "aserto.tenant.scc.SourceCodeCtl.IsRepoConnected"
+        "aserto.tenant.scc.v1.SourceCodeCtl.IsRepoConnected": {
+            "description": "aserto.tenant.scc.v1.SourceCodeCtl.IsRepoConnected"
         },
-        "aserto.tenant.scc.SourceCodeCtl.ListOrg": {
-            "description": "aserto.tenant.scc.SourceCodeCtl.ListOrg"
+        "aserto.tenant.scc.v1.SourceCodeCtl.ListOrg": {
+            "description": "aserto.tenant.scc.v1.SourceCodeCtl.ListOrg"
         },
-        "aserto.tenant.scc.SourceCodeCtl.ListRepo": {
-            "description": "aserto.tenant.scc.SourceCodeCtl.ListRepo"
+        "aserto.tenant.scc.v1.SourceCodeCtl.ListRepo": {
+            "description": "aserto.tenant.scc.v1.SourceCodeCtl.ListRepo"
         },
-        "aserto.tenant.scc.SourceCodeCtl.ListTemplates": {
-            "description": "aserto.tenant.scc.SourceCodeCtl.ListTemplates"
+        "aserto.tenant.scc.v1.SourceCodeCtl.ListTemplates": {
+            "description": "aserto.tenant.scc.v1.SourceCodeCtl.ListTemplates"
         },
-        "aserto.tenant.system.System.DeleteAccount": {
-            "description": "aserto.tenant.system.System.DeleteAccount"
+        "aserto.tenant.system.v1.System.DeleteAccount": {
+            "description": "aserto.tenant.system.v1.System.DeleteAccount"
         },
-        "aserto.tenant.system.System.DeleteTenant": {
-            "description": "aserto.tenant.system.System.DeleteTenant"
+        "aserto.tenant.system.v1.System.DeleteTenant": {
+            "description": "aserto.tenant.system.v1.System.DeleteTenant"
         },
-        "aserto.tenant.system.System.ListAccounts": {
-            "description": "aserto.tenant.system.System.ListAccounts"
+        "aserto.tenant.system.v1.System.ListAccounts": {
+            "description": "aserto.tenant.system.v1.System.ListAccounts"
         },
-        "aserto.tenant.system.System.ListTenants": {
-            "description": "aserto.tenant.system.System.ListTenants"
+        "aserto.tenant.system.v1.System.ListTenants": {
+            "description": "aserto.tenant.system.v1.System.ListTenants"
         },
-        "aserto.authorizer.policy.Policy.ListPolicies": {
-            "description": "aserto.authorizer.policy.Policy.ListPolicies"
+        "aserto.authorizer.policy.v1.Policy.ListPolicies": {
+            "description": "aserto.authorizer.policy.v1.Policy.ListPolicies"
         },
-        "aserto.authorizer.policy.Policy.GetPolicies": {
-            "description": "aserto.authorizer.policy.Policy.GetPolicies"
+        "aserto.authorizer.policy.v1.Policy.GetPolicies": {
+            "description": "aserto.authorizer.policy.v1.Policy.GetPolicies"
         },
-        "aserto.authorizer.policy.Policy.GetModule": {
-            "description": "aserto.authorizer.policy.Policy.GetModule"
+        "aserto.authorizer.policy.v1.Policy.GetModule": {
+            "description": "aserto.authorizer.policy.v1.Policy.GetModule"
         },
-        "aserto.authorizer.system.System.TenantConfig": {
-            "description": "aserto.authorizer.system.System.TenantConfig"
+        "aserto.authorizer.system.v1.System.TenantConfig": {
+            "description": "aserto.authorizer.system.v1.System.TenantConfig"
         },
-        "aserto.authorizer.system.System.GetRuntime": {
-            "description": "aserto.authorizer.system.System.GetRuntime"
+        "aserto.authorizer.system.v1.System.GetRuntime": {
+            "description": "aserto.authorizer.system.v1.System.GetRuntime"
         },
-        "aserto.authorizer.system.System.SetupRuntime": {
-            "description": "aserto.authorizer.system.System.SetupRuntime"
+        "aserto.authorizer.system.v1.System.SetupRuntime": {
+            "description": "aserto.authorizer.system.v1.System.SetupRuntime"
         },
-        "aserto.authorizer.directory.Directory.ListUsers": {
-            "description": "aserto.authorizer.directory.Directory.ListUsers"
+        "aserto.authorizer.directory.v1.Directory.ListUsers": {
+            "description": "aserto.authorizer.directory.v1.Directory.ListUsers"
         },
-        "aserto.authorizer.directory.Directory.GetUser": {
-            "description": "aserto.authorizer.directory.Directory.GetUser"
+        "aserto.authorizer.directory.v1.Directory.GetUser": {
+            "description": "aserto.authorizer.directory.v1.Directory.GetUser"
         },
-        "aserto.authorizer.directory.Directory.GetIdentity": {
-            "description": "aserto.authorizer.directory.Directory.GetIdentity"
+        "aserto.authorizer.directory.v1.Directory.GetIdentity": {
+            "description": "aserto.authorizer.directory.v1.Directory.GetIdentity"
         },
-        "aserto.authorizer.directory.Directory.CreateUser": {
-            "description": "aserto.authorizer.directory.Directory.CreateUser"
+        "aserto.authorizer.directory.v1.Directory.CreateUser": {
+            "description": "aserto.authorizer.directory.v1.Directory.CreateUser"
         },
-        "aserto.authorizer.directory.Directory.LoadUsers": {
-            "description": "aserto.authorizer.directory.Directory.LoadUsers"
+        "aserto.authorizer.directory.v1.Directory.LoadUsers": {
+            "description": "aserto.authorizer.directory.v1.Directory.LoadUsers"
         },
-        "aserto.authorizer.directory.Directory.UpdateUser": {
-            "description": "aserto.authorizer.directory.Directory.UpdateUser"
+        "aserto.authorizer.directory.v1.Directory.UpdateUser": {
+            "description": "aserto.authorizer.directory.v1.Directory.UpdateUser"
         },
-        "aserto.authorizer.directory.Directory.DeleteUser": {
-            "description": "aserto.authorizer.directory.Directory.DeleteUser"
+        "aserto.authorizer.directory.v1.Directory.DeleteUser": {
+            "description": "aserto.authorizer.directory.v1.Directory.DeleteUser"
         },
-        "aserto.authorizer.directory.Directory.ListTenants": {
-            "description": "aserto.authorizer.directory.Directory.ListTenants"
+        "aserto.authorizer.directory.v1.Directory.ListTenants": {
+            "description": "aserto.authorizer.directory.v1.Directory.ListTenants"
         },
-        "aserto.authorizer.directory.Directory.CreateTenant": {
-            "description": "aserto.authorizer.directory.Directory.CreateTenant"
+        "aserto.authorizer.directory.v1.Directory.CreateTenant": {
+            "description": "aserto.authorizer.directory.v1.Directory.CreateTenant"
         },
-        "aserto.authorizer.directory.Directory.DeleteTenant": {
-            "description": "aserto.authorizer.directory.Directory.DeleteTenant"
+        "aserto.authorizer.directory.v1.Directory.DeleteTenant": {
+            "description": "aserto.authorizer.directory.v1.Directory.DeleteTenant"
         },
-        "aserto.authorizer.directory.Directory.ListResources": {
-            "description": "aserto.authorizer.directory.Directory.ListResources"
+        "aserto.authorizer.directory.v1.Directory.ListResources": {
+            "description": "aserto.authorizer.directory.v1.Directory.ListResources"
         },
-        "aserto.authorizer.directory.Directory.GetResource": {
-            "description": "aserto.authorizer.directory.Directory.GetResource"
+        "aserto.authorizer.directory.v1.Directory.GetResource": {
+            "description": "aserto.authorizer.directory.v1.Directory.GetResource"
         },
-        "aserto.authorizer.directory.Directory.SetResource": {
-            "description": "aserto.authorizer.directory.Directory.SetResource"
+        "aserto.authorizer.directory.v1.Directory.SetResource": {
+            "description": "aserto.authorizer.directory.v1.Directory.SetResource"
         },
-        "aserto.authorizer.directory.Directory.DeleteResource": {
-            "description": "aserto.authorizer.directory.Directory.DeleteResource"
+        "aserto.authorizer.directory.v1.Directory.DeleteResource": {
+            "description": "aserto.authorizer.directory.v1.Directory.DeleteResource"
         },
-        "aserto.authorizer.directory.Directory.GetUserProperties": {
-            "description": "aserto.authorizer.directory.Directory.GetUserProperties"
+        "aserto.authorizer.directory.v1.Directory.GetUserProperties": {
+            "description": "aserto.authorizer.directory.v1.Directory.GetUserProperties"
         },
-        "aserto.authorizer.directory.Directory.SetUserProperties": {
-            "description": "aserto.authorizer.directory.Directory.SetUserProperties"
+        "aserto.authorizer.directory.v1.Directory.SetUserProperties": {
+            "description": "aserto.authorizer.directory.v1.Directory.SetUserProperties"
         },
-        "aserto.authorizer.directory.Directory.SetUserProperty": {
-            "description": "aserto.authorizer.directory.Directory.SetUserProperty"
+        "aserto.authorizer.directory.v1.Directory.SetUserProperty": {
+            "description": "aserto.authorizer.directory.v1.Directory.SetUserProperty"
         },
-        "aserto.authorizer.directory.Directory.DeleteUserProperty": {
-            "description": "aserto.authorizer.directory.Directory.DeleteUserProperty"
+        "aserto.authorizer.directory.v1.Directory.DeleteUserProperty": {
+            "description": "aserto.authorizer.directory.v1.Directory.DeleteUserProperty"
         },
-        "aserto.authorizer.directory.Directory.GetUserRoles": {
-            "description": "aserto.authorizer.directory.Directory.GetUserRoles"
+        "aserto.authorizer.directory.v1.Directory.GetUserRoles": {
+            "description": "aserto.authorizer.directory.v1.Directory.GetUserRoles"
         },
-        "aserto.authorizer.directory.Directory.SetUserRoles": {
-            "description": "aserto.authorizer.directory.Directory.SetUserRoles"
+        "aserto.authorizer.directory.v1.Directory.SetUserRoles": {
+            "description": "aserto.authorizer.directory.v1.Directory.SetUserRoles"
         },
-        "aserto.authorizer.directory.Directory.SetUserRole": {
-            "description": "aserto.authorizer.directory.Directory.SetUserRole"
+        "aserto.authorizer.directory.v1.Directory.SetUserRole": {
+            "description": "aserto.authorizer.directory.v1.Directory.SetUserRole"
         },
-        "aserto.authorizer.directory.Directory.DeleteUserRole": {
-            "description": "aserto.authorizer.directory.Directory.DeleteUserRole"
+        "aserto.authorizer.directory.v1.Directory.DeleteUserRole": {
+            "description": "aserto.authorizer.directory.v1.Directory.DeleteUserRole"
         },
-        "aserto.authorizer.directory.Directory.GetUserPermissions": {
-            "description": "aserto.authorizer.directory.Directory.GetUserPermissions"
+        "aserto.authorizer.directory.v1.Directory.GetUserPermissions": {
+            "description": "aserto.authorizer.directory.v1.Directory.GetUserPermissions"
         },
-        "aserto.authorizer.directory.Directory.SetUserPermissions": {
-            "description": "aserto.authorizer.directory.Directory.SetUserPermissions"
+        "aserto.authorizer.directory.v1.Directory.SetUserPermissions": {
+            "description": "aserto.authorizer.directory.v1.Directory.SetUserPermissions"
         },
-        "aserto.authorizer.directory.Directory.SetUserPermission": {
-            "description": "aserto.authorizer.directory.Directory.SetUserPermission"
+        "aserto.authorizer.directory.v1.Directory.SetUserPermission": {
+            "description": "aserto.authorizer.directory.v1.Directory.SetUserPermission"
         },
-        "aserto.authorizer.directory.Directory.DeleteUserPermission": {
-            "description": "aserto.authorizer.directory.Directory.DeleteUserPermission"
+        "aserto.authorizer.directory.v1.Directory.DeleteUserPermission": {
+            "description": "aserto.authorizer.directory.v1.Directory.DeleteUserPermission"
         },
-        "aserto.authorizer.directory.Directory.ListUserApplications": {
-            "description": "aserto.authorizer.directory.Directory.ListUserApplications"
+        "aserto.authorizer.directory.v1.Directory.ListUserApplications": {
+            "description": "aserto.authorizer.directory.v1.Directory.ListUserApplications"
         },
-        "aserto.authorizer.directory.Directory.DeleteUserApplication": {
-            "description": "aserto.authorizer.directory.Directory.DeleteUserApplication"
+        "aserto.authorizer.directory.v1.Directory.DeleteUserApplication": {
+            "description": "aserto.authorizer.directory.v1.Directory.DeleteUserApplication"
         },
-        "aserto.authorizer.directory.Directory.GetApplProperties": {
-            "description": "aserto.authorizer.directory.Directory.GetApplProperties"
+        "aserto.authorizer.directory.v1.Directory.GetApplProperties": {
+            "description": "aserto.authorizer.directory.v1.Directory.GetApplProperties"
         },
-        "aserto.authorizer.directory.Directory.SetApplProperties": {
-            "description": "aserto.authorizer.directory.Directory.SetApplProperties"
+        "aserto.authorizer.directory.v1.Directory.SetApplProperties": {
+            "description": "aserto.authorizer.directory.v1.Directory.SetApplProperties"
         },
-        "aserto.authorizer.directory.Directory.SetApplProperty": {
-            "description": "aserto.authorizer.directory.Directory.SetApplProperty"
+        "aserto.authorizer.directory.v1.Directory.SetApplProperty": {
+            "description": "aserto.authorizer.directory.v1.Directory.SetApplProperty"
         },
-        "aserto.authorizer.directory.Directory.DeleteApplProperty": {
-            "description": "aserto.authorizer.directory.Directory.DeleteApplProperty"
+        "aserto.authorizer.directory.v1.Directory.DeleteApplProperty": {
+            "description": "aserto.authorizer.directory.v1.Directory.DeleteApplProperty"
         },
-        "aserto.authorizer.directory.Directory.GetApplRoles": {
-            "description": "aserto.authorizer.directory.Directory.GetApplRoles"
+        "aserto.authorizer.directory.v1.Directory.GetApplRoles": {
+            "description": "aserto.authorizer.directory.v1.Directory.GetApplRoles"
         },
-        "aserto.authorizer.directory.Directory.SetApplRoles": {
-            "description": "aserto.authorizer.directory.Directory.SetApplRoles"
+        "aserto.authorizer.directory.v1.Directory.SetApplRoles": {
+            "description": "aserto.authorizer.directory.v1.Directory.SetApplRoles"
         },
-        "aserto.authorizer.directory.Directory.SetApplRole": {
-            "description": "aserto.authorizer.directory.Directory.SetApplRole"
+        "aserto.authorizer.directory.v1.Directory.SetApplRole": {
+            "description": "aserto.authorizer.directory.v1.Directory.SetApplRole"
         },
-        "aserto.authorizer.directory.Directory.DeleteApplRole": {
-            "description": "aserto.authorizer.directory.Directory.DeleteApplRole"
+        "aserto.authorizer.directory.v1.Directory.DeleteApplRole": {
+            "description": "aserto.authorizer.directory.v1.Directory.DeleteApplRole"
         },
-        "aserto.authorizer.directory.Directory.GetApplPermissions": {
-            "description": "aserto.authorizer.directory.Directory.GetApplPermissions"
+        "aserto.authorizer.directory.v1.Directory.GetApplPermissions": {
+            "description": "aserto.authorizer.directory.v1.Directory.GetApplPermissions"
         },
-        "aserto.authorizer.directory.Directory.SetApplPermissions": {
-            "description": "aserto.authorizer.directory.Directory.SetApplPermissions"
+        "aserto.authorizer.directory.v1.Directory.SetApplPermissions": {
+            "description": "aserto.authorizer.directory.v1.Directory.SetApplPermissions"
         },
-        "aserto.authorizer.directory.Directory.SetApplPermission": {
-            "description": "aserto.authorizer.directory.Directory.SetApplPermission"
+        "aserto.authorizer.directory.v1.Directory.SetApplPermission": {
+            "description": "aserto.authorizer.directory.v1.Directory.SetApplPermission"
         },
-        "aserto.authorizer.directory.Directory.DeleteApplPermission": {
-            "description": "aserto.authorizer.directory.Directory.DeleteApplPermission"
+        "aserto.authorizer.directory.v1.Directory.DeleteApplPermission": {
+            "description": "aserto.authorizer.directory.v1.Directory.DeleteApplPermission"
         },
-        "aserto.authorizer.directory.Directory.GetValue": {
-            "description": "aserto.authorizer.directory.Directory.GetValue"
+        "aserto.authorizer.directory.v1.Directory.GetValue": {
+            "description": "aserto.authorizer.directory.v1.Directory.GetValue"
         },
         "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
             "description": "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo"
