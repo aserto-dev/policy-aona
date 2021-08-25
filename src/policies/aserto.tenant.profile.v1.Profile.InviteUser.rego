@@ -27,5 +27,9 @@ allowed {
 }
 
 enabled {
-  allowed
+  t = input.resource["Aserto-Tenant-Id"]
+  a = user.applications[t]
+
+  some i
+  a.roles[i] == "tenant_owner"
 }
