@@ -1,7 +1,7 @@
 {
     "perms": {
-        "aserto.common.info.v1.Info.Config": {
-            "description": "aserto.common.info.v1.Info.Config"
+        "aserto.common.info.v1.Config.Get": {
+            "description": "aserto.common.info.v1.Config.Get"
         },
         "aserto.common.info.v1.Info.Info": {
             "description": "aserto.common.info.v1.Info.Info"
