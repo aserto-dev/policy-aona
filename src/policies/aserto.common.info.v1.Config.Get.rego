@@ -1,4 +1,4 @@
-package aserto.common.info.v1.Info.Config
+package aserto.common.info.v1.Config.Get
 
 import input.user
 import input.policy.path
