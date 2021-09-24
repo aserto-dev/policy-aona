@@ -105,6 +105,9 @@
         "aserto.tenant.system.v1.System.ListTenants": {
             "description": "aserto.tenant.system.v1.System.ListTenants"
         },
+        "aserto.tenant.system.v1.System.SetLogLevel": {
+            "description": "aserto.tenant.system.v1.System.SetLogLevel"
+        },
         "aserto.authorizer.policy.v1.Policy.ListPolicies": {
             "description": "aserto.authorizer.policy.v1.Policy.ListPolicies"
         },
@@ -122,6 +125,9 @@
         },
         "aserto.authorizer.system.v1.System.SetupRuntime": {
             "description": "aserto.authorizer.system.v1.System.SetupRuntime"
+        },
+        "aserto.authorizer.system.v1.System.SetLogLevel": {
+            "description": "aserto.authorizer.system.v1.System.SetLogLevel"
         },
         "aserto.authorizer.directory.v1.Directory.ListUsers": {
             "description": "aserto.authorizer.directory.v1.Directory.ListUsers"

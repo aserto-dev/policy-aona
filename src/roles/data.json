@@ -105,6 +105,9 @@
                 "aserto.tenant.system.v1.System.DeleteTenant": {
                     "allowed": true
                 },
+                "aserto.tenant.system.v1.System.SetLogLevel": {
+                    "allowed": true
+                },
                 "aserto.authorizer.policy.v1.Policy.ListPolicies": {
                     "allowed": true
                 },
@@ -121,6 +124,9 @@
                     "allowed": true
                 },
                 "aserto.authorizer.system.v1.System.SetupRuntime": {
+                    "allowed": true
+                },
+                "aserto.authorizer.system.v1.System.SetLogLevel": {
                     "allowed": true
                 },
                 "aserto.authorizer.directory.v1.Directory.ListUsers": {
@@ -359,6 +365,9 @@
                 "aserto.tenant.system.v1.System.DeleteTenant": {
                     "allowed": false
                 },
+                "aserto.tenant.system.v1.System.SetLogLevel": {
+                    "allowed": false
+                },
                 "aserto.authorizer.policy.v1.Policy.ListPolicies": {
                     "allowed": false
                 },
@@ -375,6 +384,9 @@
                     "allowed": false
                 },
                 "aserto.authorizer.system.v1.System.SetupRuntime": {
+                    "allowed": false
+                },
+                "aserto.authorizer.system.v1.System.SetLogLevel": {
                     "allowed": false
                 },
                 "aserto.authorizer.directory.v1.Directory.ListUsers": {
@@ -613,6 +625,9 @@
                 "aserto.tenant.system.v1.System.DeleteTenant": {
                     "allowed": false
                 },
+                "aserto.tenant.system.v1.System.SetLogLevel": {
+                    "allowed": false
+                },
                 "aserto.authorizer.policy.v1.Policy.ListPolicies": {
                     "allowed": false
                 },
@@ -629,6 +644,9 @@
                     "allowed": false
                 },
                 "aserto.authorizer.system.v1.System.SetupRuntime": {
+                    "allowed": false
+                },
+                "aserto.authorizer.system.v1.System.SetLogLevel": {
                     "allowed": false
                 },
                 "aserto.authorizer.directory.v1.Directory.ListUsers": {
@@ -867,6 +885,9 @@
                 "aserto.tenant.system.v1.System.DeleteTenant": {
                     "allowed": false
                 },
+                "aserto.tenant.system.v1.System.SetLogLevel": {
+                    "allowed": false
+                },
                 "aserto.authorizer.policy.v1.Policy.ListPolicies": {
                     "allowed": false
                 },
@@ -883,6 +904,9 @@
                     "allowed": false
                 },
                 "aserto.authorizer.system.v1.System.SetupRuntime": {
+                    "allowed": false
+                },
+                "aserto.authorizer.system.v1.System.SetLogLevel": {
                     "allowed": false
                 },
                 "aserto.authorizer.directory.v1.Directory.ListUsers": {
@@ -1121,6 +1145,9 @@
                 "aserto.tenant.system.v1.System.DeleteTenant": {
                     "allowed": false
                 },
+                "aserto.tenant.system.v1.System.SetLogLevel": {
+                    "allowed": false
+                },
                 "aserto.authorizer.policy.v1.Policy.ListPolicies": {
                     "allowed": false
                 },
@@ -1137,6 +1164,9 @@
                     "allowed": false
                 },
                 "aserto.authorizer.system.v1.System.SetupRuntime": {
+                    "allowed": false
+                },
+                "aserto.authorizer.system.v1.System.SetLogLevel": {
                     "allowed": false
                 },
                 "aserto.authorizer.directory.v1.Directory.ListUsers": {
