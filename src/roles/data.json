@@ -1,6 +1,7 @@
 {
     "roles": {
         "sys-admin": {
+            "displayName": "SysAdmin (INTERNAL)",
             "description": "aserto system administrators",
             "perms": {
                 "aserto.common.info.v1.Config.Get": {
@@ -261,6 +262,7 @@
             }
         },
         "tenant_owner": {
+            "displayName": "Owner",
             "description": "tenant owner",
             "perms": {
                 "aserto.common.info.v1.Config.Get": {
@@ -521,6 +523,7 @@
             }
         },
         "tenant_admin": {
+            "displayName": "Admin",
             "description": "tenant administrator",
             "perms": {
                 "aserto.common.info.v1.Config.Get": {
@@ -781,6 +784,7 @@
             }
         },
         "tenant_member": {
+            "displayName": "Member",
             "description": "tenant member",
             "perms": {
                 "aserto.common.info.v1.Config.Get": {
@@ -1041,6 +1045,7 @@
             }
         },
         "tenant_viewer": {
+            "displayName": "Viewer",
             "description": "tenant viewer",
             "perms": {
                 "aserto.common.info.v1.Config.Get": {
