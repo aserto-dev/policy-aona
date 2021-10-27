@@ -37,6 +37,9 @@
                 "aserto.tenant.connection.v1.Connection.VerifyConnection": {
                     "allowed": true
                 },
+                "aserto.tenant.connection.v1.Connection.RotateSecret": {
+                    "allowed": true
+                },
                 "aserto.tenant.onboarding.v1.Onboarding.ClaimTenant": {
                     "allowed": true
                 },
@@ -296,6 +299,9 @@
                     "allowed": true
                 },
                 "aserto.tenant.connection.v1.Connection.VerifyConnection": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.v1.Connection.RotateSecret": {
                     "allowed": true
                 },
                 "aserto.tenant.onboarding.v1.Onboarding.ClaimTenant": {
@@ -559,6 +565,9 @@
                 "aserto.tenant.connection.v1.Connection.VerifyConnection": {
                     "allowed": true
                 },
+                "aserto.tenant.connection.v1.Connection.RotateSecret": {
+                    "allowed": true
+                },
                 "aserto.tenant.onboarding.v1.Onboarding.ClaimTenant": {
                     "allowed": false
                 },
@@ -820,6 +829,9 @@
                 "aserto.tenant.connection.v1.Connection.VerifyConnection": {
                     "allowed": true
                 },
+                "aserto.tenant.connection.v1.Connection.RotateSecret": {
+                    "allowed": false
+                },
                 "aserto.tenant.onboarding.v1.Onboarding.ClaimTenant": {
                     "allowed": false
                 },
@@ -1079,6 +1091,9 @@
                     "allowed": false
                 },
                 "aserto.tenant.connection.v1.Connection.VerifyConnection": {
+                    "allowed": false
+                },
+                "aserto.tenant.connection.v1.Connection.RotateSecret": {
                     "allowed": false
                 },
                 "aserto.tenant.onboarding.v1.Onboarding.ClaimTenant": {
