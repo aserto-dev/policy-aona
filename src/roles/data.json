@@ -58,6 +58,9 @@
                 "aserto.tenant.policy.v1.Policy.ListPolicyRefs": {
                     "allowed": true
                 },
+                "aserto.tenant.policy.v1.Policy.OPADiscovery": {
+                    "allowed": true
+                },
                 "aserto.tenant.profile.v1.Profile.GetInvites": {
                     "allowed": true
                 },
@@ -320,6 +323,9 @@
                     "allowed": true
                 },
                 "aserto.tenant.policy.v1.Policy.ListPolicyRefs": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy.v1.Policy.OPADiscovery": {
                     "allowed": true
                 },
                 "aserto.tenant.profile.v1.Profile.GetInvites": {
@@ -586,6 +592,9 @@
                 "aserto.tenant.policy.v1.Policy.ListPolicyRefs": {
                     "allowed": true
                 },
+                "aserto.tenant.policy.v1.Policy.OPADiscovery": {
+                    "allowed": true
+                },
                 "aserto.tenant.profile.v1.Profile.GetInvites": {
                     "allowed": true
                 },
@@ -850,6 +859,9 @@
                 "aserto.tenant.policy.v1.Policy.ListPolicyRefs": {
                     "allowed": true
                 },
+                "aserto.tenant.policy.v1.Policy.OPADiscovery": {
+                    "allowed": true
+                },
                 "aserto.tenant.profile.v1.Profile.GetInvites": {
                     "allowed": true
                 },
@@ -1112,6 +1124,9 @@
                     "allowed": false
                 },
                 "aserto.tenant.policy.v1.Policy.ListPolicyRefs": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy.v1.Policy.OPADiscovery": {
                     "allowed": true
                 },
                 "aserto.tenant.profile.v1.Profile.GetInvites": {
