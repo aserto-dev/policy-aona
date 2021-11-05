@@ -260,6 +260,12 @@
         },
         "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
             "description": "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo"
+        },
+        "aserto.decision_logs.v1.DecisionLogs.ListDecisionLogs": {
+            "description": "grpc.decision_logs.v1.DecisionLogs.ListDecisionLogs"
+        },
+        "aserto.decision_logs.v1.DecisionLogs.GetDecisionLog": {
+            "description": "grpc.decision_logs.v1.DecisionLogs.GetDecisionLog"
         }
     }
 }

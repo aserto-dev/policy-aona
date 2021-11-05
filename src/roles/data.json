@@ -264,6 +264,12 @@
                 },
                 "aserto.tenant.profile.v1.Profile.RemoveMember": {
                     "allowed": true
+                },
+                "aserto.decision_logs.v1.DecisionLogs.ListDecisionLogs": {
+                    "allowed": true
+                },
+                "aserto.decision_logs.v1.DecisionLogs.GetDecisionLog": {
+                    "allowed": true
                 }
             }
         },
@@ -530,6 +536,12 @@
                     "allowed": true
                 },
                 "aserto.tenant.profile.v1.Profile.RemoveMember": {
+                    "allowed": true
+                },
+                "aserto.decision_logs.v1.DecisionLogs.ListDecisionLogs": {
+                    "allowed": true
+                },
+                "aserto.decision_logs.v1.DecisionLogs.GetDecisionLog": {
                     "allowed": true
                 }
             }
@@ -798,6 +810,12 @@
                 },
                 "aserto.tenant.profile.v1.Profile.RemoveMember": {
                     "allowed": true
+                },
+                "aserto.decision_logs.v1.DecisionLogs.ListDecisionLogs": {
+                    "allowed": true
+                },
+                "aserto.decision_logs.v1.DecisionLogs.GetDecisionLog": {
+                    "allowed": true
                 }
             }
         },
@@ -1065,6 +1083,12 @@
                 },
                 "aserto.tenant.profile.v1.Profile.RemoveMember": {
                     "allowed": false
+                },
+                "aserto.decision_logs.v1.DecisionLogs.ListDecisionLogs": {
+                    "allowed": true
+                },
+                "aserto.decision_logs.v1.DecisionLogs.GetDecisionLog": {
+                    "allowed": true
                 }
             }
         },
@@ -1332,6 +1356,285 @@
                 },
                 "aserto.tenant.profile.v1.Profile.RemoveMember": {
                     "allowed": false
+                },
+                "aserto.decision_logs.v1.DecisionLogs.ListDecisionLogs": {
+                    "allowed": false
+                },
+                "aserto.decision_logs.v1.DecisionLogs.GetDecisionLog": {
+                    "allowed": false
+                }
+            }
+        },
+        "decision_log_reader": {
+            "displayName": "Decision log reader",
+            "description": "Decision log reader",
+            "perms": {
+                "aserto.common.info.v1.Config.Get": {
+                    "allowed": false
+                },
+                "aserto.common.info.v1.Info.Info": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.v1.Account.GetAccount": {
+                    "allowed": false
+                },
+                "aserto.tenant.account.v1.Account.ListInvites": {
+                    "allowed": false
+                },
+                "aserto.tenant.account.v1.Account.UpdateAccount": {
+                    "allowed": false
+                },
+                "aserto.tenant.connection.v1.Connection.CreateConnection": {
+                    "allowed": false
+                },
+                "aserto.tenant.connection.v1.Connection.DeleteConnection": {
+                    "allowed": false
+                },
+                "aserto.tenant.connection.v1.Connection.GetConnection": {
+                    "allowed": false
+                },
+                "aserto.tenant.connection.v1.Connection.ListConnections": {
+                    "allowed": false
+                },
+                "aserto.tenant.connection.v1.Connection.UpdateConnection": {
+                    "allowed": false
+                },
+                "aserto.tenant.connection.v1.Connection.VerifyConnection": {
+                    "allowed": false
+                },
+                "aserto.tenant.connection.v1.Connection.RotateSecret": {
+                    "allowed": false
+                },
+                "aserto.tenant.onboarding.v1.Onboarding.ClaimTenant": {
+                    "allowed": false
+                },
+                "aserto.tenant.onboarding.v1.Onboarding.InviteUser": {
+                    "allowed": false
+                },
+                "aserto.tenant.onboarding.v1.Onboarding.TenantAvailable": {
+                    "allowed": false
+                },
+                "aserto.tenant.policy.v1.Policy.CreatePolicyRef": {
+                    "allowed": false
+                },
+                "aserto.tenant.policy.v1.Policy.DeletePolicyRef": {
+                    "allowed": false
+                },
+                "aserto.tenant.policy.v1.Policy.ListPolicyRefs": {
+                    "allowed": false
+                },
+                "aserto.tenant.policy.v1.Policy.OPADiscovery": {
+                    "allowed": false
+                },
+                "aserto.tenant.profile.v1.Profile.GetInvites": {
+                    "allowed": false
+                },
+                "aserto.tenant.profile.v1.Profile.GetProfile": {
+                    "allowed": false
+                },
+                "aserto.tenant.profile.v1.Profile.InviteUser": {
+                    "allowed": false
+                },
+                "aserto.tenant.profile.v1.Profile.RespondToInvite": {
+                    "allowed": false
+                },
+                "aserto.tenant.provider.v1.Provider.GetProvider": {
+                    "allowed": false
+                },
+                "aserto.tenant.provider.v1.Provider.ListProviderKinds": {
+                    "allowed": false
+                },
+                "aserto.tenant.provider.v1.Provider.ListProviders": {
+                    "allowed": false
+                },
+                "aserto.tenant.scc.v1.SourceCodeCtl.CreateRepo": {
+                    "allowed": false
+                },
+                "aserto.tenant.scc.v1.SourceCodeCtl.GetProfile": {
+                    "allowed": false
+                },
+                "aserto.tenant.scc.v1.SourceCodeCtl.IsRepoConnected": {
+                    "allowed": false
+                },
+                "aserto.tenant.scc.v1.SourceCodeCtl.ListOrg": {
+                    "allowed": false
+                },
+                "aserto.tenant.scc.v1.SourceCodeCtl.ListRepo": {
+                    "allowed": false
+                },
+                "aserto.tenant.scc.v1.SourceCodeCtl.ListTemplates": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.v1.System.ListAccounts": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.v1.System.ListTenants": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.v1.System.DeleteAccount": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.v1.System.DeleteTenant": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.v1.System.SetLogLevel": {
+                    "allowed": false
+                },
+                "aserto.authorizer.policy.v1.Policy.ListPolicies": {
+                    "allowed": false
+                },
+                "aserto.authorizer.policy.v1.Policy.GetPolicies": {
+                    "allowed": false
+                },
+                "aserto.authorizer.policy.v1.Policy.GetModule": {
+                    "allowed": false
+                },
+                "aserto.authorizer.system.v1.System.TenantConfig": {
+                    "allowed": false
+                },
+                "aserto.authorizer.system.v1.System.GetRuntime": {
+                    "allowed": false
+                },
+                "aserto.authorizer.system.v1.System.SetupRuntime": {
+                    "allowed": false
+                },
+                "aserto.authorizer.system.v1.System.SetLogLevel": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.ListUsers": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.GetUser": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.GetIdentity": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.CreateUser": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.LoadUsers": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.UpdateUser": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.DeleteUser": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.ListTenants": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.CreateTenant": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.DeleteTenant": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.ListResources": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.GetResource": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.SetResource": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.DeleteResource": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.GetUserProperties": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.SetUserProperties": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.SetUserProperty": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.DeleteUserProperty": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.GetUserRoles": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.SetUserRoles": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.SetUserRole": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.DeleteUserRole": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.GetUserPermissions": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.SetUserPermissions": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.SetUserPermission": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.DeleteUserPermission": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.ListUserApplications": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.DeleteUserApplication": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.GetApplProperties": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.SetApplProperties": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.SetApplProperty": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.DeleteApplProperty": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.GetApplRoles": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.SetApplRoles": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.SetApplRole": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.DeleteApplRole": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.GetApplPermissions": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.SetApplPermissions": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.SetApplPermission": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.DeleteApplPermission": {
+                    "allowed": false
+                },
+                "aserto.authorizer.directory.v1.Directory.GetValue": {
+                    "allowed": false
+                },
+                "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
+                    "allowed": true
+                },
+                "aserto.tenant.profile.v1.Profile.RemoveMember": {
+                    "allowed": false
+                },
+                "aserto.decision_logs.v1.DecisionLogs.ListDecisionLogs": {
+                    "allowed": true
+                },
+                "aserto.decision_logs.v1.DecisionLogs.GetDecisionLog": {
+                    "allowed": true
                 }
             }
         }

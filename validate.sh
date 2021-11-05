@@ -4,11 +4,13 @@ echo "reflect over authorizer service"
 grpcurl aona.eng.aserto.com:8443 list | xargs -n 1 -I {} grpcurl aona.eng.aserto.com:8443 list {} > perms.txt
 echo "reflect over tenant service"
 grpcurl tenant.eng.aserto.com:8443 list | xargs -n 1 -I {} grpcurl tenant.eng.aserto.com:8443 list {} >> perms.txt
+echo "reflect over decision logs service"
+grpcurl decision-logs.eng.aserto.com:8443 list | xargs -n 1 -I {} grpcurl decision-logs.eng.aserto.com:8443 list {} >> perms.txt
 echo "sort"
 sort -o perms.txt{,}
 
 fileExits() {
-	[ ! -f "$1" ] && echo "file misisng $1"
+	[ ! -f "$1" ] && echo "file missing $1"
 }
 
 echo "validating permissions"
