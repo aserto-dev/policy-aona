@@ -51,11 +51,14 @@
         "aserto.tenant.policy.v1.Policy.DeletePolicyRef": {
             "description": "aserto.tenant.policy.v1.Policy.DeletePolicyRef"
         },
+        "aserto.tenant.policy.v1.Policy.ListPolicyRefs": {
+            "description": "aserto.tenant.policy.v1.Policy.ListPolicyRefs"
+        },
         "aserto.tenant.policy.v1.Policy.OPADiscovery": {
             "description": "aserto.tenant.policy.v1.Policy.OPADiscovery"
         },
-        "aserto.tenant.policy.v1.Policy.ListPolicyRefs": {
-            "description": "aserto.tenant.policy.v1.Policy.ListPolicyRefs"
+        "aserto.tenant.policy.v1.Policy.UpdatePolicyRef": {
+            "description": "aserto.tenant.policy.v1.Policy.UpdatePolicyRef"
         },
         "aserto.tenant.profile.v1.Profile.GetInvites": {
             "description": "aserto.tenant.profile.v1.Profile.GetInvites"
