@@ -19,6 +19,9 @@
                 "aserto.tenant.account.v1.Account.UpdateAccount": {
                     "allowed": true
                 },
+                "aserto.tenant.account.v1.Account.SignupAccount": {
+                    "allowed": true
+                },
                 "aserto.tenant.connection.v1.Connection.CreateConnection": {
                     "allowed": true
                 },
@@ -293,6 +296,9 @@
                     "allowed": true
                 },
                 "aserto.tenant.account.v1.Account.UpdateAccount": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.v1.Account.SignupAccount": {
                     "allowed": true
                 },
                 "aserto.tenant.connection.v1.Connection.CreateConnection": {
@@ -571,6 +577,9 @@
                 "aserto.tenant.account.v1.Account.UpdateAccount": {
                     "allowed": true
                 },
+                "aserto.tenant.account.v1.Account.SignupAccount": {
+                    "allowed": true
+                },
                 "aserto.tenant.connection.v1.Connection.CreateConnection": {
                     "allowed": true
                 },
@@ -845,6 +854,9 @@
                     "allowed": true
                 },
                 "aserto.tenant.account.v1.Account.UpdateAccount": {
+                    "allowed": true
+                },
+                "aserto.tenant.account.v1.Account.SignupAccount": {
                     "allowed": true
                 },
                 "aserto.tenant.connection.v1.Connection.CreateConnection": {
@@ -1123,6 +1135,9 @@
                 "aserto.tenant.account.v1.Account.UpdateAccount": {
                     "allowed": false
                 },
+                "aserto.tenant.account.v1.Account.SignupAccount": {
+                    "allowed": true
+                },
                 "aserto.tenant.connection.v1.Connection.CreateConnection": {
                     "allowed": false
                 },
@@ -1398,6 +1413,9 @@
                 },
                 "aserto.tenant.account.v1.Account.UpdateAccount": {
                     "allowed": false
+                },
+                "aserto.tenant.account.v1.Account.SignupAccount": {
+                    "allowed": true
                 },
                 "aserto.tenant.connection.v1.Connection.CreateConnection": {
                     "allowed": false

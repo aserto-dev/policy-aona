@@ -15,6 +15,9 @@
         "aserto.tenant.account.v1.Account.UpdateAccount": {
             "description": "aserto.tenant.account.v1.Account.UpdateAccount"
         },
+        "aserto.tenant.account.v1.Account.SignupAccount": {
+            "description": "aserto.tenant.account.v1.Account.SignupAccount"
+        },
         "aserto.tenant.connection.v1.Connection.CreateConnection": {
             "description": "aserto.tenant.connection.v1.Connection.CreateConnection"
         },
