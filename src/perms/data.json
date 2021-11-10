@@ -15,6 +15,9 @@
         "aserto.tenant.account.v1.Account.UpdateAccount": {
             "description": "aserto.tenant.account.v1.Account.UpdateAccount"
         },
+        "aserto.tenant.account.v1.Account.SignupAccount": {
+            "description": "aserto.tenant.account.v1.Account.SignupAccount"
+        },
         "aserto.tenant.connection.v1.Connection.CreateConnection": {
             "description": "aserto.tenant.connection.v1.Connection.CreateConnection"
         },
@@ -51,11 +54,14 @@
         "aserto.tenant.policy.v1.Policy.DeletePolicyRef": {
             "description": "aserto.tenant.policy.v1.Policy.DeletePolicyRef"
         },
+        "aserto.tenant.policy.v1.Policy.ListPolicyRefs": {
+            "description": "aserto.tenant.policy.v1.Policy.ListPolicyRefs"
+        },
         "aserto.tenant.policy.v1.Policy.OPADiscovery": {
             "description": "aserto.tenant.policy.v1.Policy.OPADiscovery"
         },
-        "aserto.tenant.policy.v1.Policy.ListPolicyRefs": {
-            "description": "aserto.tenant.policy.v1.Policy.ListPolicyRefs"
+        "aserto.tenant.policy.v1.Policy.UpdatePolicyRef": {
+            "description": "aserto.tenant.policy.v1.Policy.UpdatePolicyRef"
         },
         "aserto.tenant.profile.v1.Profile.GetInvites": {
             "description": "aserto.tenant.profile.v1.Profile.GetInvites"
@@ -113,6 +119,9 @@
         },
         "aserto.tenant.system.v1.System.SetLogLevel": {
             "description": "aserto.tenant.system.v1.System.SetLogLevel"
+        },
+        "aserto.tenant.system.v1.System.GetMachineAccount": {
+            "description": "aserto.tenant.system.v1.System.GetMachineAccount"
         },
         "aserto.authorizer.policy.v1.Policy.ListPolicies": {
             "description": "aserto.authorizer.policy.v1.Policy.ListPolicies"
@@ -260,6 +269,12 @@
         },
         "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
             "description": "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo"
+        },
+        "aserto.decision_logs.v1.DecisionLogs.ListDecisionLogs": {
+            "description": "aserto.decision_logs.v1.DecisionLogs.ListDecisionLogs"
+        },
+        "aserto.decision_logs.v1.DecisionLogs.GetDecisionLog": {
+            "description": "aserto.decision_logs.v1.DecisionLogs.GetDecisionLog"
         }
     }
 }
