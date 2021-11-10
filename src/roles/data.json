@@ -121,6 +121,9 @@
                 "aserto.tenant.system.v1.System.SetLogLevel": {
                     "allowed": true
                 },
+                "aserto.tenant.system.v1.System.GetMachineAccount": {
+                    "allowed": true
+                },
                 "aserto.authorizer.policy.v1.Policy.ListPolicies": {
                     "allowed": true
                 },
@@ -398,6 +401,9 @@
                     "allowed": false
                 },
                 "aserto.tenant.system.v1.System.SetLogLevel": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.v1.System.GetMachineAccount": {
                     "allowed": false
                 },
                 "aserto.authorizer.policy.v1.Policy.ListPolicies": {
@@ -679,6 +685,9 @@
                 "aserto.tenant.system.v1.System.SetLogLevel": {
                     "allowed": false
                 },
+                "aserto.tenant.system.v1.System.GetMachineAccount": {
+                    "allowed": false
+                },
                 "aserto.authorizer.policy.v1.Policy.ListPolicies": {
                     "allowed": false
                 },
@@ -956,6 +965,9 @@
                     "allowed": false
                 },
                 "aserto.tenant.system.v1.System.SetLogLevel": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.v1.System.GetMachineAccount": {
                     "allowed": false
                 },
                 "aserto.authorizer.policy.v1.Policy.ListPolicies": {
@@ -1237,6 +1249,9 @@
                 "aserto.tenant.system.v1.System.SetLogLevel": {
                     "allowed": false
                 },
+                "aserto.tenant.system.v1.System.GetMachineAccount": {
+                    "allowed": false
+                },
                 "aserto.authorizer.policy.v1.Policy.ListPolicies": {
                     "allowed": false
                 },
@@ -1511,6 +1526,9 @@
                     "allowed": false
                 },
                 "aserto.tenant.system.v1.System.SetLogLevel": {
+                    "allowed": false
+                },
+                "aserto.tenant.system.v1.System.GetMachineAccount": {
                     "allowed": false
                 },
                 "aserto.authorizer.policy.v1.Policy.ListPolicies": {

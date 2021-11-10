@@ -120,6 +120,9 @@
         "aserto.tenant.system.v1.System.SetLogLevel": {
             "description": "aserto.tenant.system.v1.System.SetLogLevel"
         },
+        "aserto.tenant.system.v1.System.GetMachineAccount": {
+            "description": "aserto.tenant.system.v1.System.GetMachineAccount"
+        },
         "aserto.authorizer.policy.v1.Policy.ListPolicies": {
             "description": "aserto.authorizer.policy.v1.Policy.ListPolicies"
         },
