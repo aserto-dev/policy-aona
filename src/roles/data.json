@@ -1474,6 +1474,9 @@
                 "aserto.tenant.policy.v1.Policy.OPADiscovery": {
                     "allowed": false
                 },
+                "aserto.tenant.policy.v1.Policy.UpdatePolicyRef": {
+                    "allowed": false
+                },
                 "aserto.tenant.profile.v1.Profile.GetInvites": {
                     "allowed": false
                 },
