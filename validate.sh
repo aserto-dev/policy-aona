@@ -24,12 +24,16 @@ while read perm; do
 		echo perm $perm missing from perms map
 	fi
 
-	
+	f=false
 	for role in $(jq -r '.roles | keys | .[]' src/roles/data.json); do
-		x=$(jq --arg R "$role" --arg P "$perm" '.roles | .[$R] | .perms | has($P) ' ./src/roles/data.json)
-		if [ ${x} == "false" ]; then 
-			echo role $role is missing perm $perm
+		x=$(jq --arg R "$role" --arg P "$perm" '.roles | .[$R] | .perms | has($P) ' ./src/roles/data.json)		
+		if [ $x == "true" ]; then
+			f=true
 		fi
 	done
+    
+	if [ $f == "false" ]; then
+		echo perm $perm appears in no roles
+	fi
 
 done <perms.txt
