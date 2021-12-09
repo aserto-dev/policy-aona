@@ -275,6 +275,15 @@
         },
         "aserto.decision_logs.v1.DecisionLogs.GetDecisionLog": {
             "description": "aserto.decision_logs.v1.DecisionLogs.GetDecisionLog"
+        },
+        "aserto.decision_logs.v1.DecisionLogs.ListUsers": {
+            "description": "aserto.decision_logs.v1.DecisionLogs.ListUsers"
+        },
+        "aserto.decision_logs.v1.DecisionLogs.GetUser": {
+            "description": "aserto.decision_logs.v1.DecisionLogs.GetUser"
+        },
+        "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
+            "description": "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery"
         }
     }
 }
