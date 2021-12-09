@@ -882,6 +882,15 @@
                 },
                 "aserto.decision_logs.v1.DecisionLogs.GetDecisionLog": {
                     "allowed": true
+                },
+                "aserto.decision_logs.v1.DecisionLogs.ListUsers": {
+                    "allowed": true
+                },
+                "aserto.decision_logs.v1.DecisionLogs.GetUser": {
+                    "allowed": true
+                },
+                "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
+                    "allowed": true
                 }
             }
         },
