@@ -23,8 +23,6 @@ jobs:
     - name: Calculate Tag
       uses: aserto-dev/sver-action@v0.0.14
       id: "sver"
-      with:
-        next: patch
 
     - name: Policy Login
       id: policy-login
