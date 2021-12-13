@@ -26,12 +26,6 @@ jobs:
       with:
         next: patch
 
-    - name: create config
-      id: create-config
-      run: |
-        mkdir -p $HOME/.config/policy
-        echo "default_domain: registry.eng.opcr.io" >  $HOME/.config/policy/config.yaml
-        cat $HOME/.config/policy/config.yaml
     - name: Policy Login
       id: policy-login
       uses: opcr-io/policy-login-action@v1
