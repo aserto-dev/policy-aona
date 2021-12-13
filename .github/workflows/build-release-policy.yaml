@@ -7,38 +7,55 @@ jobs:
   release_policy:
     runs-on: ubuntu-latest
     name: build
+
     steps:
-    
     - uses: actions/checkout@v2
 
-    - name: Build Policy 
-      id: aserto-build
-      uses: aserto-dev/aserto-build-action@v1
+    - name: Read config
+      id: config
+      uses: CumulusDS/get-yaml-paths-action@v0.1.1
       with:
-        source_path: "src"
-        target_path: "build"
-        target_file: "bundle.tar.gz"
-        build_options: "--revision $GITHUB_SHA"
-        verbose: true
+        file: .github/config.yaml
+        username: username
+        repo: repo
+        server: server
 
-    - name: Release Policy
-      id: release
-      uses: xresloader/upload-to-github-release@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Calculate Tag
+      uses: aserto-dev/sver-action@v0.0.14
+      id: "sver"
       with:
-        file: "build/bundle.tar.gz"
-        tags: true
-        draft: false
-        verbose: true
+        next: patch
 
-    - name: Push Policy 
-      id: aserto-push
-      uses: aserto-dev/aserto-push-action@v2
-      env:
-        ASERTO_PUSH_KEY: ${{ secrets.ASERTO_PUSH_KEY }}
+    - name: create config
+      id: create-config
+      run: |
+        mkdir -p $HOME/.config/policy
+        echo "default_domain: registry.eng.opcr.io" >  $HOME/.config/policy/config.yaml
+        cat $HOME/.config/policy/config.yaml
+    - name: Policy Login
+      id: policy-login
+      uses: opcr-io/policy-login-action@v1
       with:
-        policy_registry: ${{ secrets.ASERTO_POLICY_REGISTRY }}
-        bundle: build/bundle.tar.gz
-        release_id: ${{ steps.release.outputs.release_id }}
-        verbose: true
+        username: ${{ steps.config.outputs.username }}
+        password: ${{ secrets.ASERTO_ENG_PUSH_KEY }}
+        server: ${{ steps.config.outputs.server }}
+
+    - name: Policy Build
+      id: policy-build
+      uses: opcr-io/policy-build-action@v1
+      with:
+        src: src
+        tag: ${{steps.config.outputs.repo }}:${{ steps.sver.outputs.version }}
+        revision: "$GITHUB_SHA"
+
+    - name: Policy Push
+      id: policy-push
+      uses: opcr-io/policy-push-action@v1
+      with:
+        tag: ${{ steps.config.outputs.repo }}:${{ steps.sver.outputs.version }}
+
+    - name: Policy Logout
+      id: policy-logout
+      uses: opcr-io/policy-logout-action@v1
+      with:
+        server: ${{ steps.config.outputs.server }}
