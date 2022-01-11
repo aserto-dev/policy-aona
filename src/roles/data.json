@@ -288,6 +288,21 @@
                 },
                 "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
                     "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListPolicyRepos": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.DeletePolicyRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListTags": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
+                    "allowed": true
                 }
             }
         },
@@ -480,6 +495,21 @@
                 },
                 "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
                     "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListPolicyRepos": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.DeletePolicyRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListTags": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
+                    "allowed": true
                 }
             }
         },
@@ -666,6 +696,21 @@
                 },
                 "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
                     "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListPolicyRepos": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.DeletePolicyRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListTags": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
+                    "allowed": true
                 }
             }
         },
@@ -810,6 +855,21 @@
                 },
                 "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
                     "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListPolicyRepos": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.DeletePolicyRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListTags": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
+                    "allowed": true
                 }
             }
         },
@@ -906,6 +966,21 @@
                 },
                 "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
                     "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListPolicyRepos": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.DeletePolicyRepo": {
+                    "allowed": false
+                },
+                "aserto.tenant.registry.v1.Registry.ListTags": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
+                    "allowed": false
                 }
             }
         },
