@@ -299,6 +299,15 @@
         },
         "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
             "description": "aserto.tenant.registry.v1.Registry.CreatePolicyRepo"
-        }
+        },
+         "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
+            "description": "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders"
+         },
+         "aserto.tenant.policy_builder.v1.PolicyBuilder.CreatePolicyBuilder": {
+            "description": "aserto.tenant.policy_builder.v1.PolicyBuilder.CreatePolicyBuilder"
+         },
+         "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
+            "description": "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder"
+         }
     }
 }

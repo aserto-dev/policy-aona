@@ -303,7 +303,16 @@
                 },
                 "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
                     "allowed": true
-                }
+                },
+                "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.CreatePolicyBuilder": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
+                    "allowed": true
+                 }
             }
         },
         "tenant_owner": {
@@ -510,7 +519,16 @@
                 },
                 "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
                     "allowed": true
-                }
+                },
+                "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.CreatePolicyBuilder": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
+                    "allowed": true
+                 }
             }
         },
         "tenant_admin": {
@@ -711,7 +729,16 @@
                 },
                 "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
                     "allowed": true
-                }
+                },
+                "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.CreatePolicyBuilder": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
+                    "allowed": true
+                 }
             }
         },
         "tenant_member": {
@@ -870,7 +897,16 @@
                 },
                 "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
                     "allowed": true
-                }
+                },
+                "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.CreatePolicyBuilder": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
+                    "allowed": true
+                 }
             }
         },
         "tenant_viewer": {
@@ -981,7 +1017,16 @@
                 },
                 "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
                     "allowed": false
-                }
+                },
+                "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.CreatePolicyBuilder": {
+                    "allowed": false
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
+                    "allowed": false
+                 }
             }
         },
         "decision_log_reader": {
