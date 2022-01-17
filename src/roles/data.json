@@ -301,6 +301,9 @@
                 "aserto.tenant.registry.v1.Registry.ListTags": {
                     "allowed": true
                 },
+                "aserto.tenant.registry.v1.Registry.GetTag": {
+                    "allowed": true
+                },
                 "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
                     "allowed": true
                 },
@@ -517,6 +520,9 @@
                 "aserto.tenant.registry.v1.Registry.ListTags": {
                     "allowed": true
                 },
+                "aserto.tenant.registry.v1.Registry.GetTag": {
+                    "allowed": true
+                },
                 "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
                     "allowed": true
                 },
@@ -727,6 +733,9 @@
                 "aserto.tenant.registry.v1.Registry.ListTags": {
                     "allowed": true
                 },
+                "aserto.tenant.registry.v1.Registry.GetTag": {
+                    "allowed": true
+                },
                 "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
                     "allowed": true
                 },
@@ -895,6 +904,9 @@
                 "aserto.tenant.registry.v1.Registry.ListTags": {
                     "allowed": true
                 },
+                "aserto.tenant.registry.v1.Registry.GetTag": {
+                    "allowed": true
+                },
                 "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
                     "allowed": true
                 },
@@ -1013,6 +1025,9 @@
                     "allowed": false
                 },
                 "aserto.tenant.registry.v1.Registry.ListTags": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.GetTag": {
                     "allowed": true
                 },
                 "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {

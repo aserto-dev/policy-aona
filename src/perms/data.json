@@ -297,6 +297,9 @@
         "aserto.tenant.registry.v1.Registry.ListTags": {
             "description": "aserto.tenant.registry.v1.Registry.ListTags"
         },
+        "aserto.tenant.registry.v1.Registry.GetTag": {
+            "description": "aserto.tenant.registry.v1.Registry.GetTag"
+        },
         "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
             "description": "aserto.tenant.registry.v1.Registry.CreatePolicyRepo"
         },
