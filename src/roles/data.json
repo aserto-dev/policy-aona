@@ -94,6 +94,9 @@
                 "aserto.tenant.scc.v1.SourceCodeCtl.GetProfile": {
                     "allowed": true
                 },
+                "aserto.tenant.scc.v1.SourceCodeCtl.GetRepo": {
+                    "allowed": true
+                },
                 "aserto.tenant.scc.v1.SourceCodeCtl.IsRepoConnected": {
                     "allowed": true
                 },
@@ -397,6 +400,9 @@
                 "aserto.tenant.provider.v1.Provider.GetProvider": {
                     "allowed": true
                 },
+                "aserto.tenant.scc.v1.SourceCodeCtl.GetRepo": {
+                    "allowed": true
+                },
                 "aserto.tenant.provider.v1.Provider.ListProviderKinds": {
                     "allowed": true
                 },
@@ -610,6 +616,9 @@
                 "aserto.tenant.provider.v1.Provider.GetProvider": {
                     "allowed": true
                 },
+                "aserto.tenant.scc.v1.SourceCodeCtl.GetRepo": {
+                    "allowed": true
+                },
                 "aserto.tenant.provider.v1.Provider.ListProviderKinds": {
                     "allowed": true
                 },
@@ -811,6 +820,9 @@
                 "aserto.tenant.provider.v1.Provider.GetProvider": {
                     "allowed": true
                 },
+                "aserto.tenant.scc.v1.SourceCodeCtl.GetRepo": {
+                    "allowed": true
+                },
                 "aserto.tenant.provider.v1.Provider.ListProviderKinds": {
                     "allowed": true
                 },
@@ -956,6 +968,9 @@
                     "allowed": true
                 },
                 "aserto.tenant.provider.v1.Provider.GetProvider": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.v1.SourceCodeCtl.GetRepo": {
                     "allowed": true
                 },
                 "aserto.tenant.provider.v1.Provider.ListProviderKinds": {

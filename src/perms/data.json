@@ -93,6 +93,9 @@
         "aserto.tenant.scc.v1.SourceCodeCtl.GetProfile": {
             "description": "aserto.tenant.scc.v1.SourceCodeCtl.GetProfile"
         },
+        "aserto.tenant.scc.v1.SourceCodeCtl.GetRepo": {
+            "description": " aserto.tenant.scc.v1.SourceCodeCtl.GetRepo"
+        },
         "aserto.tenant.scc.v1.SourceCodeCtl.IsRepoConnected": {
             "description": "aserto.tenant.scc.v1.SourceCodeCtl.IsRepoConnected"
         },
