@@ -8,5 +8,10 @@ default allowed = false
 allowed {
   not user.enabled != true
 
+  t = input.resource["Aserto-Tenant-Id"]
+  a = user.applications[t]
+
+  not a.properties["personal"]
+
   user.id != ""
 }
