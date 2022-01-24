@@ -3,6 +3,7 @@
         "sys-admin": {
             "displayName": "SysAdmin (INTERNAL)",
             "description": "aserto system administrators",
+            "internal": true,
             "perms": {
                 "aserto.common.info.v1.Config.Get": {
                     "allowed": true
@@ -1062,6 +1063,7 @@
         "decision_log_reader": {
             "displayName": "Decision log reader",
             "description": "Decision log reader",
+            "internal": true,
             "perms": {
                 "aserto.decision_logs.v1.DecisionLogs.ListDecisionLogs": {
                     "allowed": true
@@ -1083,6 +1085,7 @@
         "discovery_client": {
             "displayName": "Discovery Client",
             "description": "Discovery Client",
+            "internal": true,
             "perms": {
                 "aserto.tenant.policy.v1.Policy.OPADiscovery": {
                     "allowed": true
