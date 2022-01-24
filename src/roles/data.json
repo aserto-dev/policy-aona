@@ -324,6 +324,7 @@
         },
         "tenant_owner": {
             "displayName": "Owner",
+            "internal": false,
             "description": "tenant owner",
             "perms": {                
                 "aserto.common.info.v1.Info.Info": {
@@ -546,6 +547,7 @@
         },
         "tenant_admin": {
             "displayName": "Admin",
+            "internal": false,
             "description": "tenant administrator",
             "perms": {
                 "aserto.common.info.v1.Info.Info": {
@@ -762,6 +764,7 @@
         },
         "tenant_member": {
             "displayName": "Member",
+            "internal": false,
             "description": "tenant member",
             "perms": {
                 "aserto.common.info.v1.Info.Info": {
@@ -936,6 +939,7 @@
         },
         "tenant_viewer": {
             "displayName": "Viewer",
+            "internal": false,
             "description": "tenant viewer",
             "perms": {
                 "aserto.common.info.v1.Info.Info": {
