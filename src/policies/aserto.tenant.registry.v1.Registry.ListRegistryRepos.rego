@@ -1,4 +1,4 @@
-package aserto.tenant.registry.v1.Registry.ListPolicyRepos
+package aserto.tenant.registry.v1.Registry.ListRegistryRepos
 
 import input.user
 import input.policy.path
