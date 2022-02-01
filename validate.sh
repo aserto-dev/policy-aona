@@ -1,11 +1,17 @@
 #!/usr/bin/env bash
 
 echo "reflect over authorizer service"
-grpcurl aona.beta.aserto.com:8443 list | xargs -n 1 -I {} grpcurl aona.beta.aserto.com:8443 list {} > perms.txt
+grpcurl aona.beta.aserto.com:8443 list | xargs -I{} grpcurl aona.beta.aserto.com:8443 list {} > perms.txt
 echo "reflect over tenant service"
-grpcurl tenant.beta.aserto.com:8443 list | xargs -n 1 -I {} grpcurl tenant.beta.aserto.com:8443 list {} >> perms.txt
+grpcurl tenant.beta.aserto.com:8443 list | xargs -I{} grpcurl tenant.beta.aserto.com:8443 list {} >> perms.txt
 echo "reflect over decision logs service"
-grpcurl decision-logs.beta.aserto.com:8443 list | xargs -n 1 -I {} grpcurl decision-logs.beta.aserto.com:8443 list {} >> perms.txt
+grpcurl decision-logs.beta.aserto.com:8443 list | xargs -I{} grpcurl decision-logs.beta.aserto.com:8443 list {} >> perms.txt
+
+echo "reflect over aserto registry service"
+grpcurl registry.beta.aserto.com:8443 list | xargs -I{} grpcurl registry.beta.aserto.com:8443 list {} >> perms.txt
+echo "reflect over registry tenant service"
+grpcurl registry-tenant.beta.aserto.com:8443 list | xargs -I{} grpcurl registry-tenant.beta.aserto.com:8443 list {} >> perms.txt
+
 echo "sort"
 sort -o perms.txt{,}
 
@@ -37,3 +43,11 @@ while read perm; do
 	fi
 
 done <perms.txt
+
+echo "Checking for endpoints that don't exist"
+
+cat src/roles/data.json | jq -r .[][].perms | jq -r keys[] | xargs -I{} bash -c "grep '{}' perms.txt >/dev/null || echo '{} should not exist in src/roles/data.json'"
+
+cat src/perms/data.json | jq -r .[] | jq -r keys[] | xargs -I{} bash -c "grep '{}' perms.txt >/dev/null || echo '{} should not exist in src/perms/data.json'"
+
+find ./src/policies -name '*.rego' | xargs -I{} bash -c "basename {}" | sed s/\.rego//g | xargs -I{} bash -c "grep '{}' perms.txt >/dev/null || echo '{} should not exist in ./src/policies'"
