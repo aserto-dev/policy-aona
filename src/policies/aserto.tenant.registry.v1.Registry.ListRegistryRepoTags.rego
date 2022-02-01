@@ -1,4 +1,4 @@
-package aserto.tenant.registry.v1.Registry.DeletePolicyRepo
+package aserto.tenant.registry.v1.Registry.ListRegistryRepoTags
 
 import input.user
 import input.policy.path

@@ -291,20 +291,20 @@
         "aserto.tenant.registry.v1.Registry.ListOrgs": {
             "description": "aserto.tenant.registry.v1.Registry.ListOrgs"
         },
-        "aserto.tenant.registry.v1.Registry.ListPolicyRepos": {
-            "description": "aserto.tenant.registry.v1.Registry.ListPolicyRepos"
+        "aserto.tenant.registry.v1.Registry.ListRegistryRepos": {
+            "description": "aserto.tenant.registry.v1.Registry.ListRegistryRepos"
         },
-        "aserto.tenant.registry.v1.Registry.DeletePolicyRepo": {
-            "description": "aserto.tenant.registry.v1.Registry.DeletePolicyRepo"
+        "aserto.tenant.registry.v1.Registry.DeleteRegistryRepo": {
+            "description": "aserto.tenant.registry.v1.Registry.DeleteRegistryRepo"
         },
-        "aserto.tenant.registry.v1.Registry.ListTags": {
-            "description": "aserto.tenant.registry.v1.Registry.ListTags"
+        "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags": {
+            "description": "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags"
         },
-        "aserto.tenant.registry.v1.Registry.GetTag": {
-            "description": "aserto.tenant.registry.v1.Registry.GetTag"
+        "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag": {
+            "description": "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag"
         },
-        "aserto.tenant.registry.v1.Registry.CreatePolicyRepo": {
-            "description": "aserto.tenant.registry.v1.Registry.CreatePolicyRepo"
+        "aserto.tenant.registry.v1.Registry.CreateRegistryRepo": {
+            "description": "aserto.tenant.registry.v1.Registry.CreateRegistryRepo"
         },
         "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
             "description": "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders"

@@ -1,4 +1,4 @@
-package aserto.tenant.registry.v1.Registry.CreatePolicyRepo
+package aserto.tenant.registry.v1.Registry.GetRegistryRepoTag
 
 import input.user
 import input.policy.path
