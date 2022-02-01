@@ -43,3 +43,11 @@ while read perm; do
 	fi
 
 done <perms.txt
+
+echo "Checking for endpoints that don't exist"
+
+cat src/roles/data.json | jq -r .[][].perms | jq -r keys[] | xargs -I{} bash -c "grep '{}' perms.txt >/dev/null || echo '{} should not exist in src/roles/data.json'"
+
+cat src/perms/data.json | jq -r .[] | jq -r keys[] | xargs -I{} bash -c "grep '{}' perms.txt >/dev/null || echo '{} should not exist in src/perms/data.json'"
+
+find ./src/policies -name '*.rego' | xargs -I{} bash -c "basename {}" | sed s/\.rego//g | xargs -I{} bash -c "grep '{}' perms.txt >/dev/null || echo '{} should not exist in ./src/policies'"
