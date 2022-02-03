@@ -93,6 +93,9 @@
         "aserto.tenant.scc.v1.SourceCodeCtl.GetProfile": {
             "description": "aserto.tenant.scc.v1.SourceCodeCtl.GetProfile"
         },
+        "aserto.tenant.scc.v1.SourceCodeCtl.GetRepo": {
+            "description": " aserto.tenant.scc.v1.SourceCodeCtl.GetRepo"
+        },
         "aserto.tenant.scc.v1.SourceCodeCtl.IsRepoConnected": {
             "description": "aserto.tenant.scc.v1.SourceCodeCtl.IsRepoConnected"
         },
@@ -284,6 +287,99 @@
         },
         "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
             "description": "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery"
+        },
+        "aserto.tenant.registry.v1.Registry.ListOrgs": {
+            "description": "aserto.tenant.registry.v1.Registry.ListOrgs"
+        },
+        "aserto.tenant.registry.v1.Registry.ListRegistryRepos": {
+            "description": "aserto.tenant.registry.v1.Registry.ListRegistryRepos"
+        },
+        "aserto.tenant.registry.v1.Registry.DeleteRegistryRepo": {
+            "description": "aserto.tenant.registry.v1.Registry.DeleteRegistryRepo"
+        },
+        "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags": {
+            "description": "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags"
+        },
+        "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag": {
+            "description": "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag"
+        },
+        "aserto.tenant.registry.v1.Registry.CreateRegistryRepo": {
+            "description": "aserto.tenant.registry.v1.Registry.CreateRegistryRepo"
+        },
+        "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
+            "description": "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders"
+        },
+        "aserto.tenant.policy_builder.v1.PolicyBuilder.CreatePolicyBuilder": {
+            "description": "aserto.tenant.policy_builder.v1.PolicyBuilder.CreatePolicyBuilder"
+        },
+        "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
+            "description": "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder"
+        },
+        "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
+            "description": "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree"
+        },
+        "aserto.authorizer.authorizer.v1.Authorizer.Is": {
+            "description": "aserto.authorizer.authorizer.v1.Authorizer.Is"
+        },
+        "aserto.authorizer.authorizer.v1.Authorizer.Query": {
+            "description": "aserto.authorizer.authorizer.v1.Authorizer.Query"
+        },
+        "aserto.authorizer.system.v1.System.UnloadRuntime": {
+            "description": "aserto.authorizer.system.v1.System.UnloadRuntime"
+        },
+        "aserto.registry_tenant.v1.Policy.CreatePolicyImage": {
+            "description": "aserto.registry_tenant.v1.Policy.CreatePolicyImage"
+        },
+        "aserto.registry_tenant.v1.Policy.DeletePolicyImage": {
+            "description": "aserto.registry_tenant.v1.Policy.DeletePolicyImage"
+        },
+        "aserto.registry_tenant.v1.Policy.GetPolicyImage": {
+            "description": "aserto.registry_tenant.v1.Policy.GetPolicyImage"
+        },
+        "aserto.registry_tenant.v1.Policy.ListPolicyImages": {
+            "description": "aserto.registry_tenant.v1.Policy.ListPolicyImages"
+        },
+        "aserto.registry_tenant.v1.Policy.ListPublicPolicyImages": {
+            "description": "aserto.registry_tenant.v1.Policy.ListPublicPolicyImages"
+        },
+        "aserto.registry_tenant.v1.Policy.UpdatePolicyImage": {
+            "description": "aserto.registry_tenant.v1.Policy.UpdatePolicyImage"
+        },
+        "aserto.registry_tenant.v1.Tenant.ListPublicTenants": {
+            "description": "aserto.registry_tenant.v1.Tenant.ListPublicTenants"
+        },
+        "aserto.registry_tenant.v1.Tenant.ListTenants": {
+            "description": "aserto.registry_tenant.v1.Tenant.ListTenants"
+        },
+        "aserto.registry.v1.Registry.CreateImage": {
+            "description": "aserto.registry.v1.Registry.CreateImage"
+        },
+        "aserto.registry.v1.Registry.GetReadAccessToken": {
+            "description": "aserto.registry.v1.Registry.GetReadAccessToken"
+        },
+        "aserto.registry.v1.Registry.GetWriteAccessToken": {
+            "description": "aserto.registry.v1.Registry.GetWriteAccessToken"
+        },
+        "aserto.registry.v1.Registry.ListImages": {
+            "description": "aserto.registry.v1.Registry.ListImages"
+        },
+        "aserto.registry.v1.Registry.ListOrgs": {
+            "description": "aserto.registry.v1.Registry.ListOrgs"
+        },
+        "aserto.registry.v1.Registry.ListPublicImages": {
+            "description": "aserto.registry.v1.Registry.ListPublicImages"
+        },
+        "aserto.registry.v1.Registry.ListPublicOrgs": {
+            "description": "aserto.registry.v1.Registry.ListPublicOrgs"
+        },
+        "aserto.registry.v1.Registry.ListTagsWithDetails": {
+            "description": "aserto.registry.v1.Registry.ListTagsWithDetails"
+        },
+        "aserto.registry.v1.Registry.RemoveImage": {
+            "description": "aserto.registry.v1.Registry.RemoveImage"
+        },
+        "aserto.registry.v1.Registry.SetImageVisibility": {
+            "description": "aserto.registry.v1.Registry.SetImageVisibility"
         }
     }
 }

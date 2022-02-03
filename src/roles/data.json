@@ -3,6 +3,7 @@
         "sys-admin": {
             "displayName": "SysAdmin (INTERNAL)",
             "description": "aserto system administrators",
+            "internal": true,
             "perms": {
                 "aserto.common.info.v1.Config.Get": {
                     "allowed": true
@@ -92,6 +93,9 @@
                     "allowed": true
                 },
                 "aserto.tenant.scc.v1.SourceCodeCtl.GetProfile": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.v1.SourceCodeCtl.GetRepo": {
                     "allowed": true
                 },
                 "aserto.tenant.scc.v1.SourceCodeCtl.IsRepoConnected": {
@@ -288,11 +292,105 @@
                 },
                 "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
                     "allowed": true
-                }
+                },
+                "aserto.tenant.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepos": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.DeleteRegistryRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.CreateRegistryRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.CreatePolicyBuilder": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
+                    "allowed": true
+                 },
+                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.authorizer.v1.Authorizer.Is": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.authorizer.v1.Authorizer.Query": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.system.v1.System.UnloadRuntime": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.CreatePolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.DeletePolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.GetPolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.ListPolicyImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.ListPublicPolicyImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.UpdatePolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Tenant.ListPublicTenants": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Tenant.ListTenants": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.CreateImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.GetReadAccessToken": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.GetWriteAccessToken": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListPublicImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListPublicOrgs": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListTagsWithDetails": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.RemoveImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.SetImageVisibility": {
+                    "allowed": true
+                  }                  
             }
         },
         "tenant_owner": {
             "displayName": "Owner",
+            "internal": false,
             "description": "tenant owner",
             "perms": {                
                 "aserto.common.info.v1.Info.Info": {
@@ -368,6 +466,9 @@
                     "allowed": true
                 },
                 "aserto.tenant.provider.v1.Provider.GetProvider": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.v1.SourceCodeCtl.GetRepo": {
                     "allowed": true
                 },
                 "aserto.tenant.provider.v1.Provider.ListProviderKinds": {
@@ -480,11 +581,105 @@
                 },
                 "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
                     "allowed": true
-                }
+                },
+                "aserto.tenant.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepos": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.DeleteRegistryRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.CreateRegistryRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.CreatePolicyBuilder": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
+                    "allowed": true
+                 },
+                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.authorizer.v1.Authorizer.Is": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.authorizer.v1.Authorizer.Query": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.system.v1.System.UnloadRuntime": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.CreatePolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.DeletePolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.GetPolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.ListPolicyImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.ListPublicPolicyImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.UpdatePolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Tenant.ListPublicTenants": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Tenant.ListTenants": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.CreateImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.GetReadAccessToken": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.GetWriteAccessToken": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListPublicImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListPublicOrgs": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListTagsWithDetails": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.RemoveImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.SetImageVisibility": {
+                    "allowed": true
+                  }
             }
         },
         "tenant_admin": {
             "displayName": "Admin",
+            "internal": false,
             "description": "tenant administrator",
             "perms": {
                 "aserto.common.info.v1.Info.Info": {
@@ -554,6 +749,9 @@
                     "allowed": true
                 },
                 "aserto.tenant.provider.v1.Provider.GetProvider": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.v1.SourceCodeCtl.GetRepo": {
                     "allowed": true
                 },
                 "aserto.tenant.provider.v1.Provider.ListProviderKinds": {
@@ -666,11 +864,105 @@
                 },
                 "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
                     "allowed": true
-                }
+                },
+                "aserto.tenant.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepos": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.DeleteRegistryRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.CreateRegistryRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.CreatePolicyBuilder": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
+                    "allowed": true
+                 },
+                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.authorizer.v1.Authorizer.Is": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.authorizer.v1.Authorizer.Query": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.system.v1.System.UnloadRuntime": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.CreatePolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.DeletePolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.GetPolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.ListPolicyImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.ListPublicPolicyImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.UpdatePolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Tenant.ListPublicTenants": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Tenant.ListTenants": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.CreateImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.GetReadAccessToken": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.GetWriteAccessToken": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListPublicImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListPublicOrgs": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListTagsWithDetails": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.RemoveImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.SetImageVisibility": {
+                    "allowed": true
+                  }
             }
         },
         "tenant_member": {
             "displayName": "Member",
+            "internal": false,
             "description": "tenant member",
             "perms": {
                 "aserto.common.info.v1.Info.Info": {
@@ -728,6 +1020,9 @@
                     "allowed": true
                 },
                 "aserto.tenant.provider.v1.Provider.GetProvider": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.v1.SourceCodeCtl.GetRepo": {
                     "allowed": true
                 },
                 "aserto.tenant.provider.v1.Provider.ListProviderKinds": {
@@ -810,11 +1105,105 @@
                 },
                 "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
                     "allowed": true
-                }
+                },
+                "aserto.tenant.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepos": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.DeleteRegistryRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.CreateRegistryRepo": {
+                    "allowed": true
+                },
+                "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.CreatePolicyBuilder": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
+                    "allowed": true
+                 },
+                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.authorizer.v1.Authorizer.Is": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.authorizer.v1.Authorizer.Query": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.system.v1.System.UnloadRuntime": {
+                    "allowed": false
+                  },
+                  "aserto.registry_tenant.v1.Policy.CreatePolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.DeletePolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.GetPolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.ListPolicyImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.ListPublicPolicyImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.UpdatePolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Tenant.ListPublicTenants": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Tenant.ListTenants": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.CreateImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.GetReadAccessToken": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.GetWriteAccessToken": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListPublicImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListPublicOrgs": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListTagsWithDetails": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.RemoveImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.SetImageVisibility": {
+                    "allowed": false
+                  }                  
             }
         },
         "tenant_viewer": {
             "displayName": "Viewer",
+            "internal": false,
             "description": "tenant viewer",
             "perms": {
                 "aserto.common.info.v1.Info.Info": {
@@ -848,6 +1237,9 @@
                     "allowed": true
                 },
                 "aserto.tenant.provider.v1.Provider.GetProvider": {
+                    "allowed": true
+                },
+                "aserto.tenant.scc.v1.SourceCodeCtl.GetRepo": {
                     "allowed": true
                 },
                 "aserto.tenant.provider.v1.Provider.ListProviderKinds": {
@@ -906,12 +1298,106 @@
                 },
                 "grpc.reflection.v1alpha.ServerReflection.ServerReflectionInfo": {
                     "allowed": true
-                }
+                },
+                "aserto.tenant.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepos": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.DeleteRegistryRepo": {
+                    "allowed": false
+                },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.CreateRegistryRepo": {
+                    "allowed": false
+                },
+                "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
+                    "allowed": true
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.CreatePolicyBuilder": {
+                    "allowed": false
+                 },
+                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
+                    "allowed": false
+                 },
+                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.authorizer.v1.Authorizer.Is": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.authorizer.v1.Authorizer.Query": {
+                    "allowed": true
+                  },
+                  "aserto.authorizer.system.v1.System.UnloadRuntime": {
+                    "allowed": false
+                  },
+                  "aserto.registry_tenant.v1.Policy.CreatePolicyImage": {
+                    "allowed": false
+                  },
+                  "aserto.registry_tenant.v1.Policy.DeletePolicyImage": {
+                    "allowed": false
+                  },
+                  "aserto.registry_tenant.v1.Policy.GetPolicyImage": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.ListPolicyImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.ListPublicPolicyImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Policy.UpdatePolicyImage": {
+                    "allowed": false
+                  },
+                  "aserto.registry_tenant.v1.Tenant.ListPublicTenants": {
+                    "allowed": true
+                  },
+                  "aserto.registry_tenant.v1.Tenant.ListTenants": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.CreateImage": {
+                    "allowed": false
+                  },
+                  "aserto.registry.v1.Registry.GetReadAccessToken": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.GetWriteAccessToken": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListOrgs": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListPublicImages": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListPublicOrgs": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.ListTagsWithDetails": {
+                    "allowed": true
+                  },
+                  "aserto.registry.v1.Registry.RemoveImage": {
+                    "allowed": false
+                  },
+                  "aserto.registry.v1.Registry.SetImageVisibility": {
+                    "allowed": false
+                  }
             }
         },
         "decision_log_reader": {
             "displayName": "Decision log reader",
             "description": "Decision log reader",
+            "internal": true,
             "perms": {
                 "aserto.decision_logs.v1.DecisionLogs.ListDecisionLogs": {
                     "allowed": true
@@ -933,6 +1419,7 @@
         "discovery_client": {
             "displayName": "Discovery Client",
             "description": "Discovery Client",
+            "internal": true,
             "perms": {
                 "aserto.tenant.policy.v1.Policy.OPADiscovery": {
                     "allowed": true
