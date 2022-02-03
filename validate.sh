@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 
 echo "reflect over authorizer service"
-grpcurl aona.beta.aserto.com:8443 list | xargs -I{} grpcurl aona.beta.aserto.com:8443 list {} > perms.txt
+grpcurl aona.eng.aserto.com:8443 list | xargs -I{} grpcurl aona.eng.aserto.com:8443 list {} > perms.txt
 echo "reflect over tenant service"
-grpcurl tenant.beta.aserto.com:8443 list | xargs -I{} grpcurl tenant.beta.aserto.com:8443 list {} >> perms.txt
+grpcurl tenant.eng.aserto.com:8443 list | xargs -I{} grpcurl tenant.eng.aserto.com:8443 list {} >> perms.txt
 echo "reflect over decision logs service"
-grpcurl decision-logs.beta.aserto.com:8443 list | xargs -I{} grpcurl decision-logs.beta.aserto.com:8443 list {} >> perms.txt
+grpcurl decision-logs.eng.aserto.com:8443 list | xargs -I{} grpcurl decision-logs.eng.aserto.com:8443 list {} >> perms.txt
 
 echo "reflect over aserto registry service"
-grpcurl registry.beta.aserto.com:8443 list | xargs -I{} grpcurl registry.beta.aserto.com:8443 list {} >> perms.txt
+grpcurl registry.eng.aserto.com:8443 list | xargs -I{} grpcurl registry.eng.aserto.com:8443 list {} >> perms.txt
 echo "reflect over registry tenant service"
-grpcurl registry-tenant.beta.aserto.com:8443 list | xargs -I{} grpcurl registry-tenant.beta.aserto.com:8443 list {} >> perms.txt
+grpcurl registry-tenant.eng.aserto.com:8443 list | xargs -I{} grpcurl registry-tenant.eng.aserto.com:8443 list {} >> perms.txt
 
 echo "sort"
 sort -o perms.txt{,}
