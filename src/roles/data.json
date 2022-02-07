@@ -305,6 +305,9 @@
                 "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags": {
                     "allowed": true
                 },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepoDigests": {
+                    "allowed": true
+                },
                 "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag": {
                     "allowed": true
                 },
@@ -594,6 +597,9 @@
                 "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags": {
                     "allowed": true
                 },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepoDigests": {
+                    "allowed": true
+                },
                 "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag": {
                     "allowed": true
                 },
@@ -877,6 +883,9 @@
                 "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags": {
                     "allowed": true
                 },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepoDigests": {
+                    "allowed": true
+                },
                 "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag": {
                     "allowed": true
                 },
@@ -1118,6 +1127,9 @@
                 "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags": {
                     "allowed": true
                 },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepoDigests": {
+                    "allowed": true
+                },
                 "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag": {
                     "allowed": true
                 },
@@ -1309,6 +1321,9 @@
                     "allowed": false
                 },
                 "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ListRegistryRepoDigests": {
                     "allowed": true
                 },
                 "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag": {

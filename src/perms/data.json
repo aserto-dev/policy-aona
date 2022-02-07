@@ -300,6 +300,9 @@
         "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags": {
             "description": "aserto.tenant.registry.v1.Registry.ListRegistryRepoTags"
         },
+        "aserto.tenant.registry.v1.Registry.ListRegistryRepoDigests": {
+            "description": "aserto.tenant.registry.v1.Registry.ListRegistryRepoDigests"
+        },
         "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag": {
             "description": "aserto.tenant.registry.v1.Registry.GetRegistryRepoTag"
         },
