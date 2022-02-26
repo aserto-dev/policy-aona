@@ -1440,6 +1440,50 @@
                     "allowed": true
                 }
             }
+        },
+        "task-manager": {
+            "displayName": "Task Manager (INTERNAL)",
+            "description": "Manage tasks and jobs",
+            "internal": true,
+            "perms": {
+                "aserto.task.manager.v1.Manager.CreateTask": {
+                    "allowed": true
+                },
+                "aserto.task.manager.v1.Manager.GetTask": {
+                    "allowed": true
+                },
+                "aserto.task.manager.v1.Manager.DeleteTask": {
+                    "allowed": true
+                },
+                "aserto.task.manager.v1.Manager.ExecTask": {
+                    "allowed": true
+                },
+                "aserto.task.manager.v1.Manager.CreateJob": {
+                    "allowed": true
+                },
+                "aserto.task.manager.v1.Manager.GetJob": {
+                    "allowed": true
+                },
+                "aserto.task.manager.v1.Manager.DeleteJob": {
+                    "allowed": true
+                },
+                "aserto.task.manager.v1.Manager.ExecJob": {
+                    "allowed": true
+                }
+            }
+        },
+        "task-handler": {
+            "displayName": "Task Handler (INTERNAL)",
+            "description": "Handle tasks and jobs",
+            "internal": true,
+            "perms": {
+                "aserto.task.handler.v1.Handler.HandleTask": {
+                    "allowed": true
+                },
+                "aserto.task.handler.v1.Handler.HandleJob": {
+                    "allowed": true
+                }
+            }
         }
     }
 }
