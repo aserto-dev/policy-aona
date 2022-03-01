@@ -6,11 +6,12 @@ echo "reflect over tenant service"
 grpcurl tenant.eng.aserto.com:8443 list | xargs -I{} grpcurl tenant.eng.aserto.com:8443 list {} >> perms.txt
 echo "reflect over decision logs service"
 grpcurl decision-logs.eng.aserto.com:8443 list | xargs -I{} grpcurl decision-logs.eng.aserto.com:8443 list {} >> perms.txt
-
 echo "reflect over aserto registry service"
 grpcurl registry.eng.aserto.com:8443 list | xargs -I{} grpcurl registry.eng.aserto.com:8443 list {} >> perms.txt
 echo "reflect over registry tenant service"
 grpcurl registry-tenant.eng.aserto.com:8443 list | xargs -I{} grpcurl registry-tenant.eng.aserto.com:8443 list {} >> perms.txt
+echo "reflect over tasks service"
+grpcurl tasks.eng.aserto.com:8443 list | xargs -I{} grpcurl tasks.eng.aserto.com:8443 list {} >> perms.txt
 
 echo "sort"
 sort -o perms.txt{,}

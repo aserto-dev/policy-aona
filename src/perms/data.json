@@ -383,6 +383,36 @@
         },
         "aserto.registry.v1.Registry.SetImageVisibility": {
             "description": "aserto.registry.v1.Registry.SetImageVisibility"
+        },
+        "aserto.task.manager.v1.Manager.CreateJob": {
+            "description": "aserto.task.manager.v1.Manager.CreateJob"
+        },
+        "aserto.task.manager.v1.Manager.CreateTask": {
+            "description": "aserto.task.manager.v1.Manager.CreateTask"
+        },
+        "aserto.task.manager.v1.Manager.DeleteJob": {
+            "description": "aserto.task.manager.v1.Manager.DeleteJob"
+        },
+        "aserto.task.manager.v1.Manager.DeleteTask": {
+            "description": "aserto.task.manager.v1.Manager.DeleteTask"
+        },
+        "aserto.task.manager.v1.Manager.ExecJob": {
+            "description": "aserto.task.manager.v1.Manager.ExecJob"
+        },
+        "aserto.task.manager.v1.Manager.ExecTask": {
+            "description": "aserto.task.manager.v1.Manager.ExecTask"
+        },
+        "aserto.task.manager.v1.Manager.GetJob": {
+            "description": "aserto.task.manager.v1.Manager.GetJob"
+        },
+        "aserto.task.manager.v1.Manager.GetTask": {
+            "description": "aserto.task.manager.v1.Manager.GetTask"
+        },
+        "aserto.task.handler.v1.Handler.HandleJob": {
+            "description": "aserto.task.handler.v1.Handler.HandleJob"
+        },
+        "aserto.task.handler.v1.Handler.HandleTask": {
+            "description": "aserto.task.handler.v1.Handler.HandleTask"
         }
     }
 }
