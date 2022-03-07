@@ -288,6 +288,9 @@
         "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
             "description": "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery"
         },
+        "aserto.decision_logs.v1.DecisionLogs.GetDecisions": {
+            "description": "aserto.decision_logs.v1.DecisionLogs.GetDecisions"
+        },
         "aserto.tenant.registry.v1.Registry.ListOrgs": {
             "description": "aserto.tenant.registry.v1.Registry.ListOrgs"
         },
