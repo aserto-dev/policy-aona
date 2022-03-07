@@ -293,6 +293,9 @@
                 "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
                     "allowed": true
                 },
+                "aserto.decision_logs.v1.DecisionLogs.GetDecisions": {
+                    "allowed": true
+                },
                 "aserto.tenant.registry.v1.Registry.ListOrgs": {
                     "allowed": true
                 },
@@ -585,6 +588,9 @@
                 "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
                     "allowed": true
                 },
+                "aserto.decision_logs.v1.DecisionLogs.GetDecisions": {
+                    "allowed": true
+                },
                 "aserto.tenant.registry.v1.Registry.ListOrgs": {
                     "allowed": true
                 },
@@ -871,6 +877,9 @@
                 "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
                     "allowed": true
                 },
+                "aserto.decision_logs.v1.DecisionLogs.GetDecisions": {
+                    "allowed": true
+                },
                 "aserto.tenant.registry.v1.Registry.ListOrgs": {
                     "allowed": true
                 },
@@ -1113,6 +1122,9 @@
                     "allowed": true
                 },
                 "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
+                    "allowed": true
+                },
+                "aserto.decision_logs.v1.DecisionLogs.GetDecisions": {
                     "allowed": true
                 },
                 "aserto.tenant.registry.v1.Registry.ListOrgs": {
@@ -1427,6 +1439,9 @@
                     "allowed": true
                 },
                 "aserto.decision_logs.v1.DecisionLogs.ExecuteQuery": {
+                    "allowed": true
+                },
+                "aserto.decision_logs.v1.DecisionLogs.GetDecisions": {
                     "allowed": true
                 }
             }
