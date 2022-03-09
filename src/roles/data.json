@@ -44,6 +44,9 @@
                 "aserto.tenant.connection.v1.Connection.RotateSecret": {
                     "allowed": true
                 },
+                "aserto.tenant.connection.v1.Connection.ConnectionAvailable": {
+                    "allowed": true
+                },
                 "aserto.tenant.onboarding.v1.Onboarding.ClaimTenant": {
                     "allowed": true
                 },
@@ -435,6 +438,9 @@
                 "aserto.tenant.connection.v1.Connection.RotateSecret": {
                     "allowed": true
                 },
+                "aserto.tenant.connection.v1.Connection.ConnectionAvailable": {
+                    "allowed": true
+                },
                 "aserto.tenant.onboarding.v1.Onboarding.ClaimTenant": {
                     "allowed": true
                 },
@@ -728,6 +734,9 @@
                     "allowed": true
                 },
                 "aserto.tenant.connection.v1.Connection.RotateSecret": {
+                    "allowed": true
+                },
+                "aserto.tenant.connection.v1.Connection.ConnectionAvailable": {
                     "allowed": true
                 },
                 "aserto.tenant.onboarding.v1.Onboarding.InviteUser": {
