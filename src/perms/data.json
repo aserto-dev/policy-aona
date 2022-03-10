@@ -39,6 +39,9 @@
         "aserto.tenant.connection.v1.Connection.RotateSecret": {
             "description": "aserto.tenant.connection.v1.Connection.RotateSecret"
         },
+        "aserto.tenant.connection.v1.Connection.ConnectionAvailable": {
+            "description": "aserto.tenant.connection.v1.Connection.ConnectionAvailable"
+        },
         "aserto.tenant.onboarding.v1.Onboarding.ClaimTenant": {
             "description": "aserto.tenant.onboarding.v1.Onboarding.ClaimTenant"
         },
