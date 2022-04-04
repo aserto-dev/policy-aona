@@ -323,6 +323,9 @@
                 "aserto.tenant.registry.v1.Registry.RegistryRepoAvailable": {
                     "allowed": true
                 },
+                "aserto.tenant.registry.v1.Registry.ValidPolicyRegistryRepoTag": {
+                    "allowed": true
+                },
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
                     "allowed": true
                  },
@@ -624,6 +627,9 @@
                 "aserto.tenant.registry.v1.Registry.RegistryRepoAvailable": {
                     "allowed": true
                 },
+                "aserto.tenant.registry.v1.Registry.ValidPolicyRegistryRepoTag": {
+                    "allowed": true
+                },
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
                     "allowed": true
                  },
@@ -919,6 +925,9 @@
                 "aserto.tenant.registry.v1.Registry.RegistryRepoAvailable": {
                     "allowed": true
                 },
+                "aserto.tenant.registry.v1.Registry.ValidPolicyRegistryRepoTag": {
+                    "allowed": true
+                },
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
                     "allowed": true
                  },
@@ -1169,6 +1178,9 @@
                 "aserto.tenant.registry.v1.Registry.RegistryRepoAvailable": {
                     "allowed": true
                 },
+                "aserto.tenant.registry.v1.Registry.ValidPolicyRegistryRepoTag": {
+                    "allowed": true
+                },
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
                     "allowed": true
                  },
@@ -1366,6 +1378,9 @@
                     "allowed": false
                 },
                 "aserto.tenant.registry.v1.Registry.RegistryRepoAvailable": {
+                    "allowed": true
+                },
+                "aserto.tenant.registry.v1.Registry.ValidPolicyRegistryRepoTag": {
                     "allowed": true
                 },
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {

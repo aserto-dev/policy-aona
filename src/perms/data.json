@@ -317,6 +317,9 @@
         },
         "aserto.tenant.registry.v1.Registry.RegistryRepoAvailable": {
             "description": "aserto.tenant.registry.v1.Registry.RegistryRepoAvailable"
+        },       
+        "aserto.tenant.registry.v1.Registry.ValidPolicyRegistryRepoTag": {
+            "description": "aserto.tenant.registry.v1.Registry.ValidPolicyRegistryRepoTag"
         },
         "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders": {
             "description": "aserto.tenant.policy_builder.v1.PolicyBuilder.ListPolicyBuilders"
