@@ -3,6 +3,8 @@ on:
   push:
     tags:
     - '*'
+    branches:
+    - "181494211/repo_tag_fix"
 
 jobs:
   release_policy:
