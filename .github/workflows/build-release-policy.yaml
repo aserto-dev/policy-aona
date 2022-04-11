@@ -3,7 +3,8 @@ on:
   push:
     tags:
     - '*'
-
+    branches:
+    - "*/?dev-*"
 jobs:
   release_policy:
     runs-on: ubuntu-latest

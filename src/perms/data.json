@@ -396,6 +396,30 @@
         "aserto.registry.v1.Registry.SetImageVisibility": {
             "description": "aserto.registry.v1.Registry.SetImageVisibility"
         },
+        "aserto.registry_tenant.v1.PolicyRepo.CreatePolicyRepo": {
+            "description": "aserto.registry_tenant.v1.PolicyRepo.CreatePolicyRepo"
+        },
+        "aserto.registry_tenant.v1.PolicyRepo.DeletePolicyRepo": {
+            "description": "aserto.registry_tenant.v1.PolicyRepo.DeletePolicyRepo"
+        },
+        "aserto.registry_tenant.v1.PolicyRepo.GetPolicyRepo": {
+            "description": "aserto.registry_tenant.v1.PolicyRepo.GetPolicyRepo"
+        },
+        "aserto.registry_tenant.v1.PolicyRepo.ListPolicyRepos": {
+            "description": "aserto.registry_tenant.v1.PolicyRepo.ListPolicyRepos"
+        },
+        "aserto.registry_tenant.v1.PolicyRepo.ListPublicPolicyRepos": {
+            "description": "aserto.registry_tenant.v1.PolicyRepo.ListPublicPolicyRepos"
+        },
+        "aserto.registry_tenant.v1.PolicyRepo.UpdatePolicyRepo": {
+            "description": "aserto.registry_tenant.v1.PolicyRepo.UpdatePolicyRepo"
+        },
+        "aserto.registry.v1.Registry.ListDigests": {
+            "description": "aserto.registry.v1.Registry.ListDigests"
+        },
+        "aserto.registry.v1.Registry.RepoAvailable": {
+            "description": "aserto.registry.v1.Registry.RepoAvailable"
+        },
         "aserto.task.manager.v1.Manager.CreateJob": {
             "description": "aserto.task.manager.v1.Manager.CreateJob"
         },
