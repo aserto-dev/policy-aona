@@ -330,6 +330,54 @@
         "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
             "description": "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder"
         },
+        "aserto.tenant.v2.Policy.ListPolicy": {
+            "description": "aserto.tenant.v2.Policy.ListPolicy"
+        },
+        "aserto.tenant.v2.Policy.CreatePolicy": {
+            "description": "aserto.tenant.v2.Policy.CreatePolicy"
+        },
+        "aserto.tenant.v2.Policy.DeletePolicy": {
+            "description": "aserto.tenant.v2.Policy.DeletePolicy"
+        },
+        "aserto.tenant.v2.Policy.UpdatePolicy": {
+            "description": "aserto.tenant.v2.Policy.UpdatePolicy"
+        },
+        "aserto.tenant.v2.Repository.GetRepository": {
+            "description": "aserto.tenant.v2.Repository.GetRepository"
+        },
+        "aserto.tenant.v2.Repository.CreateRepository": {
+            "description": "aserto.tenant.v2.Repository.CreateRepository"
+        },
+        "aserto.tenant.v2.Repository.DeleteRepository": {
+            "description": "aserto.tenant.v2.Repository.DeleteRepository"
+        },
+        "aserto.tenant.v2.Repository.UpdateRepository": {
+            "description": "aserto.tenant.v2.Repository.UpdateRepository"
+        },
+        "aserto.tenant.v2.Source.GetSource": {
+            "description": "aserto.tenant.v2.Source.GetSource"
+        },
+        "aserto.tenant.v2.Source.CreateSource": {
+            "description": "aserto.tenant.v2.Source.CreateSource"
+        },
+        "aserto.tenant.v2.Source.DeleteSource": {
+            "description": "aserto.tenant.v2.Source.DeleteSource"
+        },
+        "aserto.tenant.v2.Source.UpdateSource": {
+            "description": "aserto.tenant.v2.Source.UpdateSource"
+        },
+        "aserto.tenant.v2.Instance.ListInstance": {
+            "description": "aserto.tenant.v2.Instance.ListInstance"
+        },
+        "aserto.tenant.v2.Instance.CreateInstance": {
+            "description": "aserto.tenant.v2.Instance.CreateInstance"
+        },
+        "aserto.tenant.v2.Instance.DeleteInstance": {
+            "description": "aserto.tenant.v2.Instance.DeleteInstance"
+        },
+        "aserto.tenant.v2.Instance.UpdateInstance": {
+            "description": "aserto.tenant.v2.Instance.UpdateInstance"
+        },
         "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
             "description": "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree"
         },
