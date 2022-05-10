@@ -335,6 +335,54 @@
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.Policy.ListPolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.CreatePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.DeletePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.UpdatePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.GetRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.CreateRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.DeleteRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.UpdateRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.GetSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.CreateSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.DeleteSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.UpdateSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.ListInstance": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.CreateInstance": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.DeleteInstance": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.UpdateInstance": {
+                    "allowed": true
+                },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
                     "allowed": true
                 },
@@ -663,6 +711,54 @@
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.Policy.ListPolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.CreatePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.DeletePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.UpdatePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.GetRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.CreateRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.DeleteRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.UpdateRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.GetSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.CreateSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.DeleteSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.UpdateSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.ListInstance": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.CreateInstance": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.DeleteInstance": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.UpdateInstance": {
+                    "allowed": true
+                },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
                     "allowed": true
                 },
@@ -985,6 +1081,54 @@
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.Policy.ListPolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.CreatePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.DeletePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.UpdatePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.GetRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.CreateRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.DeleteRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.UpdateRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.GetSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.CreateSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.DeleteSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.UpdateSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.ListInstance": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.CreateInstance": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.DeleteInstance": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.UpdateInstance": {
+                    "allowed": true
+                },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
                     "allowed": true
                 },
@@ -1262,6 +1406,54 @@
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.Policy.ListPolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.CreatePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.DeletePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.UpdatePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.GetRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.CreateRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.DeleteRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.UpdateRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.GetSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.CreateSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.DeleteSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.UpdateSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.ListInstance": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.CreateInstance": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.DeleteInstance": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.UpdateInstance": {
+                    "allowed": true
+                },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
                     "allowed": true
                 },
@@ -1486,6 +1678,54 @@
                     "allowed": false
                 },
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
+                    "allowed": false
+                },
+                "aserto.tenant.v2.Policy.ListPolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.CreatePolicy": {
+                    "allowed": false
+                },
+                "aserto.tenant.v2.Policy.DeletePolicy": {
+                    "allowed": false
+                },
+                "aserto.tenant.v2.Policy.UpdatePolicy": {
+                    "allowed": false
+                },
+                "aserto.tenant.v2.Repository.GetRepository": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Repository.CreateRepository": {
+                    "allowed": false
+                },
+                "aserto.tenant.v2.Repository.DeleteRepository": {
+                    "allowed": false
+                },
+                "aserto.tenant.v2.Repository.UpdateRepository": {
+                    "allowed": false
+                },
+                "aserto.tenant.v2.Source.GetSource": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Source.CreateSource": {
+                    "allowed": false
+                },
+                "aserto.tenant.v2.Source.DeleteSource": {
+                    "allowed": false
+                },
+                "aserto.tenant.v2.Source.UpdateSource": {
+                    "allowed": false
+                },
+                "aserto.tenant.v2.Instance.ListInstance": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Instance.CreateInstance": {
+                    "allowed": false
+                },
+                "aserto.tenant.v2.Instance.DeleteInstance": {
+                    "allowed": false
+                },
+                "aserto.tenant.v2.Instance.UpdateInstance": {
                     "allowed": false
                 },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
