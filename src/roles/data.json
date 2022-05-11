@@ -387,6 +387,9 @@
                     "allowed": true
                 },
                 "aserto.tenant.v2.Tenant.DeleteTenant": {
+                     "allowed": true
+                },
+                "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
                     "allowed": true
                 },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
@@ -780,6 +783,9 @@
                 "aserto.tenant.v2.Tenant.DeleteTenant": {
                     "allowed": true
                 },
+                "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
+                    "allowed": false
+                },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
                     "allowed": true
                 },
@@ -1162,6 +1168,9 @@
                 "aserto.tenant.v2.Tenant.DeleteTenant": {
                     "allowed": true
                 },
+                "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
+                    "allowed": false
+                },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
                     "allowed": true
                 },
@@ -1499,6 +1508,9 @@
                 "aserto.tenant.v2.Tenant.DeleteTenant": {
                     "allowed": false
                 },
+                "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
+                    "allowed": false
+                },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
                     "allowed": true
                 },
@@ -1777,6 +1789,9 @@
                     "allowed": false
                 },
                 "aserto.tenant.v2.Tenant.DeleteTenant": {
+                    "allowed": false
+                },
+                "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
                     "allowed": false
                 },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {

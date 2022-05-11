@@ -384,6 +384,9 @@
         "aserto.tenant.v2.Tenant.DeleteTenant": {
             "description": "aserto.tenant.v2.Tenant.DeleteTenant"
         },
+        "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
+            "description": "aserto.system.v2.TenantCache.InvalidateSecretsKey"
+        },
         "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
             "description": "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree"
         },
