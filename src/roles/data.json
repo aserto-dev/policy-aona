@@ -386,6 +386,9 @@
                 "aserto.tenant.v2.Instance.UpdateInstance": {
                     "allowed": true
                 },
+                "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
+                    "allowed": true
+                },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
                     "allowed": true
                 },
@@ -765,6 +768,9 @@
                 "aserto.tenant.v2.Instance.UpdateInstance": {
                     "allowed": true
                 },
+                "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
+                    "allowed": false
+                },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
                     "allowed": true
                 },
@@ -1138,6 +1144,9 @@
                 "aserto.tenant.v2.Instance.UpdateInstance": {
                     "allowed": true
                 },
+                "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
+                    "allowed": false
+                },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
                     "allowed": true
                 },
@@ -1466,6 +1475,9 @@
                 "aserto.tenant.v2.Instance.UpdateInstance": {
                     "allowed": true
                 },
+                "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
+                    "allowed": false
+                },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
                     "allowed": true
                 },
@@ -1741,6 +1753,9 @@
                     "allowed": false
                 },
                 "aserto.tenant.v2.Instance.UpdateInstance": {
+                    "allowed": false
+                },
+                "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
                     "allowed": false
                 },
                 "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
