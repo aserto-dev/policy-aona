@@ -500,6 +500,15 @@
         },
         "aserto.task.handler.v1.Handler.HandleTask": {
             "description": "aserto.task.handler.v1.Handler.HandleTask"
+        },
+        "aserto.management.v2.Controller.CommandStream": {
+            "description": "aserto.management.v2.Controller.CommandStream"
+        },
+        "aserto.management.v2.ControlPlane.ListInstanceRegistrations": {
+            "description": "aserto.management.v2.ControlPlane.ListInstanceRegistrations"
+        },
+        "aserto.management.v2.ControlPlane.ExecCommand": {
+            "description": "aserto.management.v2.ControlPlane.ExecCommand"
         }
     }
 }
