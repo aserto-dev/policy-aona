@@ -475,6 +475,15 @@
                 },
                 "aserto.registry.v1.Registry.RepoAvailable": {
                     "allowed": true
+                },
+                "aserto.management.v2.Controller.CommandStream": {
+                    "allowed": true
+                },
+                "aserto.management.v2.ControlPlane.ListInstanceRegistrations": {
+                    "allowed": true
+                },
+                "aserto.management.v2.ControlPlane.ExecCommand": {
+                    "allowed": true
                 }
             }
         },
@@ -854,6 +863,12 @@
                 },
                 "aserto.registry.v1.Registry.RepoAvailable": {
                     "allowed": true
+                },
+                "aserto.management.v2.ControlPlane.ListInstanceRegistrations": {
+                    "allowed": true
+                },
+                "aserto.management.v2.ControlPlane.ExecCommand": {
+                    "allowed": true
                 }
             }
         },
@@ -1226,6 +1241,12 @@
                     "allowed": true
                 },
                 "aserto.registry.v1.Registry.RepoAvailable": {
+                    "allowed": true
+                },
+                "aserto.management.v2.ControlPlane.ListInstanceRegistrations": {
+                    "allowed": true
+                },
+                "aserto.management.v2.ControlPlane.ExecCommand": {
                     "allowed": true
                 }
             }
@@ -1910,6 +1931,16 @@
                     "allowed": true
                 },
                 "aserto.task.handler.v1.Handler.HandleJob": {
+                    "allowed": true
+                }
+            }
+        },
+        "satellite": {
+            "displayName": "Satellite",
+            "description": "Control connected satellites",
+            "internal": true,
+            "perms": {
+                "aserto.management.v2.Controller.CommandStream": {
                     "allowed": true
                 }
             }
