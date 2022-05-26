@@ -869,6 +869,9 @@
                 },
                 "aserto.management.v2.ControlPlane.ExecCommand": {
                     "allowed": true
+                },
+                "aserto.discovery.policy.v1.Discovery.OPADiscovery": {
+                    "allowed": true
                 }
             }
         },
@@ -1248,6 +1251,9 @@
                 },
                 "aserto.management.v2.ControlPlane.ExecCommand": {
                     "allowed": true
+                },
+                "aserto.discovery.policy.v1.Discovery.OPADiscovery": {
+                    "allowed": true
                 }
             }
         },
@@ -1576,6 +1582,9 @@
                 },
                 "aserto.registry.v1.Registry.RepoAvailable": {
                     "allowed": true
+                },
+                "aserto.discovery.policy.v1.Discovery.OPADiscovery": {
+                    "allowed": true
                 }
             }
         },
@@ -1887,6 +1896,9 @@
             "internal": true,
             "perms": {
                 "aserto.tenant.policy.v1.Policy.OPADiscovery": {
+                    "allowed": true
+                },
+                "aserto.discovery.policy.v1.Discovery.OPADiscovery": {
                     "allowed": true
                 }
             }
