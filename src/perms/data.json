@@ -381,6 +381,9 @@
         "aserto.tenant.v2.Instance.UpdateInstance": {
             "description": "aserto.tenant.v2.Instance.UpdateInstance"
         },
+        "aserto.tenant.v2.Tenant.DeleteTenant": {
+            "description": "aserto.tenant.v2.Tenant.DeleteTenant"
+        },
         "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree": {
             "description": "aserto.authorizer.authorizer.v1.Authorizer.DecisionTree"
         },
