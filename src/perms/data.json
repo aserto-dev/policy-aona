@@ -63,6 +63,9 @@
         "aserto.tenant.policy.v1.Policy.OPADiscovery": {
             "description": "aserto.tenant.policy.v1.Policy.OPADiscovery"
         },
+        "aserto.tenant.policy.v1.Policy.OPAInstanceDiscovery": {
+            "description": "aserto.tenant.policy.v1.Policy.OPAInstanceDiscovery"
+        },
         "aserto.tenant.policy.v1.Policy.UpdatePolicyRef": {
             "description": "aserto.tenant.policy.v1.Policy.UpdatePolicyRef"
         },
