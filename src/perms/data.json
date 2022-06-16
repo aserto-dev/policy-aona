@@ -518,6 +518,9 @@
         },
         "aserto.management.v2.ControlPlane.ExecCommand": {
             "description": "aserto.management.v2.ControlPlane.ExecCommand"
+        },
+        "aserto.discovery.policy.v1.Discovery.OPADiscovery": {
+            "description": "aserto.discovery.policy.v1.Discovery.OPADiscovery"
         }
     }
 }
