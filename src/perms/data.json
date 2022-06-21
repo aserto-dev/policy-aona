@@ -521,6 +521,9 @@
         },
         "aserto.discovery.policy.v1.Discovery.OPADiscovery": {
             "description": "aserto.discovery.policy.v1.Discovery.OPADiscovery"
-        }
+        },
+	"aserto.discovery.policy.v2.Discovery/OPAInstanceDiscovery":{
+            "description": "aserto.discovery.policy.v2.Discovery.OPAInstanceDiscovery"
+	}
     }
 }
