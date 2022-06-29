@@ -1992,9 +1992,9 @@
                 }
             }
         },
-        "satellite": {
-            "displayName": "Satellite",
-            "description": "Control connected satellites",
+        "edge-authorizer": {
+            "displayName": "Edge Authorizer",
+            "description": "Control connected authorizers",
             "internal": true,
             "perms": {
                 "aserto.management.v2.Controller.CommandStream": {
