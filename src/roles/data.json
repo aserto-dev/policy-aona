@@ -890,6 +890,9 @@
                 },
                 "aserto.discovery.policy.v1.Discovery.OPADiscovery": {
                     "allowed": true
+                },
+                "aserto.discovery.policy.v2.Discovery.OPAInstanceDiscovery": {
+                    "allowed": true
                 }
             }
         },
@@ -1281,6 +1284,9 @@
                 },
                 "aserto.discovery.policy.v1.Discovery.OPADiscovery": {
                     "allowed": true
+                },
+                "aserto.discovery.policy.v2.Discovery.OPAInstanceDiscovery": {
+                    "allowed": true
                 }
             }
         },
@@ -1621,6 +1627,9 @@
                 },
                 "aserto.discovery.policy.v1.Discovery.OPADiscovery": {
                     "allowed": true
+                },
+                "aserto.discovery.policy.v2.Discovery.OPAInstanceDiscovery": {
+                    "allowed": true
                 }
             }
         },
@@ -1945,7 +1954,10 @@
                 },
                 "aserto.discovery.policy.v1.Discovery.OPADiscovery": {
                     "allowed": true
-                }
+                },
+	         	"aserto.discovery.policy.v2.Discovery.OPAInstanceDiscovery":{
+		            "allowed": true
+	         	}
             }
         },
         "task-manager": {
