@@ -493,7 +493,14 @@
                 },
                 "aserto.management.v2.ControlPlane.ExecCommand": {
                     "allowed": true
+                },
+                "aserto.discovery.policy.v1.Discovery.OPADiscovery": {
+                    "allowed": true
+                },
+                "aserto.discovery.policy.v2.Discovery.OPAInstanceDiscovery": {
+                    "allowed": true
                 }
+ 
             }
         },
         "tenant_owner": {
