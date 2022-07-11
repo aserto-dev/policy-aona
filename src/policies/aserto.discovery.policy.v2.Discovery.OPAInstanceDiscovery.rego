@@ -1,5 +1,7 @@
 package aserto.discovery.policy.v2.Discovery.OPAInstanceDiscovery
 
+# for now it is exactly the same as for v1 discovery - can be updated when needed
+
 import input.user
 import input.policy.path
 
