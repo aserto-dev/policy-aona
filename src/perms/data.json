@@ -524,6 +524,15 @@
         },
     	"aserto.discovery.policy.v2.Discovery.OPAInstanceDiscovery":{
             "description": "aserto.discovery.policy.v2.Discovery.OPAInstanceDiscovery"
+    	},
+        "aserto.funnel.v1.Funnel.StartWorkflow":{
+            "description": "aserto.funnel.v1.Funnel.StartWorkflow"
+    	},
+        "aserto.funnel.v1.Funnel.StopWorkflow":{
+            "description": "aserto.funnel.v1.Funnel.StopWorkflow"
+    	},
+        "aserto.funnel.v1.Funnel.RunWorkflow":{
+            "description": "aserto.funnel.v1.Funnel.RunWorkflow"
     	}
     }
 }
