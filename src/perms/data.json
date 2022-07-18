@@ -539,6 +539,27 @@
     	},
         "aserto.funnel.v1.Funnel.RunWorkflow":{
             "description": "aserto.funnel.v1.Funnel.RunWorkflow"
-    	}
+    	},
+        "aserto.maestro.user.TenantDeleteOrg": {
+            "description": "aserto.maestro.user.TenantDeleteOrg"
+        },
+        "aserto.maestro.user.GetPolicyState": {
+            "description": "aserto.maestro.user.GetPolicyState"
+        },
+        "aserto.maestro.user.AonaDeleteOrg": {
+            "description": "aserto.maestro.user.AonaDeleteOrg"
+        },
+        "aserto.maestro.user.AuthorizerDeleteOrg": {
+            "description": "aserto.maestro.user.AuthorizerDeleteOrg"
+        },
+        "aserto.maestro.user.HardDeleteOrg": {
+            "description": "aserto.maestro.user.HardDeleteOrg"
+        },
+        "aserto.maestro.user.Policy": {
+            "description": "aserto.maestro.user.Policy"
+        },
+        "aserto.maestro.user.TestWF": {
+            "description": "aserto.maestro.user.TestWF"
+        }
     }
 }
