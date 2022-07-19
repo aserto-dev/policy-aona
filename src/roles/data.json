@@ -134,6 +134,12 @@
                 "aserto.tenant.system.v1.System.GetMachineAccount": {
                     "allowed": true
                 },
+                "aserto.tenant.system.v1.System.ListDeletedTenants": {
+                    "allowed": true
+                },
+                "aserto.tenant.system.v1.System.RestoreDeletedTenant": {
+                    "allowed": true
+                },
                 "aserto.authorizer.policy.v1.Policy.ListPolicies": {
                     "allowed": true
                 },

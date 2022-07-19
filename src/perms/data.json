@@ -132,6 +132,12 @@
         "aserto.tenant.system.v1.System.GetMachineAccount": {
             "description": "aserto.tenant.system.v1.System.GetMachineAccount"
         },
+        "aserto.tenant.system.v1.System.ListDeletedTenants": {
+            "description": "aserto.tenant.system.v1.System.ListDeletedTenants"
+        },
+        "aserto.tenant.system.v1.System.RestoreDeletedTenant": {
+            "description": "aserto.tenant.system.v1.System.RestoreDeletedTenant"
+        },
         "aserto.authorizer.policy.v1.Policy.ListPolicies": {
             "description": "aserto.authorizer.policy.v1.Policy.ListPolicies"
         },
