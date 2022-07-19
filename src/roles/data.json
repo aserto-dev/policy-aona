@@ -499,6 +499,15 @@
                 },
                 "aserto.discovery.policy.v2.Discovery.OPAInstanceDiscovery": {
                     "allowed": true
+                },
+                "aserto.funnel.v1.Funnel.StartWorkflow": {
+                    "allowed": true
+                },
+                "aserto.funnel.v1.Funnel.StopWorkflow": {
+                    "allowed": true
+                },
+                "aserto.funnel.v1.Funnel.RunWorkflow": {
+                    "allowed": true
                 }
  
             }
@@ -900,6 +909,15 @@
                 },
                 "aserto.discovery.policy.v2.Discovery.OPAInstanceDiscovery": {
                     "allowed": true
+                },
+                "aserto.funnel.v1.Funnel.StartWorkflow": {
+                    "allowed": true
+                },
+                "aserto.funnel.v1.Funnel.StopWorkflow": {
+                    "allowed": true
+                },
+                "aserto.funnel.v1.Funnel.RunWorkflow": {
+                    "allowed": true
                 }
             }
         },
@@ -1294,6 +1312,15 @@
                 },
                 "aserto.discovery.policy.v2.Discovery.OPAInstanceDiscovery": {
                     "allowed": true
+                },
+                "aserto.funnel.v1.Funnel.StartWorkflow": {
+                    "allowed": true
+                },
+                "aserto.funnel.v1.Funnel.StopWorkflow": {
+                    "allowed": true
+                },
+                "aserto.funnel.v1.Funnel.RunWorkflow": {
+                    "allowed": true
                 }
             }
         },
@@ -1637,6 +1664,15 @@
                 },
                 "aserto.discovery.policy.v2.Discovery.OPAInstanceDiscovery": {
                     "allowed": true
+                },
+                "aserto.funnel.v1.Funnel.StartWorkflow": {
+                    "allowed": true
+                },
+                "aserto.funnel.v1.Funnel.StopWorkflow": {
+                    "allowed": true
+                },
+                "aserto.funnel.v1.Funnel.RunWorkflow": {
+                    "allowed": true
                 }
             }
         },
@@ -1923,6 +1959,15 @@
                 },
                 "aserto.registry.v1.Registry.RepoAvailable": {
                     "allowed": true
+                },
+                "aserto.funnel.v1.Funnel.StartWorkflow": {
+                    "allowed": false
+                },
+                "aserto.funnel.v1.Funnel.StopWorkflow": {
+                    "allowed": false
+                },
+                "aserto.funnel.v1.Funnel.RunWorkflow": {
+                    "allowed": false
                 }
             }
         },
