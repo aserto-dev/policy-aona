@@ -1,4 +1,4 @@
-package aserto.maestro.user.AuthorizerDeleteOrg
+package aserto.maestro.system.AuthorizerDeleteOrg
 
 import input.user
 import input.policy.path

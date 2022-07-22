@@ -540,20 +540,20 @@
         "aserto.funnel.v1.Funnel.RunWorkflow":{
             "description": "aserto.funnel.v1.Funnel.RunWorkflow"
     	},
-        "aserto.maestro.user.TenantDeleteOrg": {
-            "description": "aserto.maestro.user.TenantDeleteOrg"
+        "aserto.maestro.system.TenantDeleteOrg": {
+            "description": "aserto.maestro.system.TenantDeleteOrg"
         },
         "aserto.maestro.user.GetPolicyState": {
             "description": "aserto.maestro.user.GetPolicyState"
         },
-        "aserto.maestro.user.AonaDeleteOrg": {
-            "description": "aserto.maestro.user.AonaDeleteOrg"
+        "aserto.maestro.system.AonaDeleteOrg": {
+            "description": "aserto.maestro.system.AonaDeleteOrg"
         },
-        "aserto.maestro.user.AuthorizerDeleteOrg": {
-            "description": "aserto.maestro.user.AuthorizerDeleteOrg"
+        "aserto.maestro.system.AuthorizerDeleteOrg": {
+            "description": "aserto.maestro.system.AuthorizerDeleteOrg"
         },
-        "aserto.maestro.user.HardDeleteOrg": {
-            "description": "aserto.maestro.user.HardDeleteOrg"
+        "aserto.maestro.system.HardDeleteOrg": {
+            "description": "aserto.maestro.system.HardDeleteOrg"
         },
         "aserto.maestro.user.Policy": {
             "description": "aserto.maestro.user.Policy"
