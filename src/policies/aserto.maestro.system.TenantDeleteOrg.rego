@@ -1,4 +1,4 @@
-package aserto.maestro.user.AonaDeleteOrg
+package aserto.maestro.system.TenantDeleteOrg
 
 import input.user
 import input.policy.path
