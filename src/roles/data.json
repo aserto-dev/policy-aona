@@ -514,8 +514,28 @@
                 },
                 "aserto.funnel.v1.Funnel.RunWorkflow": {
                     "allowed": true
+                },
+                "aserto.maestro.user.TenantDeleteOrg": {
+                    "allowed": true
+                },
+                "aserto.maestro.user.AonaDeleteOrg": {
+                    "allowed": true
+                },
+                "aserto.maestro.user.AuthorizerDeleteOrg": {
+                    "allowed": true
+                },
+                "aserto.maestro.user.HardDeleteOrg": {
+                    "allowed": true
+                },
+                "aserto.maestro.user.GetPolicyState": {
+                    "allowed": true
+                },
+                "aserto.maestro.user.Policy": {
+                    "allowed": true
+                },
+                "aserto.maestro.user.TestWF": {
+                    "allowed": true
                 }
- 
             }
         },
         "tenant_owner": {
@@ -924,6 +944,27 @@
                 },
                 "aserto.funnel.v1.Funnel.RunWorkflow": {
                     "allowed": true
+                },
+                "aserto.maestro.user.TenantDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.AonaDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.AuthorizerDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.HardDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.GetPolicyState": {
+                    "allowed": true
+                },
+                "aserto.maestro.user.Policy": {
+                    "allowed": true
+                },
+                "aserto.maestro.user.TestWF": {
+                    "allowed": true
                 }
             }
         },
@@ -1327,6 +1368,27 @@
                 },
                 "aserto.funnel.v1.Funnel.RunWorkflow": {
                     "allowed": true
+                },
+                "aserto.maestro.user.TenantDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.AonaDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.AuthorizerDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.HardDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.GetPolicyState": {
+                    "allowed": true
+                },
+                "aserto.maestro.user.Policy": {
+                    "allowed": true
+                },
+                "aserto.maestro.user.TestWF": {
+                    "allowed": true
                 }
             }
         },
@@ -1679,6 +1741,27 @@
                 },
                 "aserto.funnel.v1.Funnel.RunWorkflow": {
                     "allowed": true
+                },
+                "aserto.maestro.user.TenantDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.AonaDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.AuthorizerDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.HardDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.GetPolicyState": {
+                    "allowed": true
+                },
+                "aserto.maestro.user.Policy": {
+                    "allowed": true
+                },
+                "aserto.maestro.user.TestWF": {
+                    "allowed": true
                 }
             }
         },
@@ -1974,6 +2057,27 @@
                 },
                 "aserto.funnel.v1.Funnel.RunWorkflow": {
                     "allowed": false
+                },
+                "aserto.maestro.user.TenantDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.AonaDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.AuthorizerDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.HardDeleteOrg": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.GetPolicyState": {
+                    "allowed": true
+                },
+                "aserto.maestro.user.Policy": {
+                    "allowed": false
+                },
+                "aserto.maestro.user.TestWF": {
+                    "allowed": true
                 }
             }
         },
