@@ -353,6 +353,9 @@
                 "aserto.tenant.v2.Policy.CreatePolicy": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.Policy.GetPolicy": {
+                    "allowed": true
+                },
                 "aserto.tenant.v2.Policy.DeletePolicy": {
                     "allowed": true
                 },
@@ -786,6 +789,9 @@
                 "aserto.tenant.v2.Policy.CreatePolicy": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.Policy.GetPolicy": {
+                    "allowed": true
+                },
                 "aserto.tenant.v2.Policy.DeletePolicy": {
                     "allowed": true
                 },
@@ -1210,6 +1216,9 @@
                 "aserto.tenant.v2.Policy.CreatePolicy": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.Policy.GetPolicy": {
+                    "allowed": true
+                },
                 "aserto.tenant.v2.Policy.DeletePolicy": {
                     "allowed": true
                 },
@@ -1589,6 +1598,9 @@
                 "aserto.tenant.v2.Policy.CreatePolicy": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.Policy.GetPolicy": {
+                    "allowed": true
+                },
                 "aserto.tenant.v2.Policy.DeletePolicy": {
                     "allowed": true
                 },
@@ -1910,6 +1922,9 @@
                 },
                 "aserto.tenant.v2.Policy.CreatePolicy": {
                     "allowed": false
+                },
+                "aserto.tenant.v2.Policy.GetPolicy": {
+                    "allowed": true
                 },
                 "aserto.tenant.v2.Policy.DeletePolicy": {
                     "allowed": false
