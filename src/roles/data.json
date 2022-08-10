@@ -347,6 +347,12 @@
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.PolicyState.GetPolicyState": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.PolicyState.SetPolicyState": {
+                    "allowed": true
+                },
                 "aserto.tenant.v2.Policy.ListPolicy": {
                     "allowed": true
                 },
@@ -783,6 +789,12 @@
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.PolicyState.GetPolicyState": {
+                    "allowed": true
+                },                
+                "aserto.tenant.v2.PolicyState.SetPolicyState": {
+                    "allowed": true
+                },
                 "aserto.tenant.v2.Policy.ListPolicy": {
                     "allowed": true
                 },
@@ -1210,6 +1222,12 @@
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.PolicyState.GetPolicyState": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.PolicyState.SetPolicyState": {
+                    "allowed": true
+                },
                 "aserto.tenant.v2.Policy.ListPolicy": {
                     "allowed": true
                 },
@@ -1592,6 +1610,12 @@
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.PolicyState.GetPolicyState": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.PolicyState.SetPolicyState": {
+                    "allowed": true
+                },
                 "aserto.tenant.v2.Policy.ListPolicy": {
                     "allowed": true
                 },
@@ -1915,6 +1939,12 @@
                     "allowed": false
                 },
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
+                    "allowed": false
+                },
+                "aserto.tenant.v2.PolicyState.GetPolicyState": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.PolicyState.SetPolicyState": {
                     "allowed": false
                 },
                 "aserto.tenant.v2.Policy.ListPolicy": {
