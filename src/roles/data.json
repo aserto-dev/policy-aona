@@ -347,10 +347,19 @@
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.PolicyState.GetPolicyState": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.PolicyState.SetPolicyState": {
+                    "allowed": true
+                },
                 "aserto.tenant.v2.Policy.ListPolicy": {
                     "allowed": true
                 },
                 "aserto.tenant.v2.Policy.CreatePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.GetPolicy": {
                     "allowed": true
                 },
                 "aserto.tenant.v2.Policy.DeletePolicy": {
@@ -783,10 +792,19 @@
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.PolicyState.GetPolicyState": {
+                    "allowed": true
+                },                
+                "aserto.tenant.v2.PolicyState.SetPolicyState": {
+                    "allowed": true
+                },
                 "aserto.tenant.v2.Policy.ListPolicy": {
                     "allowed": true
                 },
                 "aserto.tenant.v2.Policy.CreatePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.GetPolicy": {
                     "allowed": true
                 },
                 "aserto.tenant.v2.Policy.DeletePolicy": {
@@ -1210,10 +1228,19 @@
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.PolicyState.GetPolicyState": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.PolicyState.SetPolicyState": {
+                    "allowed": true
+                },
                 "aserto.tenant.v2.Policy.ListPolicy": {
                     "allowed": true
                 },
                 "aserto.tenant.v2.Policy.CreatePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.GetPolicy": {
                     "allowed": true
                 },
                 "aserto.tenant.v2.Policy.DeletePolicy": {
@@ -1592,10 +1619,19 @@
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.PolicyState.GetPolicyState": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.PolicyState.SetPolicyState": {
+                    "allowed": true
+                },
                 "aserto.tenant.v2.Policy.ListPolicy": {
                     "allowed": true
                 },
                 "aserto.tenant.v2.Policy.CreatePolicy": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.Policy.GetPolicy": {
                     "allowed": true
                 },
                 "aserto.tenant.v2.Policy.DeletePolicy": {
@@ -1917,11 +1953,20 @@
                 "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
                     "allowed": false
                 },
+                "aserto.tenant.v2.PolicyState.GetPolicyState": {
+                    "allowed": true
+                },
+                "aserto.tenant.v2.PolicyState.SetPolicyState": {
+                    "allowed": false
+                },
                 "aserto.tenant.v2.Policy.ListPolicy": {
                     "allowed": true
                 },
                 "aserto.tenant.v2.Policy.CreatePolicy": {
                     "allowed": false
+                },
+                "aserto.tenant.v2.Policy.GetPolicy": {
+                    "allowed": true
                 },
                 "aserto.tenant.v2.Policy.DeletePolicy": {
                     "allowed": false

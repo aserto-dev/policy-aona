@@ -342,11 +342,20 @@
         "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder": {
             "description": "aserto.tenant.policy_builder.v1.PolicyBuilder.DeletePolicyBuilder"
         },
+        "aserto.tenant.v2.PolicyState.GetPolicyState": {
+            "description": "aserto.tenant.v2.PolicyState.GetPolicyState"
+        },
+        "aserto.tenant.v2.PolicyState.SetPolicyState": {
+            "description": "aserto.tenant.v2.PolicyState.SetPolicyState"
+        },
         "aserto.tenant.v2.Policy.ListPolicy": {
             "description": "aserto.tenant.v2.Policy.ListPolicy"
         },
         "aserto.tenant.v2.Policy.CreatePolicy": {
             "description": "aserto.tenant.v2.Policy.CreatePolicy"
+        },
+        "aserto.tenant.v2.Policy.GetPolicy": {
+            "description": "aserto.tenant.v2.Policy.ListPolicy"
         },
         "aserto.tenant.v2.Policy.DeletePolicy": {
             "description": "aserto.tenant.v2.Policy.DeletePolicy"
