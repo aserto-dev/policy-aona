@@ -393,6 +393,9 @@
         "aserto.tenant.v2.Tenant.DeleteTenant": {
             "description": "aserto.tenant.v2.Tenant.DeleteTenant"
         },
+        "aserto.tenant.v2.Account.DeleteAccount": {
+            "description": "aserto.tenant.v2.Account.DeleteAccount"
+        },
         "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
             "description": "aserto.system.v2.TenantCache.InvalidateSecretsKey"
         },
