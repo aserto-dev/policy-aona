@@ -398,6 +398,9 @@
                 "aserto.tenant.v2.Tenant.DeleteTenant": {
                      "allowed": true
                 },
+                "aserto.tenant.v2.Account.DeleteAccount": {
+                    "allowed": true
+               },
                 "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
                     "allowed": true
                 },
@@ -831,6 +834,9 @@
                 "aserto.tenant.v2.Tenant.DeleteTenant": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.Account.DeleteAccount": {
+                    "allowed": true
+                },
                 "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
                     "allowed": false
                 },
@@ -1255,6 +1261,9 @@
                 "aserto.tenant.v2.Tenant.DeleteTenant": {
                     "allowed": true
                 },
+                "aserto.tenant.v2.Account.DeleteAccount": {
+                    "allowed": true
+                },
                 "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
                     "allowed": false
                 },
@@ -1634,6 +1643,9 @@
                 "aserto.tenant.v2.Tenant.DeleteTenant": {
                     "allowed": false
                 },
+                "aserto.tenant.v2.Account.DeleteAccount": {
+                    "allowed": false
+                },
                 "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
                     "allowed": false
                 },
@@ -1954,6 +1966,9 @@
                     "allowed": false
                 },
                 "aserto.tenant.v2.Tenant.DeleteTenant": {
+                    "allowed": false
+                },
+                "aserto.tenant.v2.Account.DeleteAccount": {
                     "allowed": false
                 },
                 "aserto.system.v2.TenantCache.InvalidateSecretsKey": {
