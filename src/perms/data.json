@@ -357,6 +357,9 @@
         "aserto.tenant.v2.Policy.GetPolicy": {
             "description": "aserto.tenant.v2.Policy.ListPolicy"
         },
+        "aserto.tenant.v2.Policy.PolicyNameAvailable": {
+            "description": "aserto.tenant.v2.Policy.PolicyNameAvailable"
+        },
         "aserto.tenant.v2.Policy.DeletePolicy": {
             "description": "aserto.tenant.v2.Policy.DeletePolicy"
         },
