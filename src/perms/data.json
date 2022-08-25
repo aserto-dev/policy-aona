@@ -123,6 +123,9 @@
         "aserto.tenant.system.v1.System.ListAccounts": {
             "description": "aserto.tenant.system.v1.System.ListAccounts"
         },
+        "aserto.tenant.system.v1.System.GetAccount": {
+            "description": "aserto.tenant.system.v1.System.GetAccount"
+        },
         "aserto.tenant.system.v1.System.ListTenants": {
             "description": "aserto.tenant.system.v1.System.ListTenants"
         },
