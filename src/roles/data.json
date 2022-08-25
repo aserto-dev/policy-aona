@@ -119,6 +119,9 @@
                 "aserto.tenant.system.v1.System.ListAccounts": {
                     "allowed": true
                 },
+                "aserto.tenant.system.v1.System.GetAccount": {
+                    "allowed": true
+                },
                 "aserto.tenant.system.v1.System.ListTenants": {
                     "allowed": true
                 },
