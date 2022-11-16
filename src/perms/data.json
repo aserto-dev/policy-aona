@@ -141,6 +141,12 @@
         "aserto.tenant.system.v1.System.RestoreDeletedTenant": {
             "description": "aserto.tenant.system.v1.System.RestoreDeletedTenant"
         },
+        "aserto.tenant.system.v1.System.SetAccountDeleted": {
+            "description": "aserto.tenant.system.v1.System.SetAccountDeleted"
+        },
+        "aserto.tenant.system.v1.System.SetTenantDeleted": {
+            "description": "aserto.tenant.system.v1.System.SetTenantDeleted"
+        },
         "aserto.authorizer.policy.v1.Policy.ListPolicies": {
             "description": "aserto.authorizer.policy.v1.Policy.ListPolicies"
         },
