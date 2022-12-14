@@ -312,6 +312,24 @@
         "aserto.decision_logs.v1.DecisionLogs.GetDecisions": {
             "description": "aserto.decision_logs.v1.DecisionLogs.GetDecisions"
         },
+        "aserto.decision_logs.v2.DecisionLogs.ListDecisionLogs": {
+            "description": "aserto.decision_logs.v2.DecisionLogs.ListDecisionLogs"
+        },
+        "aserto.decision_logs.v2.DecisionLogs.GetDecisionLog": {
+            "description": "aserto.decision_logs.v2.DecisionLogs.GetDecisionLog"
+        },
+        "aserto.decision_logs.v2.DecisionLogs.ListUsers": {
+            "description": "aserto.decision_logs.v2.DecisionLogs.ListUsers"
+        },
+        "aserto.decision_logs.v2.DecisionLogs.GetUser": {
+            "description": "aserto.decision_logs.v2.DecisionLogs.GetUser"
+        },
+        "aserto.decision_logs.v2.DecisionLogs.ExecuteQuery": {
+            "description": "aserto.decision_logs.v2.DecisionLogs.ExecuteQuery"
+        },
+        "aserto.decision_logs.v2.DecisionLogs.GetDecisions": {
+            "description": "aserto.decision_logs.v2.DecisionLogs.GetDecisions"
+        },
         "aserto.tenant.registry.v1.Registry.ListOrgs": {
             "description": "aserto.tenant.registry.v1.Registry.ListOrgs"
         },
