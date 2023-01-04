@@ -447,6 +447,27 @@
         "aserto.authorizer.authorizer.v1.Authorizer.Query": {
             "description": "aserto.authorizer.authorizer.v1.Authorizer.Query"
         },
+        "aserto.authorizer.v2.Authorizer.DecisionTree": {
+            "description": "aserto.authorizer.v2.Authorizer.DecisionTree"
+        },
+        "aserto.authorizer.v2.Authorizer.Is": {
+            "description": "aserto.authorizer.v2.Authorizer.Is"
+        },
+        "aserto.authorizer.v2.Authorizer.Query": {
+            "description": "aserto.authorizer.v2.Authorizer.Query"
+        },
+        "aserto.authorizer.v2.Authorizer.Compile": {
+            "description": "aserto.authorizer.v2.Authorizer.Compile"
+        },
+        "aserto.authorizer.v2.Authorizer.Info": {
+            "description": "aserto.authorizer.v2.Authorizer.Info"
+        },
+        "aserto.authorizer.v2.Authorizer.GetPolicy": {
+            "description": "aserto.authorizer.v2.Authorizer.GetPolicy"
+        },
+        "aserto.authorizer.v2.Authorizer.ListPolicies": {
+            "description": "aserto.authorizer.v2.Authorizer.ListPolicies"
+        },
         "aserto.authorizer.system.v1.System.UnloadRuntime": {
             "description": "aserto.authorizer.system.v1.System.UnloadRuntime"
         },

@@ -452,6 +452,27 @@
                 "aserto.authorizer.authorizer.v1.Authorizer.Query": {
                     "allowed": true
                 },
+                "aserto.authorizer.v2.Authorizer.DecisionTree": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Is": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Query": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Compile": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Info": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.GetPolicy": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.ListPolicies": {
+                    "allowed": true
+                },
                 "aserto.authorizer.system.v1.System.UnloadRuntime": {
                     "allowed": true
                 },
@@ -918,6 +939,27 @@
                 "aserto.authorizer.authorizer.v1.Authorizer.Query": {
                     "allowed": true
                 },
+                 "aserto.authorizer.v2.Authorizer.DecisionTree": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Is": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Query": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Compile": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Info": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.GetPolicy": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.ListPolicies": {
+                    "allowed": true
+                },
                 "aserto.authorizer.system.v1.System.UnloadRuntime": {
                     "allowed": true
                 },
@@ -1375,6 +1417,27 @@
                 "aserto.authorizer.authorizer.v1.Authorizer.Query": {
                     "allowed": true
                 },
+                "aserto.authorizer.v2.Authorizer.DecisionTree": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Is": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Query": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Compile": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Info": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.GetPolicy": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.ListPolicies": {
+                    "allowed": true
+                },
                 "aserto.authorizer.system.v1.System.UnloadRuntime": {
                     "allowed": true
                 },
@@ -1787,6 +1850,27 @@
                 "aserto.authorizer.authorizer.v1.Authorizer.Query": {
                     "allowed": true
                 },
+                "aserto.authorizer.v2.Authorizer.DecisionTree": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Is": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Query": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Compile": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Info": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.GetPolicy": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.ListPolicies": {
+                    "allowed": true
+                },
                 "aserto.authorizer.system.v1.System.UnloadRuntime": {
                     "allowed": false
                 },
@@ -2122,6 +2206,27 @@
                     "allowed": true
                 },
                 "aserto.authorizer.authorizer.v1.Authorizer.Query": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.DecisionTree": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Is": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Query": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Compile": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.Info": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.GetPolicy": {
+                    "allowed": true
+                },
+                "aserto.authorizer.v2.Authorizer.ListPolicies": {
                     "allowed": true
                 },
                 "aserto.authorizer.system.v1.System.UnloadRuntime": {
